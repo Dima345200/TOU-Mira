@@ -145,9 +145,6 @@
   <string name="TouOptionAltruistReviveRange">Радиус возрождения</string>
   <string name="TouOptionAltruistMaxRevives">Кол-во возрождений</string>
   <string name="TouOptionAltruistHideAtBeginningOfRevive">Скрывать труп как только начат процесс возрождения</string>
-  <string name="TouRoleEngineer">Инженер</string>
-  <string name="TouRoleEngineerIntroBlurb">Следите за системами корабля</string>
-  <string name="TouRoleHunter">Охотник</string>
   <string name="TouRoleImitator">Имитатор</string>
   <string name="TouRoleImitatorIntroBlurb">Копируйте способности мёртвых в пользу Экипажа</string>
   <string name="TouRoleImitatorTabDescription">Копируйте способности мёртвых игроков\%nl\%во время собраний и помогайте Экипажу</string>
@@ -250,17 +247,6 @@
   <string name="TouOptionForensicFactionDuration">Детектив узнает фракцию через</string>
   <string name="TouRoleForensicAtScene">\%player\% был на месте убийства \%deadPlayer\%!\%nl\%Возможно, он(-а) - убийца или свидетель.</string>
   <string name="TouRoleForensicNotAtScene">\%player\% не был на месте убийства.</string>
-  <string name="TouRoleEngineerTabDescription">Используйте люки и удалённо чините саботажи</string>
-  <string name="TouRoleEngineerWikiDescription">Инженер - Поддерживающий Член Экипажа, который может использовать люки и удалённо чинить саботажи.</string>
-  <string name="TouRoleEngineerFix">Починить</string>
-  <string name="TouRoleEngineerFixing">Починка</string>
-  <string name="TouRoleEngineerFixWikiDescription">Неважно где вы, вы можете использовать кнопку починки, чтобы мгновенно починить саботаж. Вы можете делать это %engiMaxFixes\% раз(-а) за игру</string>
-  <string name="TouOptionEngineerMaxVents">Макс. использований люков</string>
-  <string name="TouOptionEngineerVentCooldown">Откат люка</string>
-  <string name="TouOptionEngineerVentDuration">Макс. длительность нахождения в люке</string>
-  <string name="TouOptionEngineerMaxFixes">Макс. мгновенных починок за игру</string>
-  <string name="TouOptionEngineerFixDelay">Откат починки</string>
-  <string name="TouRoleHaunter">Дух</string>
   <string name="TouRoleDeputyIntroBlurb">Поджидайте Членов Экипажа, чтобы поймать их убийцу</string>
   <string name="TouRoleDeputyTabDescription">Поджидайте Членов Экипажа и застрелите их убийц на собрании!</string>
   <string name="TouRoleDeputyWikiDescription">Заместитель - Убивающий Член Экипажа, который может поставить под наблюдение любого игрока. Как только наблюдаемый игрок умирает, Заместитель будет оповещен о смерти этого игрока. На следующем собрании Заместитель может попытаться застрелить убийцу наблюдаемого игрока. Если выстрел окажется верным, убийца погибает; если нет — ничего не произойдёт.</string>
@@ -269,28 +255,6 @@
   <string name="TouRoleDeputyMissedShot">Вы промахнулись! Цель либо не убийца, либо бессмертна.</string>
   <string name="TouRoleForensicIntroBlurb">Исследуйте место убийства чтобы поймать убийцу</string>
   <string name="TouRoleForensicTabDescription">Исследуйте место убийства, а затем проверяйте игроков,\%nl\%чтобы узнать, были ли они на месте убийства.</string>
-  <string name="TouRoleHaunterIntroBlurb">Посмертно разоблачите Предателей!</string>
-  <string name="TouRoleHaunterTabDescription">Завершите все свои задания не попадаясь\%nl\%на глаза, чтобы найти Предателей!</string>
-  <string name="TouRoleHaunterWikiDescription">Дух - Призрачный Член Экипажа, который может выполнять задания. Он отображается как полупрозрачный игрок. Если он выполнит все свои задания, все живые игроки увидят Предателей. Однако, если Предатель нажмёт на духа раньше, дух превратится в обычного призрака. Предатели получают оповещение незадолго до того, как Дух выполнит все свои задания.</string>
-  <string name="TouOptionHaunterNumTasksLeftBeforeClickable">Осталось заданий до того как на вас можно нажать</string>
-  <string name="TouOptionHaunterNumTasksLeftBeforeAlerted">Осталось заданий до оповещения</string>
-  <string name="TouOptionHaunterRevealNeutralRoles">Раскрывать Нейтралов</string>
-  <string name="TouOptionHaunterCanBeClickedBy">Может быть нажат</string>
-  <string name="TouRoleHaunterSelfAlertFeedback">Вы оповестили Предателей!</string>
-  <string name="TouRoleHaunterImpAlertFeedback">Дух на свободе, поймайте его быстрее чем он выдаст вас!</string>
-  <string name="TouRoleHunterIntroBlurb">Охотьтесь за \%color=#FF0000FF\%Предателями\%/color\%</string>
-  <string name="TouRoleHunterTabDescription">Охотьтесь за игроками, чтобы получить оповещение,\%nl\%когда они используют способность.\%nl\%Как только они используют способность, вы можете убить их.</string>
-  <string name="TouRoleHunterCaughtPlayersText">Пойманные игроки:</string>
-  <string name="TouRoleHunterWikiDescription">Охотник - Убивающий Член Экипажа, который может охотиться за игроками во время раунда. Если игрок, за которым охотятся использует способность, он может быть убит Охотником в любой момент игры, убить можно даже Члена Экипажа.</string>
-  <string name="TouRoleHunterStalk">Охота</string>
-  <string name="TouRoleHunterStalking">Добыча</string>
-  <string name="TouRoleHunterStalkWikiDescription">Выберете цель для охоты. Вы можете охотиться за \%hunterMaxStalkUsages\% игроками. Если они используют любую способность будучи добычей, они будут добавлены в ваш список жертв и могут быть убиты.</string>
-  <string name="TouOptionHunterKillCooldown">Откат Убийства Охотника</string>
-  <string name="TouOptionHunterStalkCooldown">Откат Охоты</string>
-  <string name="TouOptionHunterStalkDuration">Длительность Охоты</string>
-  <string name="TouOptionHunterStalkUses">Макс. использования Охоты</string>
-  <string name="TouOptionHunterRetributionOnVote">Если Охотника кикнут, он убивает последнего проголосовавшего</string>
-  <string name="TouOptionHunterHunterBodyReport">Охотник может репортить убитых им игроков</string>
   <string name="TouRoleJailorTabDescription">Лично допрашивайте игроков на собраниях\%nl\%и казните злых игроков.</string>
   <string name="TouRoleJailorWikiDescription">Тюремщик - Сильный Член Экипажа, который может заключать других игроков в тюрьму. Во время собрания Тюремщик может казнить заключенного игрока. (Если только Тюремщик не является Имитатором)</string>
   <string name="TouRoleJailorJail">Заключить</string>
@@ -969,7 +933,6 @@
   <string name="WildcardNeutral">Хаотический Нейтрал</string>
   <string name="TouRoleDeputyCampNotif">Дождитесь смерти \%player\% и пристрелите его убийцу на собрании.</string>
   <string name="TouRoleForensicInspectNotif">Вы изучили место убийства \%player\%. Убийца, или любой, кто находился на месте преступления, при осмотре подсветится красным.</string>
-  <string name="TouRoleHunterStalkNotif">Если \%player\% используйте способность, вы сможете убить его во время раунда.</string>
   <string name="TouRoleLookoutWatchNotif">На следующем собрании вы узнаете какие роли взаимодействовали с \%player\%.</string>
   <string name="TouRoleMirrorcasterAlreadyDiedNotif">Игрок, которого вы попытались защитить уже мёртв!</string>
   <string name="TouRoleMirrorcasterTargetDiedNotif">\%player\% умер не от прямой атаки, ваше зеркало не смогло защитить его.</string>
@@ -1686,14 +1649,14 @@
 	<string name="TouRoleBarkeeper">Бармен</string>
 	<string name="TouRoleBarkeeperIntroBlurb">Блокируйте Злодеев чтобы замедлить</string>
 	<string name="TouRoleBarkeeperTabDescription">Блокируйте Злодеев чтобы отключить их способности на \%blockTime\%s.</string>
-	<string name="TouRoleBarkeeperWikiDescription">Бармен - это роль-помощник членов экипажа, который может выпивать с другими чтобы заблокировать их. Он также может пролить напиток, чтобы ускорить или замедлить игроков.</string>
+	<string name="TouRoleBarkeeperWikiDescription">Бармен - это член экипажа помощник, который может напоить других чтобы заблокировать их. Он также может пролить напиток, чтобы ускорить или замедлить игроков.</string>
 	<string name="TouRoleBarkeeperRoleblock">Блокировка</string>
 	<string name="TouRoleBarkeeperRoleblocking">Блокировка</string>
 	<string name="TouRoleBarkeeperRoleblockWikiDescription">Напоите других игроков чтобы заблокировать их на \%blockTime\%s.</string>
 	<string name="TouRoleBarkeeperRoleblockWikiDescriptionWithHangover">Напоите другого игрока чтобы заблокировать его на \%blockTime\%s. После блокировки игрок будет испытывать похмелье в течение \%overTime\%s.</string>
 	<string name="TouRoleBarkeeperSpill">Разлить</string>
 	<string name="TouRoleBarkeeperSpilling">Разливание</string>
-	<string name="TouRoleBarkeeperSpillWikiDescription">Разлейте напиток для ускорения игроков, если он был разлит недавно, или замедления игроков, если напиток достаточно старый. Это срабатывает только один раз для одного игрока.</string>
+	<string name="TouRoleBarkeeperSpillWikiDescription">Разлейте напиток для ускорения игроков, если он был разлит недавно, или для замедления игроков, если напиток достаточно старый. Это срабатывает только один раз для одного игрока.</string>
 	<string name="TouRoleBarkeeperSpillSpeedBuffNotif">Вы чувствуете, как что-то скользит под вами. Вы увеличили скорость!</string>
 	<string name="TouRoleBarkeeperSpillSpeedDebuffNotif">Вы чувствуете, что под вами давний разлив. Вы чувствуете себя медленнее.</string>
 	<!-- Barkeeper Options -->
@@ -1713,7 +1676,7 @@
 	<string name="TouRoleEngineer">Инженер</string>
 	<string name="TouRoleEngineerIntroBlurb">Поддержание в рабочем состоянии важных систем на корабле</string>
 	<string name="TouRoleEngineerTabDescription">Залезайте в люки и чините саботажи удалённо</string>
-	<string name="TouRoleEngineerWikiDescription">Инженер - это роль-помощник членов экипажа, который способен залезать в люки и удалённо чинить саботажи.</string>
+	<string name="TouRoleEngineerWikiDescription">Инженер - это член экипажа помощник, который способен залезать в люки и удалённо чинить саботажи.</string>
 	<string name="TouRoleEngineerFix">Починить</string>
 	<string name="TouRoleEngineerFixing">Починка</string>
 	<string name="TouRoleEngineerFixWikiDescription">Вы можете воспользоваться кнопкой "Починить", чтобы мгновенно устранить активный саботаж в любом месте. Вы можете чинить \%engiMaxFixes\% раз за игру.</string>
@@ -1724,14 +1687,14 @@
 	<string name="TouOptionEngineerVentDuration">Время в вентиляции</string>
 	<string name="TouOptionEngineerMaxFixes">Использований починки за игру</string>
 	<string name="TouOptionEngineerFixPerTasks">Заданий для дополнительной починки</string>
-	<string name="TouOptionEngineerFixDelay">Длительность починки</string>
+	<string name="TouOptionEngineerFixDelay">Кулдаун починки</string>
 	<!-- Haunter - Crewmate Investigative -->
 	<!-- Haunter Wiki / Description -->
-	<string name="TouRoleHaunter">Призрак</string>
+	<string name="TouRoleHaunter">Дух</string>
 	<string name="TouRoleHaunterIntroBlurb">Разоблачите предателей посмертно!</string>
 	<!-- You cannot start the game as this role, so an intro blurb is unnecessary -->
 	<string name="TouRoleHaunterTabDescription">Выполняйте все свои задания, не попадаясь на глаза, чтобы выявить предателей!</string>
-	<string name="TouRoleHaunterWikiDescription">Призрак - это роль-призрак членов экипажа, который может выполнять задания. Он будет отображаться как призрачный игрок. Если он выполнит все свои задания, все живые члены экипажа увидять, кто является предателем. Однако, если предатель нажмёт на него, он станет обычным призраком. Предатели получают оповещение, если Призрак выполнить почти все задания.</string>
+	<string name="TouRoleHaunterWikiDescription">Дух - это член экипажа призрак, который может выполнять задания. Он будет отображаться как призрачный игрок. Если он выполнит все свои задания, все живые члены экипажа увидять, кто является предателем. Однако, если предатель нажмёт на него, он станет обычным призраком. Предатели получают оповещение, если Призрак выполнить почти все задания.</string>
 	<!-- Haunter Options -->
 	<string name="TouOptionHaunterNumTasksLeftBeforeClickable">Заданий до нажимательности</string>
 	<string name="TouOptionHaunterNumTasksLeftBeforeAlerted">Заданий до оповещения</string>
@@ -1743,7 +1706,32 @@
 	<!-- Haunter Feedback -->
 	<string name="TouRoleHaunterClickableFeedback">Теперь игроки могут нажать на вас!</string>
 	<string name="TouRoleHaunterSelfAlertFeedback">Вы предупредили убийц!</string>
-	<string name="TouRoleHaunterImpAlertFeedback">Призрак на свободе, поймайте его прежде, чем он выдаст вас!</string>
+	<string name="TouRoleHaunterImpAlertFeedback">Дух на свободе, поймайте его прежде, чем он выдаст вас!</string>
 	<string name="TouRoleHaunterSelfRevealFeedback">Вы раскрыли убийц!</string>
-	<string name="TouRoleHaunterImpRevealFeedback">Призрак выполнил свою задачу!</string>
+	<string name="TouRoleHaunterImpRevealFeedback">Дух выполнил свою задачу!</string>
+	<!-- Hunter - Crewmate Killing -->
+	<!-- Hunter Wiki / Abilities -->
+	<string name="TouRoleHunter">Охотник</string>
+	<string name="TouRoleHunterIntroBlurb">Преследуйте \%color=#FF0000FF\%Предателей\%/color\%</string>
+	<string name="TouRoleHunterTabDescription">Преследуйте игроков, чтобы получать предупреждения, когда они используют способность.\%nl\%Как только они используют способность, вы можете убить их.</string>
+	<string name="TouRoleHunterCaughtPlayersText">Пойманные Игроки:</string>
+	<string name="TouRoleHunterWikiDescription">Охотник - это член экипажа убийца, который может преследовать игроков. Если игрок использует способность охотник может убить его, даже члена экипажа</string>
+	<string name="TouRoleHunterStalk">Преследовать</string>
+	<string name="TouRoleHunterStalking">Преследование</string>
+	<string name="TouRoleHunterStalkWikiDescription">Выберите цель для преследования. Вы можете преследовать \%hunterMaxStalkUsages\% игроков. Если они используют способность во время преследования, ты можешь их убить.</string>
+	<string name="TouRoleHunterStalkNotif">Если \%player\% использует способность, вы можете убить его.</string>
+	<string name="TouRoleHunterCaughtInteractionNotif">\%player\% использовал способность на другом игроке!</string>
+	<string name="TouRoleHunterCaughtAbilityNotif">\%player\% использует обычную способность!</string>
+	<!-- Hunter Options -->
+	<string name="TouOptionHunterKillCooldown">Кулдаун убийства</string>
+	<string name="TouOptionHunterStalkCooldown">Кулдаун преследования</string>
+	<string name="TouOptionHunterStalkDuration">Время преследования</string>
+	<string name="TouOptionHunterStalkUses">Макс. количество преследований</string>
+	<string name="TouOptionHunterStalksPerTasks">Заданий для дополнительного преследования</string>
+	<string name="TouOptionHunterSeesTypeOfInteraction">Охотник видит тип взаимодействия</string>
+	<string name="TouOptionHunterStalkTriggeredBy">Триггер преследования</string>
+	<string name="TouOptionHunterStalkTriggerEnumInteraction">Взаимодействия</string>
+	<string name="TouOptionHunterStalkTriggerEnumAlways">Все способности</string>
+	<string name="TouOptionHunterRetributionOnVote">Охотник убивает последнего проголосовавшего, если охотник выбывает</string>
+	<string name="TouOptionHunterHunterBodyReport">Охотник может сообщить об убитых им игроков</string>
 </resources>
