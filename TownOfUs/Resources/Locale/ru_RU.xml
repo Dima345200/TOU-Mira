@@ -815,4 +815,38 @@
 	<string name="TouOptionMediumGhostEnumNewestDead">Новейший из умерших</string>
 	<string name="TouOptionMediumGhostEnumRandomDead">Случайный умерший</string>
 	<string name="TouOptionMediumGhostEnumAllDead">Все умершие</string>
+	<!-- Mirrorcaster - Crewmate Protective -->
+	<!-- Mirrorcaster Wiki / Abilities -->
+	<string name="TouRoleMirrorcaster">Заклинатель зеркал</string>
+	<string name="TouRoleMirrorcasterIntroBlurb">Отражайте нападения на других</string>
+	<string name="TouRoleMirrorcasterTabDescription">Защитите игрока с помощью волшебного зеркала.\%nl\%Если на них нападут, то\%nl\%отразите атаку на другого игрока!</string>
+	<string name="TouRoleMirrorcasterTabProtecting">Защищён: \%player\%</string>
+	<string name="TouRoleMirrorcasterWikiDescription">Заклинатель зеркал - это член экипажа защиты, который может наложить на игрока магическое зеркало, чтобы защитить его. При прямом нападении атака может быть отражена на другого игрока.</string>
+	<string name="TouRoleMirrorcasterMagicMirror">Магическое зеркало</string>
+	<string name="TouRoleMirrorcasterMagicMirrorProtecting">Защита</string>
+	<string name="TouRoleMirrorcasterMagicMirrorWikiDescription">Наложите зеркало на игрока. Если на игрока нападут напрямую, вы получите уведомление и сможете отразить атаку на другого игрока. Роли, которые игнорируют волшебное зеркало, - это поджигатель, ветеран, мор, подрывник (если игрок попал под бомбежку) и несколько других.</string>
+	<string name="TouRoleMirrorcasterUnleash">Отразить</string>
+	<string name="TouRoleMirrorcasterUnleashWikiDescription">Как только волшебное зеркало разобьется, используйте его силу, чтобы отразить атаку на другого игрока!</string>
+	<string name="TouRoleMirrorcasterAlreadyDiedNotif">Игрок, которого вы пытались защитить, уже мёртв!</string>
+	<string name="TouRoleMirrorcasterTargetDiedNotif">\%player\% погиб от косвенной атаки, от которой ваше зеркало не смогло защитить.</string>
+	<string name="TouRoleMirrorcasterTargetDidNotDieNotif">\%player\% не атакован.</string>
+	<!-- Mirrorcaster Options -->
+	<string name="TouOptionMirrorcasterWhoGetsMurderAttemptIndicator">Кто получает индикатор попытки убийства</string>
+	<string name="TouOptionMirrorcasterNotifEnumMirrorcaster">Заклинатель зеркал</string>
+	<string name="TouOptionMirrorcasterNotifEnumMirrorcasterAndKiller">Заклинатель зеркал + Убийца</string>
+	<string name="TouOptionMirrorcasterMagicMirrorCooldown">Кулдаун магического зеркала</string>
+	<string name="TouOptionMirrorcasterMagicMirrorDuration">Время магического зеркала</string>
+	<string name="TouOptionMirrorcasterUnleashCooldown">Кулдаун отражения</string>
+	<string name="TouOptionMirrorcasterAttackInformationGiven">Информация, полученная при атаке</string>
+	<string name="TouOptionMirrorcasterInfoEnumRole">Роль</string>
+	<string name="TouOptionMirrorcasterInfoEnumSubalignment">Смещение</string>
+	<string name="TouOptionMirrorcasterInfoEnumFaction">Команда</string>
+	<string name="TouOptionMirrorcasterInfoEnumNothing">Никакой</string>
+	<string name="TouOptionMirrorcasterAccumulateMultipleUnleashes">Накапливание множества отражений</string>
+	<string name="TouOptionMirrorcasterMaxNumberOfMagicMirrors">Максимальное количество магических зеркал</string>
+	<!-- Mirrorcaster Feedback -->
+	<string name="TouRoleMirrorcasterAttackedMessageWithType">\%player\% атакован \%attackerRole\%! Вы можете отразить атаку на другого игрока!</string>
+	<string name="TouRoleMirrorcasterAttackedMessageWithoutType">\%player\% атакован! Вы можете отразить атаку на другого игрока!</string>
+	<string name="TouRoleMirrorcasterAttackedMessageWithFaction">\%player\% атакован \%faction\%! Вы можете отразить атаку на другого игрока!</string>
+	<string name="TouRoleMirrorcasterAttackedMessageWithSubalignment">\%player\% атакован \%subalignment\%! Вы можете отразить атаку на другого игрока!</string>
 </resources>
