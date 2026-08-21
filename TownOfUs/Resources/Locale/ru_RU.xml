@@ -745,4 +745,44 @@
 	<string name="TouOptionLookoutSeesIndirectAttacks">Смотреть косвенные атаки</string>
 	<string name="TouOptionLookoutLoResetOnNewRound">Наблюдение смотрящего сбрасываются каждый раунд</string>
 	<string name="TouOptionLookoutTaskUses">Получить больше использований при выполнении заданий</string>
+	<!-- Mayor - Crewmate Power -->
+	<!-- Mayor Wiki / Description -->
+	<string name="TouRoleMayor">Мэр</string>
+	<string name="TouRoleMayorIntroBlurb">Раскройте себя, чтобы спасти экипаж</string>
+	<string name="TouRoleMayorTabDescription">Приведите экипаж к победе!</string>
+	<string name="TouRoleMayorTabDescriptionEgo">Приведите злодеев к победе!</string>
+	<string name="TouRoleMayorTabDescriptionPostor">Приведите самозванцев к победе!</string>
+	<string name="TouRoleMayorUnrevealedTabText">Раскрой себя, когда пожелаешь.</string>
+	<string name="TouRoleMayorWikiDescription">Мэр - член экипажа мощь, которая даёт три голоса и раскрывает себя всем игрокам, а также меняет их внешний вид на собраниях.</string>
+	<!-- Medic - Crewmate Protective -->
+	<!-- Medic Wiki / Abilities -->
+	<string name="TouRoleMedic">Медик</string>
+	<string name="TouRoleMedicIntroBlurb">Создавайте щит для защиты экипажа</string>
+	<string name="TouRoleMedicTabDescription">Защитите члена экипажа щитом, чтобы защитить его от атак</string>
+	<string name="TouRoleMedicTabProtecting">Защищён: \%player\%</string>
+	<string name="TouRoleMedicWikiDescription">Медик - член экипажа защиты, который может дать игроку щит.</string>
+	<string name="TouRoleMedicShield">Щит</string>
+	<string name="TouRoleMedicShieldWikiDescription">Дайте игроку щит, защищающий его от гибели</string>
+	<!-- Medic Options -->
+	<string name="TouOptionMedicShowShieldedPlayer">Показать защищенного игрока</string>
+	<string name="TouOptionMedicWhoGetsMurderAttemptIndicator">Кто получает индикатор попытки убийства</string>
+	<string name="TouOptionMedicCanGiveShieldAwayNextRound">Может дать щит в следующем раунде</string>
+	<string name="TouOptionMedicMaxAmountOfShieldUses">Максимальное количество выдачи щита</string>
+	<string name="TouOptionMedicShieldBreaksOnMurderAttempt">Щит ломается при попытке убийства</string>
+	<string name="TouOptionMedicShowReportsInChat">Показывать оповещение в чат</string>
+	<string name="TouOptionMedicTimeWhereMedicWillHaveName">Время, когда у медика появится имя</string>
+	<string name="TouOptionMedicTimeWhereMedicWillHaveColorType">Время, когда у медика будет свой Цвет</string>
+	<string name="TouOptionMedicShieldEnumMedic">Медик</string>
+	<string name="TouOptionMedicShieldEnumShielded">Защищён</string>
+	<string name="TouOptionMedicShieldEnumShieldedAndMedic">Защищён + Медик</string>
+	<string name="TouOptionMedicShieldEnumEveryone">Все</string>
+	<string name="TouOptionMedicShieldEnumNobody">Никто</string>
+	<!-- Medic Feedback -->
+	<string name="TouRoleMedicMessageTitle">Оповещение о теле</string>
+	<string name="TouRoleMedicBodyError">Труп не мог дать никакой информации.\%nl\%Умер \%time\%s назад.</string>
+	<string name="TouRoleMedicBodyOld">Труп слишком стар, чтобы из него можно было извлечь информацию.\%nl\%Умер \%time\%s назад.</string>
+	<string name="TouRoleMedicBodySuicide">Убийство, похоже, было совершено в результате самоубийства!\%nl\%Умер \%time\%s назад.</string>
+	<string name="TouRoleMedicBodyKillerName">Убийца, судя по всему, \%player\%!\%nl\%Убил \%time\%s назад.</string>
+	<string name="TouRoleMedicBodyKillerDarkColor">Убийца, похоже, темного цвета!\%nl\%Убил \%time\%s назад.</string>
+	<string name="TouRoleMedicBodyKillerLightColor">Убийца, похоже, светлого цвета!\%nl\%Убил \%time\%s назад.</string>
 </resources>
