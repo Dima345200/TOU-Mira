@@ -760,7 +760,7 @@
 	<string name="TouRoleMedicIntroBlurb">Создавайте щит для защиты экипажа</string>
 	<string name="TouRoleMedicTabDescription">Защитите члена экипажа щитом, чтобы защитить его от атак</string>
 	<string name="TouRoleMedicTabProtecting">Защищён: \%player\%</string>
-	<string name="TouRoleMedicWikiDescription">Медик - член экипажа защиты, который может дать игроку щит.</string>
+	<string name="TouRoleMedicWikiDescription">Медик - это член экипажа защиты, который может дать игроку щит.</string>
 	<string name="TouRoleMedicShield">Щит</string>
 	<string name="TouRoleMedicShieldWikiDescription">Дайте игроку щит, защищающий его от гибели</string>
 	<!-- Medic Options -->
@@ -785,4 +785,34 @@
 	<string name="TouRoleMedicBodyKillerName">Убийца, судя по всему, \%player\%!\%nl\%Убил \%time\%s назад.</string>
 	<string name="TouRoleMedicBodyKillerDarkColor">Убийца, похоже, темного цвета!\%nl\%Убил \%time\%s назад.</string>
 	<string name="TouRoleMedicBodyKillerLightColor">Убийца, похоже, светлого цвета!\%nl\%Убил \%time\%s назад.</string>
+	<!-- Medium - Crewmate Support -->
+	<!-- Medium Wiki / Abilities -->
+	<string name="TouRoleMedium">Медиум</string>
+	<string name="TouRoleMediumIntroBlurb">Стань единым целым с призраками</string>
+	<string name="TouRoleMediumTabDescription">Попытайтесь покинуть свое тело на некоторое время.В этом состоянии ваше тело все еще уязвимо.</string>
+	<string name="TouRoleMediumWikiDescription">Медиум - это член экипажа расследования, который может временно покинуть своё тело. Они могут проходить сквозь стены и видеть призраков, но оставляют своё тело незащищённым.</string>
+	<string name="TouRoleMediumMediate">Возвыситься</string>
+	<string name="TouRoleMediumMediateWikiDescription">Перенесите свой дух за пределы тела на некоторое время, чтобы найти подсказки. Когда время истечет, вернитесь в свою смертную плоть, и призраки исчезнут.</string>
+	<!-- Medium Options -->
+	<string name="TouOptionMediumMediateCooldown">Кулдаун возвышения</string>
+	<string name="TouOptionMediumReworkToggle">Возвышение временно создаёт дух</string>
+	<string name="TouOptionMediumMediateDuration">Время возвышения</string>
+	<string name="TouOptionMediumMediateEarlyCancel">Возвышение может быть отменено</string>
+	<string name="TouOptionMediumMediatingSpeed">Скорость духа</string>
+	<string name="TouOptionMediumLivingSeeSpiritTimer">Время, прежде чем дух станет видимым для других</string>
+	<string name="TouOptionMediumAppearanceVisibility">Медиум может идентифицировать</string>
+	<string name="TouOptionMediumAppearanceEnumLiving">В живых</string>
+	<string name="TouOptionMediumAppearanceEnumDead">Призраки</string>
+	<string name="TouOptionMediumAppearanceEnumBoth">В живых + Призраки</string>
+	<string name="TouOptionMediumAppearanceEnumNone">Никто</string>
+	<string name="TouOptionMediumArrowVisibility">Видимость стрелки</string>
+	<string name="TouOptionMediumArrowEnumShowMedium">Медиум</string>
+	<string name="TouOptionMediumArrowEnumShowMediated">Возвышенные</string>
+	<string name="TouOptionMediumArrowEnumBoth">Медиум + Вызвышенные</string>
+	<string name="TouOptionMediumArrowEnumNone">Выключено</string>
+	<string name="TouOptionMediumWhoisRevealed">Кто раскрывается</string>
+	<string name="TouOptionMediumGhostEnumOldestDead">Старейший из умерших</string>
+	<string name="TouOptionMediumGhostEnumNewestDead">Новейший из умерших</string>
+	<string name="TouOptionMediumGhostEnumRandomDead">Случайный умерший</string>
+	<string name="TouOptionMediumGhostEnumAllDead">Все умершие</string>
 </resources>
