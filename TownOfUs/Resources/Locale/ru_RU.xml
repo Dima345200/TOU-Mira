@@ -1081,4 +1081,82 @@
 	<!-- Prosecutor Options -->
 	<string name="TouOptionProsecutorDiesWhenCrewmateExiled">Прокурор умирает, если выбрал члена экипажа</string>
 	<string name="TouOptionProsecutorMaxProsecutions">Максимум изгнаний</string>
+	<!-- Seer - Crewmate Investigative -->
+	<!-- Seer Wiki / Abilities -->
+	<string name="TouRoleSeer">Провидец</string>
+	<string name="TouRoleSeerIntroBlurb">Раскройте союз других людей</string>
+	<string name="TouRoleSeerAltIntroBlurb">Сравните двух игроков</string>
+	<string name="TouRoleSeerTabDescription">Расскройте союз других игроков чтобы найти злодеев.</string>
+	<string name="TouRoleSeerAltTabDescription">Сравните двух игроков, чтобы проверить, друзья они или враги!</string>
+	<string name="TouRoleSeerWikiDescription">Провидец - это член экипажа расследования, который может раскрыть союз других игроков.</string>
+	<string name="TouRoleSeerAltWikiDescription">Провидец - это член экипажа расследования, который может сравнить двух игроков, чтобы определить, совпадают ли их позиции.</string>
+	<string name="TouRoleSeerReveal">Раскрыть</string>
+	<string name="TouRoleSeerRevealWikiDescription">Раскройте команду игрока</string>
+	<string name="TouRoleSeerIntuit">Интуит</string>
+	<string name="TouRoleSeerGaze">Гейз</string>
+	<string name="TouRoleSeerCompare">Интуит \%и\% Гейз </string>
+	<string name="TouRoleSeerCompareWikiDescription">Сравните позиции двух игроков, используя свои способности интуит и гейз на двух разных людях. Если они окажутся врагами, вы будете проинформированы об этом.</string>
+	<string name="TouRoleSeerGazeNotif">Гейз \%player\%. При необходимости вы можете изменить это. </string>
+	<string name="TouRoleSeerIntuitNotif">Интуит \%player\%. При необходимости вы можете изменить это. </string>
+	<string name="TouRoleSeerCompareErrorAmountNotif">Вы должны выбрать две цели для гейза и интуита.</string>
+	<string name="TouRoleSeerCompareErrorSelfNotif">Ты не можешь использовать себя для сравнения!</string>
+	<string name="TouRoleSeerCompareEnemiesNotif">\%gazed\% и \%intuited\% кажутся врагами!</string>
+	<string name="TouRoleSeerCompareFriendsNotif">\%gazed\% и \%intuited\% кажутся дружелюбными!</string>
+	<string name="TouRoleSeerTabHeader">Предыдущие сравнения:</string>
+	<string name="TouRoleSeerTabComparison">\%gazed\% vs \%intuited\% (Раунд \%num\%)</string>
+	<!-- Seer Options -->
+	<string name="TouOptionSeerSalemMode">Сравнивайте игроков вместо того, чтобы проверять команду</string>
+	<string name="TouOptionSeerCooldown">Кулдаун Раскрытия/Сравнивания</string>
+	<string name="TouOptionSeerUses">Максимальное использование Раскрытия/Сравнения</string>
+	<string name="TouOptionSeerMultiplePerRound">Раскрытие/Сравнение можно использовать только один раз за раунд</string>
+	<string name="TouOptionSeerCompareEachPlayerOnce">Сравнивать одного игрока можно только один раз</string>
+	<string name="TouOptionSeerNeutralBenignFriendly">Нейтральные мирные показываются как друзья</string>
+	<string name="TouOptionSeerNeutralEvilFriendly">Нейтральные злодеи показываются как друзья</string>
+	<string name="TouOptionSeerNeutralOutlierFriendly">Нейтральные Останцы показываются как друзья</string>
+	<string name="TouOptionSeerCrewmateKillingRolesAreRed">Члены экипажа убийцы показываются красным</string>
+	<string name="TouOptionSeerNeutralBenignRolesAreRed">Нейтральные мирные показываются красным</string>
+	<string name="TouOptionSeerNeutralEvilRolesAreRed">Нейтральные злодеи показываются красным</string>
+	<string name="TouOptionSeerNeutralKillingRolesAreRed">Нейтральные убийцы показываются красным</string>
+	<string name="TouOptionSeerNeutralOutlierRolesAreRed">Нейтральные Останцы показываются красным</string>
+	<string name="TouOptionSeerTraitorSwapsColors">Предатель меняет цвета</string>
+	<!-- Sentry - Crewmate Support -->
+	<!-- Sentry Wiki / Abilities -->
+	<string name="TouRoleSentry">Часовой</string>
+	<string name="TouRoleSentryIntroBlurb">Установите камеры для наблюдения за картой</string>
+	<string name="TouRoleSentryTabDescription">Разместите камеры, которые отображаются в охране.</string>
+	<string name="TouRoleSentryWikiDescription">Часовой - это член экипажа помощи, который может размещать камеры по всей карте, которые функционируют как камеры слежения.</string>
+	<string name="TouRoleSentryPlaceCamera">Установить</string>
+	<string name="TouRoleSentryPlaceCameraWikiDescription">Установите камеру в вашем текущем местоположении. Когда она появится, зависит от настроек.</string>
+	<string name="TouRoleSentryPortableCamera">Смотреть</string>
+	<string name="TouRoleSentryPortableCameraWikiDescription">Доступ к камерам из любого места с ограниченным зарядом батареи. Батарея разряжается во время просмотра и не перезаряжается. Отключается при саботаже связи.</string>
+	<string name="TouRoleSentryPortableCameraUnlocked">Портативная камера разблокирована!</string>
+	<string name="TouRoleSentryPortableAvailableImmediately">Портативные камеры доступны сразу же.</string>
+	<string name="TouRoleSentryPortableAvailableAfterTasks">Портативные камеры доступны после выполнения заданий.</string>
+	<string name="TouRoleSentryCamerasHeader">Камеры</string>
+	<string name="TouRoleSentrySentryOnly">(Только часовой)</string>
+	<string name="TouRoleSentryPlacing">(Установка...)</string>
+	<string name="TouRoleSentryMaxCamerasReached">Установлено максимум камер (%count%/%max%).</string>
+	<!-- Sentry Options -->
+	<string name="TouOptionSentryPlacementCooldown">Кулдаун установки</string>
+	<string name="TouOptionSentryDeployedCamerasVisibility">Видимость развернутых камер</string>
+	<string name="TouOptionSentryCamerasVisibleAfter">Камеры видимы после</string>
+	<string name="TouOptionSentryCanMoveWhilePlacingCameras">Может перемещаться при размещении камер</string>
+	<string name="TouOptionSentryPortableCamerasMode">Портативные камеры мгновенного действия (или после выполнения задач)</string>
+	<string name="TouOptionSentryInitialCameras">Количество камер</string>
+	<string name="TouOptionSentryCameraRoundsLast">Количество последних камер в раунде</string>
+	<string name="TouOptionSentryTasksPerCamera">Требуется заданий для камеры</string>
+	<string name="TouOptionSentryMaxCamerasPlaced">Максимальное количество камер, размещенных одновременно</string>
+	<string name="TouOptionSentryPortableCamsBattery">Аккумулятор для портативных камер</string>
+	<string name="TouOptionSentryPortableCamsBatteryPerTask">Аккумулятор для портативных камер за задание</string>
+	<string name="TouOptionSentryBlindspots">Слепые зоны</string>
+	<string name="TouOptionSentryBlindspot1Room">Слепая ззона 1 команты</string>
+	<string name="TouOptionSentryBlindspot2Room">Слепая зона 2 комнаты</string>
+	<string name="TouOptionSentryBlindspot3Room">Слепая зона 3 комнаты</string>
+	<string name="TouOptionSentryBlindspot4Room">Слепая зона 4 комнаты</string>
+	<string name="TouOptionSentryBlindspot5Room">Слепая зона 5 комнаты</string>
+	<string name="TouOptionSentryBlindspot6Room">Слепая зона 6 комнаты</string>
+	<string name="TouOptionSentryBlindspot7Room">Слепая зона 7 комнаты</string>
+	<string name="TouOptionSentryBlindspot8Room">Слепая зона 8 комнаты</string>
+	<string name="TouOptionSentryBlindspot9Room">Слепая зона 9 комнаты</string>
+	<string name="TouOptionSentryBlindspot10Room">Слепая зона 10 комнаты</string>
 </resources>
