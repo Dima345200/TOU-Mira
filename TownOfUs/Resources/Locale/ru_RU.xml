@@ -1067,4 +1067,18 @@
 	<string name="TouRolePoliticianFailedRevealCanCampaign">Вам нужно больше членов команды! Возможно, вы больше не появитесь на этой встрече.</string>
 	<string name="TouRolePoliticianFailedRevealCannotCampaign">Вам нужно больше членов команды! Однако в следующем раунде вы можете не участвовать в предвыборной кампании.</string>
 	<string name="TouRolePoliticianFeedbackText">Feedback политика</string>
+	<!-- Prosecutor - Crewmate Power -->
+	<!-- Prosecutor Wiki / Abilities -->
+	<string name="TouRoleProsecutor">Прокурор</string>
+	<string name="TouRoleProsecutorIntroBlurb">Изгоняйте любого по своему выбору</string>
+	<string name="TouRoleProsecutorTabDescription">Изгоняйте любого по своему выбору</string>
+	<string name="TouRoleProsecutorCanProsecuteCrew">\%b\%Вы можете изгнать экипаж.\%/b\%</string>
+	<string name="TouRoleProsecutorProsecutionsRemaining">\%count\% изгнаний осталось</string>
+	<string name="TouRoleProsecutorWikiDescription">Прокурор - это член экипажа силы, который может изгнать игрока, отдав пять голосов игроку по своему выбору. Он также может видеть, кто за кого проголосовал, даже если голосование анонимно.</string>
+	<string name="TouRoleProsecutorProsecute">Изгнать</string>
+	<string name="TouRoleProsecutorProsecuteWiki">Изгнать (Собрание)</string>
+	<string name="TouRoleProsecutorProsecuteWikiDescription">Изгоните любого игрока по вашему выбору, отдав за него пять голосов и проигнорировав все остальные.</string>
+	<!-- Prosecutor Options -->
+	<string name="TouOptionProsecutorDiesWhenCrewmateExiled">Прокурор умирает, если выбрал члена экипажа</string>
+	<string name="TouOptionProsecutorMaxProsecutions">Максимум изгнаний</string>
 </resources>
