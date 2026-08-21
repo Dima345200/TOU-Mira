@@ -699,4 +699,28 @@
 	<string name="TouOptionImitatorGuessEnumCached">Имитатор</string>
 	<string name="TouOptionImitatorGuessEnumActive">Имитируемая роль</string>
 	<string name="TouOptionImitatorGuessEnumActiveOrCached">Имитатор или имитируемая роль</string>
+	<!-- Jailor - Crewmate Power -->
+	<!-- Jailor Wiki / Abilities -->
+	<string name="TouRoleJailor">Тюремщик</string>
+	<string name="TouRoleJailorIntroBlurb">Сажайте в тюрьму и казните \%color=#FF0000FF\%злодеев\%/color\%</string>
+	<string name="TouRoleJailorTabDescription">Сажайте членов экипажа для приватного диалога, и\%nl\%казните, если они злодеи</string>
+	<string name="TouRoleJailorTabDescriptionEvil">Сажайте членов экипажа для приватного диалога, и\%nl\%кащните, если того пожелаете</string>
+	<string name="TouRoleJailorWikiDescription">Тюремщик - это член экипажа, который может сажать в тюрьму других игроков. Во время встречи тюремщик может казнить своего заключённого. (Если только тюремщик не является имитатором)</string>
+	<string name="TouRoleJailorJail">Посадить</string>
+	<string name="TouRoleJailorJailWikiDescription">Посадите игрока в тюрьму. Во время встречи все увидят, кто заключен в тюрьму. Вы можете поговорить с задержанным игроком наедине, используя переключатель приватного чата.</string>
+	<string name="TouRoleJailorExecute">Казнить</string>
+	<string name="TouRoleJailorExecuteWiki">Казнить (Собрание)</string>
+	<string name="TouRoleJailorExecuteWikiDescription">Казнить заключённого. Если игрок является членом экипажа, тюремщик теряет возможность садить его в тюрьму.</string>
+	<!-- Jailor Options -->
+	<string name="TouOptionJailorJailCooldown">Кулдаун посадки</string>
+	<string name="TouOptionJailorMaxExecutes">Максимальное количество казней</string>
+	<string name="TouOptionJailorJailInARow">Сажать в тюрьму одного человка два раза подряд</string>
+	<string name="TouOptionJailorJaileePublicChat">Заключённый может пользоваться публичным чатом</string>
+	<!-- Jailor Feedback -->
+	<string name="TouRoleJailorMessageTitle">Связь с тюремщиком</string>
+	<string name="TouRoleJailorJailorFeedback">Общайтесь со своим тюремщиком в окне чата над кнопкой репорта пользователя.</string>
+	<string name="TouRoleJailorCannotExecute">\%player\% не может быть казнён! Они должны быть неуязвимы или благословенны!</string>
+	<string name="TouRoleJailorExecutedCrew">\%player\% это член экипажа! Вы больше не можете никого сажать в тюрьму!</string>
+	<string name="TouRoleJailorExecutedEvil">\%player\% успешная казнь!</string>
+	<string name="TouRoleJailorEvilTabInfo">Вы можете казнить членов экипажа.</string>
 </resources>
