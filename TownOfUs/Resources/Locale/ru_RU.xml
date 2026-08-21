@@ -990,4 +990,36 @@
 	<!-- Mystic Options -->
 	<string name="TouOptionMysticDeadBodyArrowDuration">Продолжительность указателя к телу</string>
 	<string name="TouOptionMysticHnsPopUp">Показать всплывающее окно смерти</string>
+	<!-- Oracle - Crewmate Protective -->
+	<!-- Oracle Wiki / Abilities -->
+	<string name="TouRoleOracle">Оракул</string>
+	<string name="TouRoleOracleIntroBlurb">Заставьте членов экипажа расскрыться</string>
+	<string name="TouRoleOracleTabDescription">Благослови членов экипажа, чтобы они защищали их на собраниях, и\%nl\%заставьте их расскрыться на собрании</string>
+	<string name="TouRoleOracleWikiDescription">Оракул - это член экипажа защиты, которая может заставить другого игрока расскрыться (раскрывая свою команду с точностью до \%revealAccuracy\%%, если оракул умрет) или может защитить игрока от встречных способностей.</string>
+	<string name="TouRoleOracleBless">Благословить</string>
+	<string name="TouRoleOracleBlessWikiDescription">Благословение игрока предотвращает причинение ему какого-либо вреда во время встречи.</string>
+	<string name="TouRoleOracleConfess">Исповедовать</string>
+	<string name="TouRoleOracleConfessWikiDescription">Заставьте игрока признаться на собрании, представив ему видение трех возможных зол (включая исповедника), а также раскроет свою команду всем с точностью до \%revealAccuracy\%%, когда оракул умрет.</string>
+	<!-- Oracle Options -->
+	<string name="TouOptionOracleConfessCooldown">Кулдаун исповеди</string>
+	<string name="TouOptionOracleBlessCooldown">Кулдаун благословения</string>
+	<string name="TouOptionOracleRevealAccuracy">Показ точности</string>
+	<string name="TouOptionOracleNeutralBenignShowEvil">Добрые нейтралы показываются как злодеи</string>
+	<string name="TouOptionOracleNeutralEvilShowEvil">Нейтральные злодеи показываются как злодеи</string>
+	<string name="TouOptionOracleNeutralKillingShowEvil">Нейтральные убийцы показываются как злодеи</string>
+	<string name="TouOptionOracleNeutralOutlierShowEvil">Нейтральные-Останцы показываются как злодеи</string>
+	<string name="TouOptionOracleNeutralsThatShowEvil">Нейтральные показываются как злодеи</string>
+	<string name="TouOptionOracleNeutBadBenign">Добрые</string>
+	<string name="TouOptionOracleNeutBadEvil">Злодеи</string>
+	<string name="TouOptionOracleNeutBadKilling">Убийцы</string>
+	<string name="TouOptionOracleNeutBadOutlier">Останцы</string>
+	<string name="TouOptionOracleNeutBadNone">Никто</string>
+	<!-- Oracle Feedback -->
+	<string name="TouRoleOracleConfessionTitle">Признание</string>
+	<string name="TouRoleOracleConfessorDied">Ваша цель не выжила, поэтому вы не получили признания</string>
+	<string name="TouRoleOracleTooFew">Слишком мало людей осталось в живых, чтобы получить признание</string>
+	<string name="TouRoleOracleNoMoreEvil">\%player\% признается, что злых игроков больше нет!</string>
+	<string name="TouRoleOracleThreePlayers">\%player1\% признается, что \%player2\% и/или \%player3\% злодеи!</string>
+	<string name="TouRoleOracleBlessingMessageSelf">Ваше благословение спасло \%player\% от смерти!</string>
+	<string name="TouRoleOracleBlessingMessageOthers">\%player\% выжил благодаря тому, что был благословлён \%color=#FFBF00BF\%Ораклом\%/color\%!</string>
 </resources>

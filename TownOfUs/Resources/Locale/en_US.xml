@@ -1152,7 +1152,7 @@
   <!-- Oracle - Crewmate Protective -->
   <!-- Oracle Wiki / Abilities -->
   <string name="TouRoleOracle">Oracle</string>
-  <string name="TouRoleOracleIntroBlurb">Get Crewmates to confess their sins</string>s
+  <string name="TouRoleOracleIntroBlurb">Get Crewmates to confess their sins</string>
   <string name="TouRoleOracleTabDescription">Bless crewmates to protect them in meetings, and\%nl\%make them confess in the meeting</string>
   <string name="TouRoleOracleWikiDescription">The Oracle is a Crewmate Protective role that can get another player to confess (revealing their faction with \%revealAccuracy\%% accuracy if the Oracle dies) or can protect a player from meeting abilities.</string>
   <string name="TouRoleOracleBless">Bless</string>
