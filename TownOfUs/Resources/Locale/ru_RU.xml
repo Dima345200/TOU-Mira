@@ -1471,12 +1471,12 @@
   <string name="SeekerPassive">Искатель Пассивный</string>
   <string name="AnticheatKickChatMessage">\%player\% был кикнут за использование читов:</string>
   <string name="RolesCommandList">роли:роль:р</string>
-  <string name="RolesCommandDescription">/роли - Показывает список всех ролей в игре.</string>
+  <string name="RolesCommandDescription">/roles - Показывает список всех ролей в игре.</string>
   <string name="UpCommandList">назнач</string>
   <string name="UpCommandDescription">/назнач [роль] - делает так, чтобы вы получили нужную роль в следующей игре. Используйте эту команду как /назнач [роль] [игрок], чтобы выдать роль другому игроку.</string>
   <string name="UpCommandHostError">Вы должны быть хостом, чтобы использовать эту команду.</string>
-  <string name="DiscordServer">Дискорд Сервер</string>
-  <string name="SourceCode">Исходный Код</string>
+  <string name="DiscordServer">Discord server</string>
+  <string name="SourceCode">Source</string>
   <string name="ZoomingInLobby">Приблизить лобби</string>
   <string name="ZoomingInPractice">Приблизить практику</string>
   <string name="SeparateChatBubbles">Разделить чаты</string>
@@ -1528,13 +1528,13 @@
   <string name="TouOptionAdvancedSaboHidePlayerSizeInCamo">Камуфляж скрывает размер игрока</string>
   <string name="TouOptionAdvancedSaboHidePlayerSpeedInCamo">Камуфляж скрывает скорость игрока</string>
   <string name="TouOptionRandomMapsToggle">Включить случайные карты</string>
-  <string name="TouOptionRandomMapsSkeldChance">Шанс Скелда</string>
-  <string name="TouOptionRandomMapsBackwardsSkeldChance">Адлекс Снаш</string>
-  <string name="TouOptionRandomMapsMiraChance">Шанс Миры</string>
-  <string name="TouOptionRandomMapsPolusChance">Шанс Полюса</string>
-  <string name="TouOptionRandomMapsAirshipChance">Шанс Эиршипа</string>
-  <string name="TouOptionRandomMapsFungleChance">Шанс Грибов</string>
-  <string name="TouOptionRandomMapsSubmergedChance">Шанс Субмарины</string>
+  <string name="TouOptionRandomMapsSkeldChance">Шанс Skeld</string>
+  <string name="TouOptionRandomMapsBackwardsSkeldChance">Адлекс dlekS</string>
+  <string name="TouOptionRandomMapsMiraChance">Шанс Mira</string>
+  <string name="TouOptionRandomMapsPolusChance">Шанс Polus</string>
+  <string name="TouOptionRandomMapsAirshipChance">Шанс Airship</string>
+  <string name="TouOptionRandomMapsFungleChance">Шанс Fungle</string>
+  <string name="TouOptionRandomMapsSubmergedChance">Шанс Submerged</string>
   <string name="TouOptionRandomMapsLevelImpostorChance">Шанс Уровня Предателя</string>
   <string name="TouOptionBetterDoorsEnumSkeld">Скелд</string>
   <string name="TouOptionBetterDoorsEnumPolus">Полюс</string>
@@ -1591,10 +1591,10 @@
   <string name="TermsStatusEffectSymbolsTitle">Символы Статусов</string>
   <string name="TermsStatusEffectInfo">Статусные эффекты появляются над именами игроков на собраниях и в процессе игры, обычно их видит только та роль, которая их наложила, и/или мёртвые игроки. • Облитые Поджигателем отмечаются символом \%color=#FF4D00\%Δ\%/color\% • Чума Чумоносца отмечается символом \%color=#E6FFB3\%¥\%/color\% • Подконтрольные игроки отмечаются символом \%color=#FF2660\%⦿\%/color\% • Шантажируемые цели отмечаются символом \%color=#2A1119\%M\%/color\% • Гипноз отмечается символом \%color=#D53F42\%@\%/color\% • Проклятие Заклинателя отмечается символом \%color=#FF0000\%乂\%/color\% • Рыцари Монарха отмечаются символом \%color=#EA535B\%♠\%/color\%</string>
   <string name="ReverseSkeldMapName">длекС</string>
-  <string name="LegacyThemeDisabled">Устаревший режим: Выкл</string>
+  <string name="LegacyThemeDisabled">Legacy: Off</string>
   <string name="LegacyThemeArt">Устаревшая тема</string>
   <string name="LegacyThemePlayers">Устаревшие игроки</string>
-  <string name="LegacyThemeFull">Устаревший режим</string>
+  <string name="LegacyThemeFull">Legacy</string>
   <string name="SelfKillBindToggle">Нажатие LSHIFT + T + ENTER для самоубийства</string>
   <string name="AbortGameBindToggle">Нажатие LSHIFT + L + ENTER для отмены игры</string>
   <string name="StartMeetingBindToggle">Нажатие LSHIFT + L + ENTER для начала собрания</string>
@@ -1679,4 +1679,20 @@
   <string name="TermsRoleBucketsInfo">Группы ролей актуальны только при использовании настройки "Задать список ролей"• Обычные роли\%color=#8CFFFF\%Экипажа\%/color\% содержат расследующие, защищающие, and поддерживающие роли. • Обычные роли \%color=#FF0000\%Предателей\%/color\% содержат скрытные и поддерживающие rроли. • Обычные роли \%color=#8A8A8A\%Нейтралов\%/color\% содержат добрые и злые роли нейтралов. • Особые роли \%color=#8CFFFF\%Экипажа\%/color\% содержат убивающие и сильные роли экипажа. • Особые роли \%color=#FF0000\%Предателей\%/color\% содержат убивающие и сильные роли. • Особые роли \%color=#8A8A8A\%Нейтралов\%/color\% содержат убивающие и оставшиеся роли нейтралов. • Хаотические роли \%color=#8A8A8A\%Нейтралов\%/color\% содержат добрые, злые и оставшиеся роли нейтралов. • Не-\%color=#FF0000\%Предатели\%/color\% содержат все роли \%color=#8A8A8A\%Нейтралов \%/color\% и \%color=#8CFFFF\%Экипажа\%/color\%. • Рандомные группы создают любую роль из указанной фракции (типа Случайный \%color=#8CFFFF\%Экипаж\%/color\%). • Любая группа позволяет появиться любой включенной роли.</string>
   <string name="TouOptionBetterSkeldVentModeEnumNormal">Не изменено</string>
   <string name="TermsCommonSlangTitle">Обычный сленг</string>
+	<string name="PlayerCommandDescription">/players - Показывает информацию о участниках в лобби.</string>
+	<string name="InfoCommandDescription">/info - Воспроизведите самое последнее полученное вами сообщение с информацией о роли.</string>
+	<!-- Barkeeper Wiki / Abilities -->
+	<string name="TouRoleBarkeeper">Бармен</string>
+	<string name="TouRoleBarkeeperIntroBlurb">Блокируйте Злодеев чтобы замедлить</string>
+	<string name="TouRoleBarkeeperTabDescription">Блокируйте Злодеев чтобы отключить их способности на \%blockTime\%s.</string>
+	<string name="TouRoleBarkeeperWikiDescription">Бармен - это роль помощника члена экипажа, который может выпивать с другими чтобы заблокировать их. Он также может пролить напиток, чтобы ускорить или замедлить игроков.</string>
+	<string name="TouRoleBarkeeperRoleblock">Блокировка</string>
+	<string name="TouRoleBarkeeperRoleblocking">Блокировка</string>
+	<string name="TouRoleBarkeeperRoleblockWikiDescription">Напоите других игроков чтобы заблокировать их на \%blockTime\%s.</string>
+	<string name="TouRoleBarkeeperRoleblockWikiDescriptionWithHangover">Напоите другого игрока чтобы заблокировать его на \%blockTime\%s. После блокировки игрок будет испытывать похмелье в течение \%overTime\%s.</string>
+	<string name="TouRoleBarkeeperSpill">Пролить</string>
+	<string name="TouRoleBarkeeperSpilling">Оседание</string>
+	<string name="TouRoleBarkeeperSpillWikiDescription">Пролейте напиток для ускорения игроков, если он был разлит недавно, или замедления игроков, если напиток достаточно старый. Это срабатывает только один раз для одного игрока.</string>
+	<string name="TouRoleBarkeeperSpillSpeedBuffNotif">Вы чувствуете, как что-то скользит под вами. Вы увеличили скорость!</string>
+	<string name="TouRoleBarkeeperSpillSpeedDebuffNotif">Вы чувствуете, что под вами давний разлив. Вы чувствуете себя медленнее.</string>
 </resources>
