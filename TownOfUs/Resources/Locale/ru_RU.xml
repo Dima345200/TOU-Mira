@@ -717,10 +717,32 @@
 	<string name="TouOptionJailorJailInARow">Сажать в тюрьму одного человка два раза подряд</string>
 	<string name="TouOptionJailorJaileePublicChat">Заключённый может пользоваться публичным чатом</string>
 	<!-- Jailor Feedback -->
-	<string name="TouRoleJailorMessageTitle">Связь с тюремщиком</string>
-	<string name="TouRoleJailorJailorFeedback">Общайтесь со своим тюремщиком в окне чата над кнопкой репорта пользователя.</string>
+	<string name="TouRoleJailorMessageTitle">Feedback тюремщика</string>
+	<string name="TouRoleJailorJailorFeedback">Общайтесь со своим заключённым в окне чата над кнопкой репорта пользователя.</string>
 	<string name="TouRoleJailorCannotExecute">\%player\% не может быть казнён! Они должны быть неуязвимы или благословенны!</string>
 	<string name="TouRoleJailorExecutedCrew">\%player\% это член экипажа! Вы больше не можете никого сажать в тюрьму!</string>
 	<string name="TouRoleJailorExecutedEvil">\%player\% успешная казнь!</string>
 	<string name="TouRoleJailorEvilTabInfo">Вы можете казнить членов экипажа.</string>
+	<!-- Lookout - Crewmate Investigative -->
+	<!-- Lookout Wiki / Abilities -->
+	<string name="TouRoleLookout">Смотрящий</string>
+	<string name="TouRoleLookoutIntroBlurb">Держи глаза широко открытыми</string>
+	<string name="TouRoleLookoutTabDescription">Понаблюдайте за другими членами экипажа, чтобы понять, какие у них роли</string>
+	<string name="TouRoleLookoutAltTabDescription">Наблюдайте за другими членами экипажа, чтобы узнать, кто с ними взаимодействует</string>
+	<string name="TouRoleLookoutWikiDescription">Смотрящий - это член экипажа следствия, который может наблюдать за другими игроками. Во время собраний он будет видеть все роли или игроков, которые взаимодействуют с игроками, за которыми он ведёт наблюдение.</string>
+	<string name="TouRoleLookoutWatch">Наблюдать</string>
+	<string name="TouRoleLookoutWatchWikiDescription">Наблюдайте за одним или несколькими игроками, и на следующем собрании вы узнаете, какие игроки взаимодействовали с ними.</string>
+	<string name="TouRoleLookoutWatchNotif">Вы узнаете, какие роли взаимодействовали с игроком на следующем собрании.</string>
+	<string name="TouRoleLookoutWatchAltNotif">Вы узнаете, кто взаимодействовал с игроком на следующем собрании.</string>
+	<!-- Lookout Feedback -->
+	<string name="TouRoleLookoutFeedbackTitle">Feedback смотрящего</string>
+	<string name="TouRoleLookoutNoInteractionFeedback">Ни один игрок не взаимодействовал с \%player\%</string>
+	<string name="TouRoleLookoutInteractionFeedback">Роли, взаимодействовавшие с \%player\%</string>
+	<string name="TouRoleLookoutAltInteractionFeedback">Игроки, взаимодействовавшие с \%player\%</string>
+	<!-- Lookout Options -->
+	<string name="TouOptionLookoutWatchCooldown">Кулдаун наблюдения</string>
+	<string name="TouOptionLookoutMaxWatches">Первые игроки, за которыми можно наблюдать</string>
+	<string name="TouOptionLookoutSeesIndirectAttacks">Смотреть косвенные атаки</string>
+	<string name="TouOptionLookoutLoResetOnNewRound">Наблюдение смотрящего сбрасываются каждый раунд</string>
+	<string name="TouOptionLookoutTaskUses">Получить больше использований при выполнении заданий</string>
 </resources>
