@@ -1022,4 +1022,29 @@
 	<string name="TouRoleOracleThreePlayers">\%player1\% признается, что \%player2\% и/или \%player3\% злодеи!</string>
 	<string name="TouRoleOracleBlessingMessageSelf">Ваше благословение спасло \%player\% от смерти!</string>
 	<string name="TouRoleOracleBlessingMessageOthers">\%player\% выжил благодаря тому, что был благословлён \%color=#FFBF00BF\%Ораклом\%/color\%!</string>
+	<!-- Plumber - Crewmate Support -->
+	<!-- Plumber Wiki / Abilities -->
+	<string name="TouRolePlumber">Сантехник</string>
+	<string name="TouRolePlumberIntroBlurb">Выкидывайте игроков из вентиляции</string>
+	<string name="TouRolePlumberTabDescription">Промойте вентиляцию чтобы выкинуть игроков в ней, и\%nl\%баррикадируйте вентиляции для блокировки их в следующем раунде</string>
+	<string name="TouRolePlumberExtraTabText">Баррикады остаются на \%roundCount\% раундов</string>
+	<string name="TouRolePlumberExtraTabTextForever">Баррикады остаются всегда</string>
+	<string name="TouRolePlumberVentListTabText">Список вентиляций</string>
+	<string name="TouRolePlumberUnbuiltBarricadeTabText">Подготовка...</string>
+	<string name="TouRolePlumberVentLabelTabText">Вентиляция \%roomName\%</string>
+	<string name="TouRolePlumberVentRoundsTabText">Осталось \%roundsRemaining\% раундов</string>
+	<string name="TouNotifPlumberBlock">Эта вентиляция будет заблокирована в начале следующего раунда</string>
+	<string name="TouRolePlumberWikiDescription">Сантехник - это член экипажа помощи, который может баррикодировать вентиляции и промывать их.</string>
+	<string name="TouRolePlumberFlush">Промыть</string>
+	<string name="TouRolePlumberFlushWikiDescription">При промывке вентиляции все, кто находится в ней, выкидываются из неё. Также появляется указатель на каждого промытого игрока на одну секунду.</string>
+	<string name="TouRolePlumberBlock">Баррикада</string>
+	<string name="TouRolePlumberBlockWikiDescription">Заббарикадируйте вентиляцию для следующего раунда, чтобы игроки не могли ею воспользоваться.</string>
+	<string name="TouRolePlumberBlockNotif">Эта вентиялция будет заббарикадировано в начале следующего раунда.</string>
+	<!-- Plumber Options -->
+	<string name="TouOptionPlumberFlushCooldown">Кулдаун промывки</string>
+	<string name="TouOptionPlumberFlushDuration">Время промывки</string>
+	<string name="TouOptionPlumberBlockCooldown">Кулдаун баррикады</string>
+	<string name="TouOptionPlumberMaxNumberOfBarricades">Начальное количество баррикад</string>
+	<string name="TouOptionPlumberAmountOfRoundsBarricadesLast">Количество раундов исчезновения баррикады</string>
+	<string name="TouOptionPlumberGetMoreFromTasks">Получить больше баррикад за задания</string>
 </resources>
