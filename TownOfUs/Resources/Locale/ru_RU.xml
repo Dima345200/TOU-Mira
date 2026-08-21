@@ -593,11 +593,11 @@
 	<string name="TouRoleBarkeeper">Бармен</string>
 	<string name="TouRoleBarkeeperIntroBlurb">Блокируйте Злодеев чтобы замедлить</string>
 	<string name="TouRoleBarkeeperTabDescription">Блокируйте Злодеев чтобы отключить их способности на \%blockTime\%s.</string>
-	<string name="TouRoleBarkeeperWikiDescription">Бармен - это член экипажа помощник, который может напоить других чтобы заблокировать их. Он также может пролить напиток, чтобы ускорить или замедлить игроков.</string>
+	<string name="TouRoleBarkeeperWikiDescription">Бармен - это член экипажа помощник, который может напоить других чтобы заблокировать их способности. Он также может пролить напиток, чтобы ускорить или замедлить игроков.</string>
 	<string name="TouRoleBarkeeperRoleblock">Блокировка</string>
 	<string name="TouRoleBarkeeperRoleblocking">Блокировка</string>
-	<string name="TouRoleBarkeeperRoleblockWikiDescription">Напоите других игроков чтобы заблокировать их на \%blockTime\%s.</string>
-	<string name="TouRoleBarkeeperRoleblockWikiDescriptionWithHangover">Напоите другого игрока чтобы заблокировать его на \%blockTime\%s. После блокировки игрок будет испытывать похмелье в течение \%overTime\%s.</string>
+	<string name="TouRoleBarkeeperRoleblockWikiDescription">Напоите других игроков чтобы заблокировать их способности на \%blockTime\%s.</string>
+	<string name="TouRoleBarkeeperRoleblockWikiDescriptionWithHangover">Напоите другого игрока чтобы заблокировать его способности на \%blockTime\%s. После блокировки игрок будет испытывать похмелье в течение \%overTime\%s.</string>
 	<string name="TouRoleBarkeeperSpill">Разлить</string>
 	<string name="TouRoleBarkeeperSpilling">Разливание</string>
 	<string name="TouRoleBarkeeperSpillWikiDescription">Разлейте напиток для ускорения игроков, если он был разлит недавно, или для замедления игроков, если напиток достаточно старый. Это срабатывает только один раз для одного игрока.</string>
@@ -849,4 +849,70 @@
 	<string name="TouRoleMirrorcasterAttackedMessageWithoutType">\%player\% атакован! Вы можете отразить атаку на другого игрока!</string>
 	<string name="TouRoleMirrorcasterAttackedMessageWithFaction">\%player\% атакован \%faction\%! Вы можете отразить атаку на другого игрока!</string>
 	<string name="TouRoleMirrorcasterAttackedMessageWithSubalignment">\%player\% атакован \%subalignment\%! Вы можете отразить атаку на другого игрока!</string>
+	<!-- Altruist - Crewmate Protective -->
+	<!-- Altruist Wiki / Abilities -->
+	<string name="TouRoleAltruist">Альтруист</string>
+	<string name="TouRoleAltruistIntroBlurb">Оживляйте мёртвых членов экипажа</string>
+	<string name="TouRoleAltruistTabDescription">Оживляйте мёртвых членов экипажа группами.</string>
+	<string name="TouRoleAltruistTabDescriptionGroupSacrifice">Оживляйте погибших членов экипажа группами\%nl\%ценой собственной жизни.</string>
+	<string name="TouRoleAltruistTabDescriptionSacrifice">Пожертвовать собой ради погибшего члена экипажа.</string>
+	
+	<string name="TouRoleAltruistWikiDescription">Альтруист - это член экипажа защиты, который может оживлять умерших членов экипажа, без возможности созыва собрания.</string>
+	<string name="TouRoleAltruistRevive">Оживить</string>
+	<string name="TouRoleAltruistReviving">Оживление</string>
+	<string name="TouRoleAltruistRevivedNotif">Вас оживил альтруист!</string>
+	<string name="TouRoleAltruistReviveSuccessNotif">Вы успешно оживили \%player\%!</string>
+	<string name="TouRoleAltruistReviveWikiDescription">Оживите группу мертвых тел рядом с вами.</string>
+	<string name="TouRoleAltruistReviveGroupSacrificeWikiDescription">Оживите группу мертвых тел рядом с собой. Если оживление завершится, вы умрете, не оставив после себя тела.</string>
+	<string name="TouRoleAltruistReviveSacrificeWikiDescription">Оживите ближайшее мертвое тело. Если оживление завершится, вы умрете, не оставив после себя тела.</string>
+	<!-- Altruist Options -->
+	<string name="TouOptionAltruistReviveType">Тип оживления</string>
+	<string name="TouOptionAltruistReviveEnumSacrifice">Жертва</string>
+	<string name="TouOptionAltruistReviveEnumGroupSacrifice">Группа жертв</string>
+	<string name="TouOptionAltruistReviveEnumGroupRevive">Групповое оживление</string>
+	<string name="TouOptionAltruistReviveDuration">Время оживления</string>
+	<string name="TouOptionAltruistReviveRange">Радиус оживления</string>
+	<string name="TouOptionAltruistMaxRevives">Использования оживления</string>
+	<string name="TouOptionAltruistKillOnStartRevive">Убийство альтруиста в начале оживления</string>
+	<string name="TouOptionAltruistFreezeDuringRevive">Заморозка альтруиста во время оживления</string>
+	<string name="TouOptionAltruistHideAtBeginningOfRevive">Скрывание тел в начале оживления</string>
+	<string name="TouOptionAltruistKillersAlertedAtStart">Предупреждение убийц перед оживлением</string>
+	<string name="TouOptionAltruistKillersAlertedAtEnd">Предупреждение убийц после оживления</string>
+	<string name="TouOptionAltruistKillerEnumNobody">Никто</string>
+	<string name="TouOptionAltruistKillerEnumNeutrals">Нейтральные</string>
+	<string name="TouOptionAltruistKillerEnumImpostors">Предатели</string>
+	<string name="TouOptionAltruistKillerEnumNeutralsAndImpostors">Нейтральные и предатели</string>
+	<!-- Aurial - Crewmate Investigative -->
+	<!-- Aurial Wiki -->
+	<string name="TouRoleAurial">Ориал</string>
+	<string name="TouRoleAurialIntroBlurb">Почувствуйте нарушения в вашей ауре.</string>
+	<string name="TouRoleAurialTabDescription">Вы почувствуете любые способности, используемые в вашей ауре</string>
+	
+	<string name="TouRoleAurialWikiDescription">Ориал - это член экипажа расследования, которому приходим предупреждение, когда игрок рядом с ним использует способность.</string>
+	<!-- Aurial Options -->
+	<string name="TouOptionAurialAuraInnerRadius">Показывать цветовую ауру</string>
+	<string name="TouOptionAurialAuraOuterRadius">Максимальный радиус ауры</string>
+	<string name="TouOptionAurialSenseDuration">Время ощущения</string>
+	<!-- Cleric - Crewmate Protective -->
+	<!-- Cleric Wiki / Abilities -->
+	<string name="TouRoleCleric">Клирик</string>
+	<string name="TouRoleClericIntroBlurb">Спасите членов экипажа</string>
+	<string name="TouRoleClericTabDescription">Снимайте негативные эффекты с членов экипажа и накладывайте барьеры, чтобы полностью блокировать любые взаимодействия</string>
+	<string name="TouRoleClericTabProtecting">Баррьер активен: \%player\%</string>
+	
+	<string name="TouRoleClericWikiDescription">Клирик - это член экипажа защиты, который может снимать негативные эффекты и устанавливать баррьеры, которые блокируют взаимодействия.</string>
+	<string name="TouRoleClericBarrier">Баррьер</string>
+	<string name="TouRoleClericBarrierWikiDescription">Блокирует взаимодействие с членом экипажа. Баррьер останется в течение \%BarrierCooldown\% секунд.</string>
+	<string name="TouRoleClericCleanse">Очистка</string>
+	<string name="TouRoleClericCleanseWikiDescription">Снимает все негативные эффекты с члена экипажа. (Douse, Hack, Infect, Blackmail, Blind, Flash, and Hypnosis)</string>
+	<!-- Cleric Feedback -->
+	<string name="TouRoleClericMessageTitle">Feedback клирика</string>
+	<string name="TouRoleClericCleansedEffects">Очищены эффекты с \%player\%:</string>
+	<string name="TouRoleClericCleansedNoEffects">У \%player\% нет негативных эффектов.</string>
+	<!-- Cleric Options -->
+	<string name="TouOptionClericBarrierCooldown">Кулдаун баррьера</string>
+	<string name="TouOptionClericBarrierDuration">Время баррьера</string>
+	<string name="TouOptionClericCleanseCooldown">Кулдаун очистки</string>
+	<string name="TouOptionClericProtectedSeesBarrier">Защищенный игрок видит барьер</string>
+	<string name="TouOptionClericAttackNotif">Клирик получает уведомление об атаке</string>
 </resources>
