@@ -705,7 +705,7 @@
 	<string name="TouRoleJailorIntroBlurb">Сажайте в тюрьму и казните \%color=#FF0000FF\%злодеев\%/color\%</string>
 	<string name="TouRoleJailorTabDescription">Сажайте членов экипажа для приватного диалога, и\%nl\%казните, если они злодеи</string>
 	<string name="TouRoleJailorTabDescriptionEvil">Сажайте членов экипажа для приватного диалога, и\%nl\%кащните, если того пожелаете</string>
-	<string name="TouRoleJailorWikiDescription">Тюремщик - это член экипажа, который может сажать в тюрьму других игроков. Во время встречи тюремщик может казнить своего заключённого. (Если только тюремщик не является имитатором)</string>
+	<string name="TouRoleJailorWikiDescription">Тюремщик - это член экипажа силы, который может сажать в тюрьму других игроков. Во время встречи тюремщик может казнить своего заключённого. (Если только тюремщик не является имитатором)</string>
 	<string name="TouRoleJailorJail">Посадить</string>
 	<string name="TouRoleJailorJailWikiDescription">Посадите игрока в тюрьму. Во время встречи все увидят, кто заключен в тюрьму. Вы можете поговорить с задержанным игроком наедине, используя переключатель приватного чата.</string>
 	<string name="TouRoleJailorExecute">Казнить</string>
@@ -753,7 +753,7 @@
 	<string name="TouRoleMayorTabDescriptionEgo">Приведите злодеев к победе!</string>
 	<string name="TouRoleMayorTabDescriptionPostor">Приведите самозванцев к победе!</string>
 	<string name="TouRoleMayorUnrevealedTabText">Раскрой себя, когда пожелаешь.</string>
-	<string name="TouRoleMayorWikiDescription">Мэр - член экипажа мощь, которая даёт три голоса и раскрывает себя всем игрокам, а также меняет их внешний вид на собраниях.</string>
+	<string name="TouRoleMayorWikiDescription">Мэр - член экипажа силы, которая даёт три голоса и раскрывает себя всем игрокам, а также меняет их внешний вид на собраниях.</string>
 	<!-- Medic - Crewmate Protective -->
 	<!-- Medic Wiki / Abilities -->
 	<string name="TouRoleMedic">Медик</string>
@@ -922,7 +922,7 @@
 	<string name="TouRoleDeputyTabDescription">Садите в лагерь членов экипажа, затем застрели их убийцу на собрании!</string>
 	<string name="TouRoleDeputyWikiDescription">Помощник шерифа - это член экипажа убийца, который может сажать в лагерь других игроков. Как только игрок, у которого устроили привал, умирает, помощник шерифа получает предупреждение о его смерти. На следующей встрече помощник шерифа может попытаться застрелить его убийцу. В случае успеха убийца умирает, а в противном случае ничего не происходит.</string>
 	<string name="TouRoleDeputyCamp">Посадить в лагерь</string>
-	<string name="TouRoleDeputyCampWikiDescription">Посадить в лагерь игрока чтобы получить предупреждение о его смерти. После их смерти вы можете попытаться застрелить убийцу. Если ваш выстрел окажется удачным, убийца умрет, если нет, ничего не произойдет.</string>
+	<string name="TouRoleDeputyCampWikiDescription">Посадить в лагерь игрока чтобы получить предупреждение о его смерти. После его смерти вы можете попытаться застрелить убийцу. Если ваш выстрел окажется удачным, убийца умрет, если нет, ничего не произойдет.</string>
 	<!-- Deputy Feedback -->
 	<string name="TouRoleDeputyRevealedText"> (Застреленный)</string>
 	<string name="TouRoleDeputyCampNotif">Дождитесь смерти \%player\% чтобы выстрелить в его убийцу.</string>
@@ -963,4 +963,31 @@
 	<string name="TouRoleForensicBodyKillerImpostor">Убийца предатель!\%nl\%Убит \%time\%s назад.</string>
 	<string name="TouRoleForensicAtScene">\%player\% был на месте преступления игрока \%deadPlayer\%!\%nl\%Он может быть убийцой или свидетелем.</string>
 	<string name="TouRoleForensicNotAtScene">\%player\% не было на месте преступления.</string>
+	<!-- Monarch - Crewmate Power -->
+	<!-- Monarch Wiki / Description -->
+	<string name="TouRoleMonarch">Монарх</string>
+	<string name="TouRoleMonarchIntroBlurb">Рыцари отдадут дополнительные голоса</string>
+	<string name="TouRoleMonarchTabDescription">Члены экипажа-рыцари, помогающие на собраниях, но\%nl\%избегайте посвящения в рыцари злодеев.</string>
+	<string name="TouRoleMonarchTabDescriptionEgo">Посвящайте злодеев в рыцари, чтобы помогать им на собраниях.</string>
+	<string name="TouRoleMonarchTabVoteInfo">Каждый рыцарь получает \%amount\% голосов.</string>
+	<string name="TouRoleMonarchTabDefenseInfoEgo">Живые рыцари дают вам защиту.</string>
+	<string name="TouRoleMonarchTabDefenseInfo">Живые члены экипажа-рыцари дают вам защиту.</string>
+	<string name="TouRoleMonarchTabDeathInfo">Вы получите уведомление, когда игрок, посвященный в рыцари, умрет.</string>
+	<string name="TouRoleMonarchWikiDescription">Монарх - это член экипажа силы, которая может раздавать доп. голоса другим игрокам.</string>
+	<string name="TouRoleMonarchKnight">Рыцарь</string>
+	<string name="TouRoleMonarchKnightDescription">Посвящайте игрока в рыцари, отдавая им \%amount\% голосов</string>
+	<string name="TouRoleMonarchKnightTargetDied">\%player\% умер прежде, чем вы успели посвятить его в рыцари.</string>
+	<string name="TouRoleMonarchKnightSuccess">\%player\% теперь рыцарь!</string>
+	<string name="TouRoleMonarchKnightedFeedback">Ты был посвящен в рыцари одним из \%role\%. Вы получили \%votes\% голосов!</string>
+	<string name="TouRoleMonarchMessageTitle">Feedback монарха</string>
+	<string name="TouRoleMonarchKnightFallenFeedback">Твой рыцарь, \%player\%, пал...</string>
+	<!-- Mystic - Crewmate Investigative -->
+	<!-- Mystic Wiki / Description -->
+	<string name="TouRoleMystic">Мистик</string>
+	<string name="TouRoleMysticIntroBlurb">Знайте, когда и где происходят убийства</string>
+	<string name="TouRoleMysticTabDescription">Понимайте, когда и где происходят убийства</string>
+	<string name="TouRoleMysticWikiDescription">Мистик - это член экипажа расследования, который получает сигнал, когда кто-то умирает.</string>
+	<!-- Mystic Options -->
+	<string name="TouOptionMysticDeadBodyArrowDuration">Продолжительность указателя к телу</string>
+	<string name="TouOptionMysticHnsPopUp">Показать всплывающее окно смерти</string>
 </resources>
