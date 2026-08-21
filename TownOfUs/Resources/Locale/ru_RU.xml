@@ -145,14 +145,6 @@
   <string name="TouOptionAltruistReviveRange">Радиус возрождения</string>
   <string name="TouOptionAltruistMaxRevives">Кол-во возрождений</string>
   <string name="TouOptionAltruistHideAtBeginningOfRevive">Скрывать труп как только начат процесс возрождения</string>
-  <string name="TouRoleImitator">Имитатор</string>
-  <string name="TouRoleImitatorIntroBlurb">Копируйте способности мёртвых в пользу Экипажа</string>
-  <string name="TouRoleImitatorTabDescription">Копируйте способности мёртвых игроков\%nl\%во время собраний и помогайте Экипажу</string>
-  <string name="TouRoleImitatorWikiDescription">Имитатор - Поддерживающий Член Экипажа, который может временно копировать роль выбранного мёртвого игрока. Имитатор остается выбранной ролью, пока не сменит цель. Некоторые роли недоступны, если в игре несколько Имитаторов.</string>
-  <string name="TouRoleImitatorCrewmateImitation">Имитация Экипажа</string>
-  <string name="TouRoleImitatorCrewmateImitationWikiDescription">Может копировать любую роль Экипажа, кроме Имитатора, Политика, Мэра, и обычного Члена экипажа. Пленник и Прокурор не смогут использовать свои способности во время собрания, а Линчеватель не получает право на ошибку в гадалке.</string>
-  <string name="TouOptionImitatorImitateNeutrals">Копировать Нейтральных как похожих ролей Экипажа</string>
-  <string name="TouOptionImitatorImitateImpostors">Копировать Предателей как похожих ролей Экипажа</string>
   <string name="TouRoleInvestigator">Следователь</string>
   <string name="TouRoleInvestigatorIntroBlurb">Идите за следами других</string>
   <string name="TouRoleInvestigatorTabDescription">Вы видите следы всех игроков.</string>
@@ -406,11 +398,7 @@
   <string name="NonImpPassive">Не Предатель Пассивный</string>
   <string name="External">Расширенный</string>
   <string name="Other">Другое</string>
-  <string name="TouRoleImitatorNeutralCounterparts">Аналоги Нейтрала</string>
-  <string name="TouRoleImitatorNeutralCounterpartsWikiDescription">Амнезияк ⇨ Медик | Предвестник ⇨ Линчеватель | Палач ⇨ Стукач\%nl\%Глич ⇨ Шериф | Ангел-хранитель ⇨ Клирик | Инквизитор - Оракул\%nl\%Шут - Сантехник | Наёмник ⇨ Хранитель\%nl\%Чумоносец/Чума ⇨ Ауриал | Падальщик - Медиум | Оборотень ⇨ Охотник</string>
-  <string name="TouRoleImitatorImpostorCounterparts">Аналоги Предателя</string>
   <string name="TouRoleTrapper">Ловушечник</string>
-  <string name="TouRoleImitatorImpostorCounterpartsWikiDescription">Подрывник ⇨ Ловушечник | Гипнотизёр ⇨ Дозорный | Уборщик ⇨ Детектив\%nl\%Шахтёр ⇨ Инженер | Падальщик - Трекер\%nl\%Гробовщик ⇨ Альтруист | Колдун ⇨ Ветеран</string>
   <string name="TouRolePoliticianIntroBlurb">Агитируйте игроков, чтобы стать Мэром!</string>
   <string name="TouRolePoliticianTabDescription">Агитируйте Членов Экипажа, чтобы стать Мэром.\%nl\%Как минимум половина мирных игроков должна быть\%nl\%агитирована, чтобы кампания завершилась успешно</string>
   <string name="TouRolePoliticianWikiDescription">Политик - Сильный Член Экипажа, который может стать Мэром, агитировав хотя бы половину мирных игроков.</string>
@@ -1356,11 +1344,6 @@
   <string name="TouOptionHaunterClickEnumEveryone">Все</string>
   <string name="TouOptionHaunterClickEnumNonCrew">Не Экип</string>
   <string name="TouOptionHaunterClickEnumImpsOnly">Только Предатели</string>
-  <string name="TouOptionImitatorImitateBasicCrewmate">Имитировать Обыкновенный Экипаж</string>
-  <string name="TouOptionImitatorGuessAs">Имитатор должен быть угадан как:</string>
-  <string name="TouOptionImitatorGuessEnumCached">Имитатор</string>
-  <string name="TouOptionImitatorGuessEnumActive">Имитируемая Роль</string>
-  <string name="TouOptionImitatorGuessEnumActiveOrCached">Имитатор или Имитируемая Роль</string>
   <string name="TouRoleJailorTabDescriptionEvil">Ведите приватные обсуждения с игроками, при необходимости\%nl\%казните их</string>
   <string name="TouRoleJailorMessageTitle">Отзыв на Тюремщика</string>
   <string name="TouRoleMayorTabDescriptionPostor">Приведите Предателей к победе!</string>
@@ -1734,4 +1717,25 @@
 	<string name="TouOptionHunterStalkTriggerEnumAlways">Все способности</string>
 	<string name="TouOptionHunterRetributionOnVote">Охотник убивает последнего проголосовавшего, если охотник выбывает</string>
 	<string name="TouOptionHunterHunterBodyReport">Охотник может сообщить об убитых им игроков</string>
+	<!-- Imitator - Crewmate Support -->
+	<!-- Imitator Wiki / Abilities -->
+	<string name="TouRoleImitator">Имитатор</string>
+	<string name="TouRoleImitatorShortName">Ими</string>
+	<string name="TouRoleImitatorIntroBlurb">Используй мертвых на благо команды</string>
+	<string name="TouRoleImitatorTabDescription">Используйте мертвых игроков, чтобы принести пользу команде, имитируя их на собраниях</string>
+	<string name="TouRoleImitatorWikiDescription">Имитатор - это член экипажа помощник, который может выбрать мёртвого члена экипажа для имитации своей роли, пока он не сменит цель. Некоторые роли недоступны, если есть другие имитаторы</string>
+	<string name="TouRoleImitatorCrewmateImitation">Имитация члена экипажа</string>
+	<string name="TouRoleImitatorCrewmateImitationWikiDescription">Доступны все роли членов экипажа, кроме политиков и мэров. Такие роли, как тюремщик и прокурор, не могут использовать свои способности для проведения совещаний, а у Виги нет возможности делать безопасные снимки.</string>
+	<string name="TouRoleImitatorNeutralCounterparts">Имитация нейтралов</string>
+	<string name="TouRoleImitatorNeutralCounterpartsWikiDescription">Amnesiac ⇨ Medic | Doom ⇨ Vigi | Exe ⇨ Snitch\%nl\%Glitch ⇨ Sheriff | Fairy ⇨ Cleric | Inquis ⇨ Oracle\%nl\%Jester ⇨ Plumber | Merc ⇨ Warden\%nl\%Pb/Pest ⇨ Aurial | SC ⇨ Medium | WW ⇨ Hunter</string>
+	<string name="TouRoleImitatorImpostorCounterparts">Имитация предателей</string>
+	<string name="TouRoleImitatorImpostorCounterpartsWikiDescription">Bomber ⇨ Trapper | Hypnotist ⇨ Lookout | Janitor ⇨ Forensic\%nl\%Miner ⇨ Engineer | Scavenger ⇨ Sonar\%nl\%Undertaker ⇨ Altruist | Warlock ⇨ Veteran</string>
+	<!-- Imitator Options -->
+	<string name="TouOptionImitatorImitateNeutrals">Имитация нейтралов</string>
+	<string name="TouOptionImitatorImitateImpostors">Имитация предателей</string>
+	<string name="TouOptionImitatorImitateBasicCrewmate">Имитация членов экипажа</string>
+	<string name="TouOptionImitatorGuessAs">Имитатор должен быть угадан как</string>
+	<string name="TouOptionImitatorGuessEnumCached">Имитатор</string>
+	<string name="TouOptionImitatorGuessEnumActive">Имитируемая роль</string>
+	<string name="TouOptionImitatorGuessEnumActiveOrCached">Имитатор или имитируемая роль</string>
 </resources>
