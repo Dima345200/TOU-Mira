@@ -1047,4 +1047,24 @@
 	<string name="TouOptionPlumberMaxNumberOfBarricades">Начальное количество баррикад</string>
 	<string name="TouOptionPlumberAmountOfRoundsBarricadesLast">Количество раундов исчезновения баррикады</string>
 	<string name="TouOptionPlumberGetMoreFromTasks">Получить больше баррикад за задания</string>
+	<!-- Politician - Crewmate Power -->
+	<!-- Politician Wiki / Abilities -->
+	<string name="TouRolePolitician">Политик</string>
+	<string name="TouRolePoliticianIntroBlurb">Предвыборная кампания за то, чтобы стать мэром!</string>
+	<string name="TouRolePoliticianTabDescription">Устройте предвыборную кампанию чтобы стать мэром! Необходимо провести предвыборную кампанию\%nl\%с половиной мирных игроков</string>
+	<string name="TouRolePoliticianEgotistTabInfo">Злодеи узнают о вас, когда их раскроют.</string>
+	<string name="TouRolePoliticianWikiDescription">Политик - это член экипажа силы, который может стать мэром, если он провёл предвыборную кампанию по крайней мере с половиной членов экипажа.</string>
+	<string name="TouRolePoliticianCampaign">Предвыборная кампания</string>
+	<string name="TouRolePoliticianCampaignWikiDescription">Дайте игроку бюллетень для голосования, который будет полезен вам только в том случае, если он является членом экипажа.</string>
+	<string name="TouRolePoliticianReveal">Раскрыть</string>
+	<string name="TouRolePoliticianRevealWiki">Раскрыть (Собрание)</string>
+	<string name="TouRolePoliticianRevealWikiDescription">Если вы раскроетесь и за вас проголосует больше половины членов команды (или не останется других членов команды), вы станете мэром! В противном случае ваша способность будет утрачена.</string>
+	<string name="TouRolePoliticianRevealWikiDescriptionPunished">Если вы раскроетесь и за вас проголосует больше половины членов команды (или не останется других членов команды), вы станете мэром! В противном случае ваши способности ослабнут, и вы не сможете участвовать в следующем раунде.</string>
+	<!-- Politician Options -->
+	<string name="TouOptionPoliticianCampaignCooldown">Кулдаун предвыборной кампании</string>
+	<string name="TouOptionPoliticianPreventCampaignOnFailedReveal">Предотвращение проведения предвыборной кампании по неудачному выявлению</string>
+	<!-- Politician Feedback -->
+	<string name="TouRolePoliticianFailedRevealCanCampaign">Вам нужно больше членов команды! Возможно, вы больше не появитесь на этой встрече.</string>
+	<string name="TouRolePoliticianFailedRevealCannotCampaign">Вам нужно больше членов команды! Однако в следующем раунде вы можете не участвовать в предвыборной кампании.</string>
+	<string name="TouRolePoliticianFeedbackText">Feedback политика</string>
 </resources>
