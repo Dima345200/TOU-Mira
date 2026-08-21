@@ -915,4 +915,52 @@
 	<string name="TouOptionClericCleanseCooldown">Кулдаун очистки</string>
 	<string name="TouOptionClericProtectedSeesBarrier">Защищенный игрок видит барьер</string>
 	<string name="TouOptionClericAttackNotif">Клирик получает уведомление об атаке</string>
+	<!-- Deputy - Crewmate Killing -->
+	<!-- Deputy Wiki / Abilities -->
+	<string name="TouRoleDeputy">Помощник шерифа</string>
+	<string name="TouRoleDeputyIntroBlurb">Садите в лагер членов экипажа чтобы поймать убийцу</string>
+	<string name="TouRoleDeputyTabDescription">Садите в лагерь членов экипажа, затем застрели их убийцу на собрании!</string>
+	<string name="TouRoleDeputyWikiDescription">Помощник шерифа - это член экипажа убийца, который может сажать в лагерь других игроков. Как только игрок, у которого устроили привал, умирает, помощник шерифа получает предупреждение о его смерти. На следующей встрече помощник шерифа может попытаться застрелить его убийцу. В случае успеха убийца умирает, а в противном случае ничего не происходит.</string>
+	<string name="TouRoleDeputyCamp">Посадить в лагерь</string>
+	<string name="TouRoleDeputyCampWikiDescription">Посадить в лагерь игрока чтобы получить предупреждение о его смерти. После их смерти вы можете попытаться застрелить убийцу. Если ваш выстрел окажется удачным, убийца умрет, если нет, ничего не произойдет.</string>
+	<!-- Deputy Feedback -->
+	<string name="TouRoleDeputyRevealedText"> (Застреленный)</string>
+	<string name="TouRoleDeputyCampNotif">Дождитесь смерти \%player\% чтобы выстрелить в его убийцу.</string>
+	<string name="TouRoleDeputyCampedKillNotif">Ваша цель, \%player\%, умерла! Отомстите за него на голосовании.</string>
+	<string name="TouRoleDeputyKillerWarnNotif">Помощник шерифа посадил в лагерь вашу жертву, берегитесь! </string>
+	<string name="TouRoleDeputyMessageTitle">Feedback помощника шерифа</string>
+	<string name="TouRoleDeputyMissedShot">Вы промахнулись! Он либо не убийца, либо неуязвим.</string>
+	<!-- Deputy Options -->
+	<string name="TouOptionDeputyWarnKillerOnCampedKill">Предупреждение убийцы об убийстве цели в лагере</string>
+	<string name="TouOptionDeputyRevealDeputyUponShot">Расскрыть помощника шерифа после успешного выстрела</string>
+	<string name="TouOptionDeputyEnumNoReveal">Выключен</string>
+	<string name="TouOptionDeputyEnumAnnounceRole">Объявить роль</string>
+	<string name="TouOptionDeputyEnumRevealPlayer">Расскрыть помощника шерифа</string>
+	<!-- Forensic - Crewmate Investigative -->
+	<!-- Forensic Wiki / Abilities -->
+	<string name="TouRoleForensic">Криминалист</string>
+	<string name="TouRoleForensicIntroBlurb">Осмотривайте места преступлений, чтобы найти убийцу</string>
+	<string name="TouRoleForensicTabDescription">Осмотривайте места преступлений, изучайте игроков, чтобы\%nl\%узнать, были ли они на месте преступления.</string>
+	<string name="TouRoleForensicWikiDescription">Криминалист - это член экипажа расследования, который может осматривать места преступлений и допрашивать игроков, чтобы узнать, были ли они там, мигая красным, если они там были.</string>
+	<string name="TouRoleForensicInspect">Изучить</string>
+	<string name="TouRoleForensicInspectWikiDescription">Изучите место преступления, а затем опросите игроков, чтобы найти улики. Во время следующей встречи вы получите отчет, раскрывающий роль убийцы.</string>
+	<string name="TouRoleForensicExamine">Опросить</string>
+	<string name="TouRoleForensicExamineWikiDescription">Опрашивайте игроков после изучения места преступления. Вам сообщат, был ли игрок на месте преступления.</string>
+	<string name="TouRoleForensicInspectNotif">Вы изучили место преступления игрока \%player\%. Убийца или любой другой человек, появившийся на месте преступления, будет мигать красным при осмотре.</string>
+	<!-- Forensic Options -->
+	<string name="TouOptionForensicExamineCooldown">Кулдаун опроса</string>
+	<string name="TouOptionForensicReportOn">Показывать отчёты криминалиста</string>
+	<string name="TouOptionForensicRoleDuration">Время, когда криминалист будет иметь определённую роль</string>
+	<string name="TouOptionForensicFactionDuration">Время, когда у криминалистов будет команда</string>
+	<!-- Forensic Feedback -->
+	<string name="TouRoleForensicMessageTitle">Отчёт криминалиста</string>
+	<string name="TouRoleForensicBodyError">Сам труп не мог дать никакой информации.\%nl\%Умер \%time\%s назад.</string>
+	<string name="TouRoleForensicBodyOld">Труп слишком стар, чтобы из него можно было извлечь информацию.\%nl\%Умер \%time\%s назад.</string>
+	<string name="TouRoleForensicBodySuicide">Убийство, похоже, было совершено в результате самоубийства!\%nl\%Умер \%time\%s назад.</string>
+	<string name="TouRoleForensicBodyKillerRole">Убийца \%role\%!\%nl\%Убит \%time\%s назад.</string>
+	<string name="TouRoleForensicBodyKillerNeutral">Убийца нейтральный!\%nl\%Убит \%time\%s назад.</string>
+	<string name="TouRoleForensicBodyKillerCrewmate">Убийца член экипажа!\%nl\%Убит \%time\%s назад.</string>
+	<string name="TouRoleForensicBodyKillerImpostor">Убийца предатель!\%nl\%Убит \%time\%s назад.</string>
+	<string name="TouRoleForensicAtScene">\%player\% был на месте преступления игрока \%deadPlayer\%!\%nl\%Он может быть убийцой или свидетелем.</string>
+	<string name="TouRoleForensicNotAtScene">\%player\% не было на месте преступления.</string>
 </resources>
