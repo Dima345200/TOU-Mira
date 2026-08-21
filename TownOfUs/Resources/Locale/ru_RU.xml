@@ -1691,11 +1691,23 @@
 	<string name="TouRoleBarkeeperRoleblocking">Блокировка</string>
 	<string name="TouRoleBarkeeperRoleblockWikiDescription">Напоите других игроков чтобы заблокировать их на \%blockTime\%s.</string>
 	<string name="TouRoleBarkeeperRoleblockWikiDescriptionWithHangover">Напоите другого игрока чтобы заблокировать его на \%blockTime\%s. После блокировки игрок будет испытывать похмелье в течение \%overTime\%s.</string>
-	<string name="TouRoleBarkeeperSpill">Пролить</string>
-	<string name="TouRoleBarkeeperSpilling">Оседание</string>
-	<string name="TouRoleBarkeeperSpillWikiDescription">Пролейте напиток для ускорения игроков, если он был разлит недавно, или замедления игроков, если напиток достаточно старый. Это срабатывает только один раз для одного игрока.</string>
+	<string name="TouRoleBarkeeperSpill">Разлить</string>
+	<string name="TouRoleBarkeeperSpilling">Разливание</string>
+	<string name="TouRoleBarkeeperSpillWikiDescription">Разлейте напиток для ускорения игроков, если он был разлит недавно, или замедления игроков, если напиток достаточно старый. Это срабатывает только один раз для одного игрока.</string>
 	<string name="TouRoleBarkeeperSpillSpeedBuffNotif">Вы чувствуете, как что-то скользит под вами. Вы увеличили скорость!</string>
 	<string name="TouRoleBarkeeperSpillSpeedDebuffNotif">Вы чувствуете, что под вами давний разлив. Вы чувствуете себя медленнее.</string>
+	<!-- Barkeeper Options -->
+	<string name="TouOptionBarkeeperRoleblockCooldown">Кулдаун блокировки</string>
+	<string name="TouOptionBarkeeperRoleblockDelayMin">Минимальное время блокировки</string>
+	<string name="TouOptionBarkeeperRoleblockDelayMax">Максимальное время блокировки</string>
+	<string name="TouOptionBarkeeperRoleblockDelaySummarized">Время блокировки: \%min\%s - \%max\%s</string>
+	<string name="TouOptionBarkeeperSpillDelay">Время разливания</string>
+	<string name="TouOptionBarkeeperSpillEffectDuration">Количество времени, в течение которого игрок подвержен разливу</string>
+	<string name="TouOptionBarkeeperSpillBuffDuration">Время до замедления игроков разливом</string>
+	<string name="TouOptionBarkeeperSpillCleanUpDuration">Доп. время устранения разлива</string>
+	<string name="TouOptionBarkeeperSpillEffectBuffMultiplier">Множитель усиления скорости разлива</string>
+	<string name="TouOptionBarkeeperSpillEffectDebuffMultiplier">Множитель ослабления скорости разлива</string>
+	<string name="TouOptionBarkeeperSpillDurationOptionsSummarized">Продолжительность скорости разлива: \%duration\%s | Buff: \%fast\%x, Debuff: \%slow\%x</string>
 	<!-- Engineer - Crewmate Support -->
 	<!-- Engineer Wiki / Abilities -->
 	<string name="TouRoleEngineer">Инженер</string>
@@ -1705,6 +1717,14 @@
 	<string name="TouRoleEngineerFix">Починить</string>
 	<string name="TouRoleEngineerFixing">Починка</string>
 	<string name="TouRoleEngineerFixWikiDescription">Вы можете воспользоваться кнопкой "Починить", чтобы мгновенно устранить активный саботаж в любом месте. Вы можете чинить \%engiMaxFixes\% раз за игру.</string>
+	<!-- Engineer Options -->
+	<string name="TouOptionEngineerMaxVents">Использований вентиляции за игру</string>
+	<string name="TouOptionEngineerVentPerTasks">Заданий для дополнительной вентиляции</string>
+	<string name="TouOptionEngineerVentCooldown">Кулдаун вентиляции</string>
+	<string name="TouOptionEngineerVentDuration">Время в вентиляции</string>
+	<string name="TouOptionEngineerMaxFixes">Использований починки за игру</string>
+	<string name="TouOptionEngineerFixPerTasks">Заданий для дополнительной починки</string>
+	<string name="TouOptionEngineerFixDelay">Длительность починки</string>
 	<!-- Haunter - Crewmate Investigative -->
 	<!-- Haunter Wiki / Description -->
 	<string name="TouRoleHaunter">Призрак</string>
@@ -1712,4 +1732,18 @@
 	<!-- You cannot start the game as this role, so an intro blurb is unnecessary -->
 	<string name="TouRoleHaunterTabDescription">Выполняйте все свои задания, не попадаясь на глаза, чтобы выявить предателей!</string>
 	<string name="TouRoleHaunterWikiDescription">Призрак - это роль-призрак членов экипажа, который может выполнять задания. Он будет отображаться как призрачный игрок. Если он выполнит все свои задания, все живые члены экипажа увидять, кто является предателем. Однако, если предатель нажмёт на него, он станет обычным призраком. Предатели получают оповещение, если Призрак выполнить почти все задания.</string>
+	<!-- Haunter Options -->
+	<string name="TouOptionHaunterNumTasksLeftBeforeClickable">Заданий до нажимательности</string>
+	<string name="TouOptionHaunterNumTasksLeftBeforeAlerted">Заданий до оповещения</string>
+	<string name="TouOptionHaunterRevealNeutralRoles">Раскрытие нейтральных ролей</string>
+	<string name="TouOptionHaunterCanBeClickedBy">Возможность нажатия</string>
+	<string name="TouOptionHaunterClickEnumEveryone">Все</string>
+	<string name="TouOptionHaunterClickEnumNonCrew">Не экипаж</string>
+	<string name="TouOptionHaunterClickEnumImpsOnly">Только предатели</string>
+	<!-- Haunter Feedback -->
+	<string name="TouRoleHaunterClickableFeedback">Теперь игроки могут нажать на вас!</string>
+	<string name="TouRoleHaunterSelfAlertFeedback">Вы предупредили убийц!</string>
+	<string name="TouRoleHaunterImpAlertFeedback">Призрак на свободе, поймайте его прежде, чем он выдаст вас!</string>
+	<string name="TouRoleHaunterSelfRevealFeedback">Вы раскрыли убийц!</string>
+	<string name="TouRoleHaunterImpRevealFeedback">Призрак выполнил свою задачу!</string>
 </resources>
