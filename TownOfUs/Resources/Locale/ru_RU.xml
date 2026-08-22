@@ -265,13 +265,13 @@
   <string name="TeamWin">\%role\% Побеждают</string>
   <string name="LoversWin">Любовники побеждают</string>
   <string name="StatsKillCount">Убийства: \%count\%</string>
-  <string name="StatsBadKillCount">Промахи: \%count\%</string>
+  <string name="StatsBadKillCount">Осечки: \%count\%</string>
   <string name="StatsGoodGuessCount">Угадываний: \%count\%</string>
   <string name="StatsBadGuessCount">Неудачных Угадываний: \%count\%</string>
   <string name="RoundOfDeath">Раунд\%count\%</string>
   <string name="DiedToSubmergedOxygen">Задохнулся</string>
   <string name="DiedToSuicideAltruist">Жертва</string>
-  <string name="DiedToSuicideSheriff">Промахнулся</string>
+  <string name="DiedToSuicideSheriff">Осечка</string>
   <string name="DiedToViper">Растворён</string>
   <string name="FreeplayKillButton">Удалённое убийство</string>
   <string name="FreeplaySetRoleButton">Назначить Роль</string>
@@ -929,7 +929,7 @@
 	<string name="TouRoleDeputyCampedKillNotif">Ваша цель, \%player\%, умерла! Отомстите за него на голосовании.</string>
 	<string name="TouRoleDeputyKillerWarnNotif">Помощник шерифа посадил в лагерь вашу жертву, берегитесь! </string>
 	<string name="TouRoleDeputyMessageTitle">Feedback помощника шерифа</string>
-	<string name="TouRoleDeputyMissedShot">Вы промахнулись! Он либо не убийца, либо неуязвим.</string>
+	<string name="TouRoleDeputyMissedShot">Осечка! Он либо не убийца, либо неуязвим.</string>
 	<!-- Deputy Options -->
 	<string name="TouOptionDeputyWarnKillerOnCampedKill">Предупреждение убийцы об убийстве цели в лагере</string>
 	<string name="TouOptionDeputyRevealDeputyUponShot">Расскрыть помощника шерифа после успешного выстрела</string>
@@ -1159,4 +1159,70 @@
 	<string name="TouOptionSentryBlindspot8Room">Слепая зона 8 комнаты</string>
 	<string name="TouOptionSentryBlindspot9Room">Слепая зона 9 комнаты</string>
 	<string name="TouOptionSentryBlindspot10Room">Слепая зона 10 комнаты</string>
+	<!-- Officer - Crewmate Killing -->
+	<!-- Officer Wiki / Abilities -->
+	<string name="TouRoleOfficer">Офицер</string>
+	<string name="TouRoleOfficerIntroBlurb">Перезарядись и выстрели в \%color=#FF0000FF\%убийц\%/color\%</string>
+	<string name="TouRoleOfficerTabAdditionCount">Осталось патрон: \%count\%</string>
+	<string name="TouRoleOfficerTabAdditionNext">В следующем раунде вы можете выстрелить снова.</string>
+	<string name="TouRoleOfficerTabAdditionMajorityInno">Стреляйте только в предателей и нейтральных убийц.</string>
+	<string name="TouRoleOfficerTabAdditionCrewmatesInno">Стреляйте только в предателей и нейтральных.</string>
+	<string name="TouRoleOfficerTabAdditionKillBasedInno">Стреляй только в тех, кто уже убил.</string>
+	<string name="TouRoleOfficerTabDescription">Заряжайте патроны с умом, не тратьте их в пустую.\%nl\%Патроны, которые заряжены более 10 секунд назад, сбрасываются в следующем раунде.</string>
+	<string name="TouRoleOfficerWikiDescription">Офицер - это член экипажа убийца, который может убивать игроков с ограниченным боезапасом. Он должен заряжать патроны, которых хватает только на один раунд, если они не старше 10 секунд.</string>
+	<string name="TouRoleOfficerLoad">Зарядить</string>
+	<string name="TouRoleOfficerLoadWikiDescription">Зарядите пулю в свой пистолет, что позволит вам выстрелить.</string>
+	<string name="TouRoleOfficerShoot">Выстрел</string>
+	<string name="TouRoleOfficerShootWikiDescription">Стреляйте в игрока, чтобы убить его. Если игрок оказался "невиновным", вы временно лишитесь своего оружия.</string>
+	<!-- Officer Feedback -->
+	<string name="TouRoleOfficerBadKillFeedback">Вы застрелили невиновного игрока! Вы лишились своего оружия.</string>
+	<!-- Officer Options -->
+	<string name="TouOptionOfficerShootCooldown">Кулдаун выстрела</string>
+	<string name="TouOptionOfficerLoadCooldown">Кулдаун зарядки</string>
+	<string name="TouOptionOfficerCanSelfReport">Саморепорт</string>
+	<string name="TouOptionOfficerCanOnlyShootActiveKillers">Офицер может стрелять только в тех игроков, которые убили</string>
+	<string name="TouOptionOfficerCrewKillingAreInnocent">Члены экипажа убийцы невиновные</string>
+	<string name="TouOptionOfficerNonKillingNeutralsAreInnocent">Нейтральные не убийцы невиновные</string>
+	<string name="TouOptionOfficerFirstRound">Разрешено стрелять в первом раунде</string>
+	<string name="TouOptionOfficerMaxBulletsTotal">Максимум пуль в общем</string>
+	<string name="TouOptionOfficerMaxBulletsAtOnce">Максимум пуль за раз</string>
+	<string name="TouOptionOfficerCooldownSummary">Кулдаун выстрела: \%shoot\%s | Кулдаун зарядки: \%load\%s</string>
+	<string name="TouOptionOfficerBulletsSummary">Пулей за раз: \%once\% | Пуль в общем: \%total\%</string>
+	<string name="TouOptionOfficerRoundPunishment"># раундов до следующего выстрела после осечки</string>
+	<!-- Sheriff - Crewmate Killing -->
+	<!-- Sheriff Wiki / Abilities -->
+	<string name="TouRoleSheriff">Шериф</string>
+	<string name="TouRoleSheriffIntroBlurb">Стреляйте в \%color=#FF0000FF\%Злодеев\%/color\%</string>
+	<string name="TouRoleSheriffTabDescription">Убивайте предателей, не трогая членов экипажа</string>
+	<string name="TouRoleSheriffTabDescriptionEgo">Убивайте всех, кого считаете нужным, не трогая членов экипажа</string>
+	<string name="TouRoleSheriffWikiDescription">Шериф - это член экипажа убийца, который может стрелять в игроков. Если шериф не погибнет от осечки, он потеряет способность стрелять.</string>
+	<string name="TouRoleSheriffShoot">Выстрел</string>
+	<string name="TouRoleSheriffShootWikiDescription">Стреляйте в игрока, чтобы убить его, но вы умрёте или потеряете способность стрелять, если он не предатель или не принадлежит к другой выбранной команде, в которую можно стрелять.</string>
+	<!-- Sheriff Misfire Text -->
+	<string name="TouRoleSheriffTabMisfired">Вы больше не можете стрелять.</string>
+	<string name="TouRoleSheriffTabMisfireKillsBoth">Осечка убивает вас и вашу цель.</string>
+	<string name="TouRoleSheriffTabMisfireKillsSheriff">Осечка убивает вас.</string>
+	<string name="TouRoleSheriffTabMisfireKillsTarget">Осечка приведет к смерти вашей цели, или\%nl\%потере способности стрелять.</string>
+	<string name="TouRoleSheriffTabMisfireKillsNobody">Из-за осечки вы не сможете выстрелить снова.</string>
+	<!-- Sheriff Feedback -->
+	<string name="TouRoleSheriffMisfireFeedback">Вы потеряли способность стрелять!</string>
+	<!-- Sheriff Options -->
+	<string name="TouOptionSheriffKillCooldown">Кулдаун выстрела</string>
+	<string name="TouOptionSheriffCanSelfReport">Саморепорт</string>
+	<string name="TouOptionSheriffAllowShootinginFirstRound">Разрешено стрелять в первом раунде</string>
+	<string name="TouOptionSheriffCanShootNeutralBenignRoles">Разрешено стрелять в нейтральных мирных</string>
+	<string name="TouOptionSheriffCanShootNeutralEvilRoles">Разрешено стрелять в нейтральных злодеев</string>
+	<string name="TouOptionSheriffCanShootNeutralKillingRoles">Разрешено стрелять в нейтральных убийц</string>
+	<string name="TouOptionSheriffCanShootNeutralOutlierRoles">Разрешено стрелять в нейтральных останцев</string>
+	<string name="TouOptionSheriffValidNeutralShots">Разрешён выстрел в нейтральных</string>
+	<string name="TouOptionSheriffNeutShootBenign">Мирный</string>
+	<string name="TouOptionSheriffNeutShootEvil">Злодей</string>
+	<string name="TouOptionSheriffNeutShootKilling">Убийца</string>
+	<string name="TouOptionSheriffNeutShootOutlier">Останец</string>
+	<string name="TouOptionSheriffNeutShootNone">Никто</string>
+	<string name="TouOptionSheriffMisfireKills">Осечка</string>
+	<string name="TouOptionSheriffKillEnumSheriff">Сам</string>
+	<string name="TouOptionSheriffKillEnumTarget">Цель</string>
+	<string name="TouOptionSheriffKillEnumBoth">Сам + Цель</string>
+	<string name="TouOptionSheriffKillEnumNobody">Никто</string>
 </resources>
