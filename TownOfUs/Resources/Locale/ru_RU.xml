@@ -1273,147 +1273,147 @@
 	<string name="TouOptionSpyPortableAdminDisplayDuration">Время панели админа</string>
 	<!-- Swapper - Crewmate Power -->
 	<!-- Swapper Wiki / Abilities -->
-	<string name="TouRoleSwapper">Swapper</string>
-	<string name="TouRoleSwapperIntroBlurb">Swap votes to save the Crew!</string>
-	<string name="TouRoleSwapperTabDescription">Swap votes from one player to another during a meeting</string>
-	<string name="TouRoleSwapperWikiDescription">The Swapper is a Crewmate Power that can swap the votes of two players in a meeting. Their meeting vote areas will be swapped visually, and the votes will be swapped. If player 1 received the most votes, and you swap them with player 2, player 2 will now be ejected instead. </string>
-	<string name="TouRoleSwapperSwap">Swap</string>
-	<string name="TouRoleSwapperSwapWiki">Swap (Meeting)</string>
-	<string name="TouRoleSwapperSwapWikiDescription">Select two players to swap votes for, and at the end of the meeting, they will swap spots!</string>
+	<string name="TouRoleSwapper">Подменитель</string>
+	<string name="TouRoleSwapperIntroBlurb">Меняйте голоса, чтобы помочь членам экипажа!</string>
+	<string name="TouRoleSwapperTabDescription">Подменяйте голоса от одного игрока к другому во время собрания</string>
+	<string name="TouRoleSwapperWikiDescription">Подменитель - это член экипажа силы, который может поменять местами голоса двух игроков на собрании.</string>
+	<string name="TouRoleSwapperSwap">Подменить</string>
+	<string name="TouRoleSwapperSwapWiki">Подменить (Собрание)</string>
+	<string name="TouRoleSwapperSwapWikiDescription">Выберите двух игроков, и они поменяются голосами!</string>
 	<!-- Swapper Options -->
-	<string name="TouOptionSwapperCanCallButton">Can Call Button</string>
+	<string name="TouOptionSwapperCanCallButton">Может вызывать собрания</string>
 	<!-- Time Lord - Crewmate Power -->
 	<!-- Time Lord Wiki / Abilities -->
-	<string name="TouRoleTimeLord">Time Lord</string>
-	<string name="TouRoleTimeLordIntroBlurb">Rewind time</string>
-	<string name="TouRoleTimeLordTabDescription">Use Rewind to pull everyone back a few seconds.</string>
-	<string name="TouRoleTimeLordWikiDescription">The Time Lord is a Crewmate Power role that can rewind time, forcing every player to retrace their steps for a short duration.</string>
-	<string name="TouRoleTimeLordRewind">Rewind</string>
-	<string name="TouRoleTimeLordRewinding">Rewinding</string>
-	<string name="TouRoleTimeLordRewindWikiDescription">Rewind time for everyone. Players are forced back along their recent path for the duration. Any deaths that happened within that window are reversed.</string>
-	<string name="TouRoleTimeLordRewindNotif">Time is being rewound!</string>
-	<string name="TouRoleTimeLordRevivedNotif">You were revived thanks to the Time Lord!</string>
+	<string name="TouRoleTimeLord">Повелитель времени</string>
+	<string name="TouRoleTimeLordIntroBlurb">Матайте время назад</string>
+	<string name="TouRoleTimeLordTabDescription">Используйте перемотку времени, чтобы вернуть всех на несколько секунд назад.</string>
+	<string name="TouRoleTimeLordWikiDescription">Повелитель времени - это член экипажа силы, который может перематывать время назад, возвращая всех на несколько секунд назад.</string>
+	<string name="TouRoleTimeLordRewind">Перемотка</string>
+	<string name="TouRoleTimeLordRewinding">Перематывание</string>
+	<string name="TouRoleTimeLordRewindWikiDescription">Отмотайте время назад. Игроки будут возвращены на несколько секунд назад. Все смерти, произошедшие в течение этого периода, будут отменены.</string>
+	<string name="TouRoleTimeLordRewindNotif">Время перематывается назад!</string>
+	<string name="TouRoleTimeLordRevivedNotif">Ты был оживлён благодаря повелителю времени!</string>
 	<!-- Time Lord Options -->
-	<string name="TouOptionTimeLordRewindCooldown">Rewind Cooldown</string>
-	<string name="TouOptionTimeLordRewindHistory">Rewind History</string>
-	<string name="TouOptionTimeLordMaxUses">Initial Uses</string>
-	<string name="TouOptionTimeLordUsesPerTasks">Tasks Required For Additional Rewind Use</string>
-	<string name="TouOptionTimeLordCanUseVitals">Can Use Vitals</string>
-	<string name="TouOptionTimeLordReviveOnRewind">Revive On Rewind</string>
-	<string name="TouOptionTimeLordUndoTasksOnRewind">Undo Tasks On Rewind</string>
-	<string name="TouOptionTimeLordUncleanBodiesOnRewind">Unclean Bodies On Rewind</string>
-	<string name="TouOptionTimeLordNotifyOnRevive">Notify Time Lord On Revive</string>
+	<string name="TouOptionTimeLordRewindCooldown">Кулдаун перемотки</string>
+	<string name="TouOptionTimeLordRewindHistory">История перемотки</string>
+	<string name="TouOptionTimeLordMaxUses">Начальные использования</string>
+	<string name="TouOptionTimeLordUsesPerTasks">Задания для доп. использований</string>
+	<string name="TouOptionTimeLordCanUseVitals">Может использовать монитор жизн. показаний</string>
+	<string name="TouOptionTimeLordReviveOnRewind">Оживление при перемотке</string>
+	<string name="TouOptionTimeLordUndoTasksOnRewind">Отмена заданий при перемотке</string>
+	<string name="TouOptionTimeLordUncleanBodiesOnRewind">Не убирание тел при перемотке</string>
+	<string name="TouOptionTimeLordNotifyOnRevive">Уведомление повелителя времени об оживлении</string>
 	<!-- Sonar - Crewmate Investigative -->
 	<!-- Sonar Wiki / Abilities -->
-	<string name="TouRoleSonar">Sonar</string>
-	<string name="TouRoleSonarIntroBlurb">Sense everyone's movement</string>
-	<string name="TouRoleSonarTabDescription">Track suspicious players to see where they go</string>
-	<string name="TouRoleSonarWikiDescription">The Sonar is a Crewmate Investigative role that can track other players to see their general position across the map, getting colored arrows towards all tracked players.</string>
-	<string name="TouRoleSonarTrack">Track</string>
-	<string name="TouRoleSonarTrackWikiDescription">Track a player to see where they go. You will have an arrow pointing to their location that will update periodically. It will disappear if they die, or depending on settings, the trackers will be reset after a meeting.</string>
+	<string name="TouRoleSonar">Сонар</string>
+	<string name="TouRoleSonarIntroBlurb">Чувствуйте передвижение каждого</string>
+	<string name="TouRoleSonarTabDescription">Отслеживайте игроков, чтобы видеть, куда они направляются</string>
+	<string name="TouRoleSonarWikiDescription">Сонар - это член экипажа расследования, который может отслеживать других игроков, чтобы видеть их местоположение цветной стрелкой.</string>
+	<string name="TouRoleSonarTrack">Слежка</string>
+	<string name="TouRoleSonarTrackWikiDescription">Отслеживайте игрока, чтобы видеть, куда он направляется. У вас будет стрелка, указывающая на его местоположение. Она исчезнет, если игрок умрет, или, в зависимости от настроек, слежка будет сброшена после собрания.</string>
 	<!-- Sonar Options -->
-	<string name="TouOptionSonarTrackCooldown">Track Cooldown</string>
-	<string name="TouOptionSonarMaxNumberOfTracks">Initial Number Of Tracks</string>
-	<string name="TouOptionSonarArrowUpdateInterval">Arrow Update Interval</string>
-	<string name="TouOptionSonarArrowsMakeSoundOnDeath">Trackers Make Sound On Death</string>
-	<string name="TouOptionSonarArrowsResetAfterEachRound">Trackers Reset After Each Round</string>
-	<string name="TouOptionSonarTaskUses">Get More Uses From Completing Tasks</string>
+	<string name="TouOptionSonarTrackCooldown">Кулдаун слежки</string>
+	<string name="TouOptionSonarMaxNumberOfTracks">Начальное количество слежек</string>
+	<string name="TouOptionSonarArrowUpdateInterval">Интервал обновления стрелки</string>
+	<string name="TouOptionSonarArrowsMakeSoundOnDeath">Игроки со слежкой издают звук при смерти</string>
+	<string name="TouOptionSonarArrowsResetAfterEachRound">Слежка сбрасывается после собрания</string>
+	<string name="TouOptionSonarTaskUses">Задания для доп. использований</string>
 	<!-- Transporter - Crewmate Support -->
 	<!-- Transporter Wiki / Abilities -->
-	<string name="TouRoleTransporter">Transporter</string>
-	<string name="TouRoleTransporterIntroBlurb">Choose Two Players To Swap Locations</string>
-	<string name="TouRoleTransporterTabDescription">Choose two players to swap locations with one another</string>
-	<string name="TouRoleTransporterWikiDescription">The Transporter is a Crewmate Support role that can transport two players, dead or alive, to swap their locations.</string>
-	<string name="TouRoleTransporterTransport">Transport</string>
-	<string name="TouRoleTransporterTransportWikiDescription">Switch the positions of two players. Players can be transported out of vents. A red flash means one of the players became an invalid target, such as going on a ladder or zipline</string>
-	<string name="TouRoleTransporterTransportNotif">You have been transported!</string>
+	<string name="TouRoleTransporter">Перевозчик</string>
+	<string name="TouRoleTransporterIntroBlurb">Выберите двух игроков, чтобы они поменялись местами</string>
+	<string name="TouRoleTransporterTabDescription">Выберите двух игроков, чтобы они поменялись местами друг с другом</string>
+	<string name="TouRoleTransporterWikiDescription">Транспортёт - это член экипажа помощи, который может менять местами двух игроков, живых или мёртвых.</string>
+	<string name="TouRoleTransporterTransport">Перенос</string>
+	<string name="TouRoleTransporterTransportWikiDescription">Поменяйте местами двух игроков. Красная вспышка означает, что один из игроков не может быть целью, например, поднимается по лестнице или зиплайну.</string>
+	<string name="TouRoleTransporterTransportNotif">Вы перемещены!</string>
 	<!-- Transporter Options -->
-	<string name="TouOptionTransporterTransportCooldown">Transport Cooldown</string>
-	<string name="TouOptionTransporterMaxUses">Initial Uses</string>
-	<string name="TouOptionTransporterMoveWithMenu">Move While Using Transport Menu (KB ONLY)</string>
-	<string name="TouOptionTransporterCanUseVitals">Can Use Vitals</string>
-	<string name="TouOptionTransporterGetUsesFromTasks">Get More Uses From Completing Tasks</string>
+	<string name="TouOptionTransporterTransportCooldown">Кулдаун переноса</string>
+	<string name="TouOptionTransporterMaxUses">Начальное количество переносов</string>
+	<string name="TouOptionTransporterMoveWithMenu">Движение в меню переноса (KB ONLY)</string>
+	<string name="TouOptionTransporterCanUseVitals">Может использовать монитор жизн. показаний</string>
+	<string name="TouOptionTransporterGetUsesFromTasks">Заданий для доп. использований</string>
 	<!-- Transporter Feedback -->
-	<string name="TouRoleTransporterYouWereTransported">You were transported!</string>
+	<string name="TouRoleTransporterYouWereTransported">Вы перемещены!</string>
 	<!-- Trapper - Crewmate Investigative -->
 	<!-- Trapper Wiki / Abilities -->
-	<string name="TouRoleTrapper">Trapper</string>
-	<string name="TouRoleTrapperIntroBlurb">Identify what roles are in play</string>
-	<string name="TouRoleTrapperTabDescription">Place traps around the map, revealing roles within them</string>
-	<string name="TouRoleTrapperWikiDescription">The Trapper is a Crewmate Investigative role that can place traps around the map. If someone stays in it for enough time and enough players go through, they will get a list of their roles in the next meeting in random order.</string>
-	<string name="TouRoleTrapperTrap">Trap</string>
-	<string name="TouRoleTrapperTrapWikiDescription">Places a trap. Depending on settings they may stay the entire game or reset after meetings.</string>
+	<string name="TouRoleTrapper">Траппер</string>
+	<string name="TouRoleTrapperIntroBlurb">Определите какие роли в игре</string>
+	<string name="TouRoleTrapperTabDescription">Расставляйте ловушки по карте, чтобы раскрывать роли других</string>
+	<string name="TouRoleTrapperWikiDescription">Траппер - это член экипажа расследования, который может расставлять ловушки по карте. Если кто-то простоит на ней определённое время и достаточно игроков пройдут её, он получит список их ролей на следующем собрании в случайном порядке.</string>
+	<string name="TouRoleTrapperTrap">Ловушки</string>
+	<string name="TouRoleTrapperTrapWikiDescription">Поставить ловушку. В зависимости от настроек они не исчезают или пропадают после собраний.</string>
 	<!-- Trapper Options -->
-	<string name="TouOptionTrapperTrapCooldown">Trap Cooldown</string>
-	<string name="TouOptionTrapperMinAmountOfTimeInTrap">Min Amount Of Time In Trap To Register</string>
-	<string name="TouOptionTrapperMaxNumberOfTraps">Initial Number Of Traps</string>
-	<string name="TouOptionTrapperTrapSize">Trap Size</string>
-	<string name="TouOptionTrapperTrapsRemovedAfterRound">Traps Reset After Each Round</string>
-	<string name="TouOptionTrapperGetUsesFromTasks">Get More Uses From Completing Tasks</string>
-	<string name="TouOptionTrapperMinimumNumberOfRoles">Minimum Number Of Roles Required To Trigger Trap</string>
+	<string name="TouOptionTrapperTrapCooldown">Кулдаун ловушки</string>
+	<string name="TouOptionTrapperMinAmountOfTimeInTrap">Минимальное количество времени для активации ловушки</string>
+	<string name="TouOptionTrapperMaxNumberOfTraps">Начальное количество ловушек</string>
+	<string name="TouOptionTrapperTrapSize">Размер ловушки</string>
+	<string name="TouOptionTrapperTrapsRemovedAfterRound">Ловушки пропадают после собрания</string>
+	<string name="TouOptionTrapperGetUsesFromTasks">Задания для доп. использований</string>
+	<string name="TouOptionTrapperMinimumNumberOfRoles">Минимальное количество ролей для активации ловушки</string>
 	<!-- Trapper Feedback -->
 	<string name="TouRoleTrapperMessageTitle">Trapper Report</string>
-	<string name="TouRoleTrapperNoPlayers">No players entered any of your traps</string>
-	<string name="TouRoleTrapperNotEnoughPLayers">Not enough players triggered your traps</string>
-	<string name="TouRoleTrapperRolesCaught">Roles caught in your trap:</string>
+	<string name="TouRoleTrapperNoPlayers">Никто из игроков не наступил на ловушки</string>
+	<string name="TouRoleTrapperNotEnoughPLayers">Недостаточно игроков активировали ваши ловушки</string>
+	<string name="TouRoleTrapperRolesCaught">Роли, попавшие на вашу ловушку:</string>
 	<!-- Veteran - Crewmate Killing -->
 	<!-- Veteran Wiki / Abilities -->
-	<string name="TouRoleVeteran">Veteran</string>
-	<string name="TouRoleVeteranIntroBlurb">Alert to attack upon interactions</string>
-	<string name="TouRoleVeteranTabDescription">Alert to attack whoever interacts with you.</string>
-	<string name="TouRoleVeteranWikiDescription">The Veteran is a Crewmate Killing role that can go on alert and kill anyone who interacts with them.</string>
-	<string name="TouRoleVeteranAlert">Alert</string>
-	<string name="TouRoleVeteranAlerting">Alerting</string>
-	<string name="TouRoleVeteranAlertWikiDescription">When the Veteran is on alert, any player who interacts with them will be instantly killed, except Pestilence and shielded players, who will ignore the attack.</string>
-	<string name="TouRoleVeteranMessageTitle">Veteran Warning</string>
-	<string name="TouRoleVeteranAttackMessage">You were attacked prior to this meeting while on alert!</string>
+	<string name="TouRoleVeteran">Ветеран</string>
+	<string name="TouRoleVeteranIntroBlurb">Предупреждайте о нападении при взаимодействии</string>
+	<string name="TouRoleVeteranTabDescription">Будьте готовы атаковать любого, кто взаимодействует с вами.</string>
+	<string name="TouRoleVeteranWikiDescription">Ветеран - это член экипажа убийца, который может поднять тревогу и убить любого, ко взаимодействует с ним.</string>
+	<string name="TouRoleVeteranAlert">Тревога</string>
+	<string name="TouRoleVeteranAlerting">Тревога</string>
+	<string name="TouRoleVeteranAlertWikiDescription">Когда ветеран поднимает тревогу, любой игрок, который взаимодействует с ним, будет убит, кроме мора и защищённых игроков.</string>
+	<string name="TouRoleVeteranMessageTitle">Предупреждение ветерана</string>
+	<string name="TouRoleVeteranAttackMessage">На вас напали перед этим собранием, пока была активна тревога!</string>
 	<!-- Veteran Options -->
-	<string name="TouOptionVeteranAlertCooldown">Alert Cooldown</string>
-	<string name="TouOptionVeteranAlertDuration">Alert Duration</string>
-	<string name="TouOptionVeteranMaxNumberofAlerts">Initial Number of Alerts</string>
-	<string name="TouOptionVeteranCanBeKilledOnAlert">Can Be Killed On Alert</string>
-	<string name="TouOptionVeteranGetMoreUsesFromCompletingTasks">Get More Uses From Completing Tasks</string>
-	<string name="TouOptionVeteranKnowWhenAttackedInMeeting">Knows When Attacked In Meeting</string>
+	<string name="TouOptionVeteranAlertCooldown">Кулдаун тревоги</string>
+	<string name="TouOptionVeteranAlertDuration">Время тревоги</string>
+	<string name="TouOptionVeteranMaxNumberofAlerts">Начальное количество тревог</string>
+	<string name="TouOptionVeteranCanBeKilledOnAlert">Может быть убит во время тревоги</string>
+	<string name="TouOptionVeteranGetMoreUsesFromCompletingTasks">Задания для доп. тревог</string>
+	<string name="TouOptionVeteranKnowWhenAttackedInMeeting">Знает, когда на него нападают на собрании</string>
 
 	<!-- Vigilante - Crewmate Killing -->
 	<!-- Vigilante Wiki / Description -->
-	<string name="TouRoleVigilante">Vigilante</string>
-	<string name="TouRoleVigilanteIntroBlurb">Kill \%color=#FF0000FF\%Evildoers\%/color\% by guessing them!</string>
-	<string name="TouRoleVigilanteTabDescription">Guess the roles of impostors mid-meeting to kill them!</string>
-	<string name="TouRoleVigilanteEvilTabInfo">You can also guess Crewmates.</string>
-	<string name="TouRoleVigilanteNoSafeShots">You have no more safe shots left.</string>
-	<string name="TouRoleVigilanteSafeShotsLeft">\%count\% safe shot(s) left.</string>
-	<string name="TouRoleVigilanteMultiShotFeedback">Your Multi-Shot has prevented you from dying this meeting! You have \%count\% safe shot(s) left!</string>
-	<string name="TouRoleVigilanteWikiDescription">The Vigilante is a Crewmate Killing role that can guess roles of players in meetings. If they guess correctly, the other player will die. If not, they will die. </string>
+	<string name="TouRoleVigilante">Линчеватель</string>
+	<string name="TouRoleVigilanteIntroBlurb">Убей \%color=#FF0000FF\%злодеев\%/color\% угадывая их!</string>
+	<string name="TouRoleVigilanteTabDescription">Угадывайте роли предателей на собраниях, чтобы убить их!</string>
+	<string name="TouRoleVigilanteEvilTabInfo">Вы также можете угадывать роли членов экипажа.</string>
+	<string name="TouRoleVigilanteNoSafeShots">У вас больше не осталось безопасных выстрелов.</string>
+	<string name="TouRoleVigilanteSafeShotsLeft">\%count\% безопасных выстрелов осталось.</string>
+	<string name="TouRoleVigilanteMultiShotFeedback">Ваш многократный выстрел помешал вам умереть на этой встрече! У вас осталось \%count\% безопасных выстрелов!</string>
+	<string name="TouRoleVigilanteWikiDescription">Линчеватель - это член экипажа убийца, который может угадывать роли игроков на собрании. Если он угадает правильно, то игрок умирает. Если нет, умрёт он сам.</string>
 	<!-- Vigilante Options -->
-	<string name="TouOptionVigilanteNumberOfGuesses">Number Of Guesses</string>
-	<string name="TouOptionVigilanteCanGuessMoreThanOncePerMeeting">Can Guess More Than Once Per Meeting</string>
-	<string name="TouOptionVigilanteCanGuessNeutralBenignRoles">Can Guess Neutral Benign Roles</string>
-	<string name="TouOptionVigilanteCanGuessNeutralEvilRoles">Can Guess Neutral Evil Roles</string>
-	<string name="TouOptionVigilanteCanGuessNeutralKillingRoles">Can Guess Neutral Killing Roles</string>
-	<string name="TouOptionVigilanteCanGuessNeutralOutlierRoles">Can Guess Neutral Outlier Roles</string>
-	<string name="TouOptionVigilanteGuessableNeutrals">Guessable Neutrals</string>
-	<string name="TouOptionVigilanteGuessableBenign">Benign</string>
-	<string name="TouOptionVigilanteGuessableEvil">Evils</string>
-	<string name="TouOptionVigilanteGuessableKilling">Killing</string>
-	<string name="TouOptionVigilanteGuessableOutlier">Outliers</string>
-	<string name="TouOptionVigilanteGuessableNone">None</string>
-	<string name="TouOptionVigilanteCanGuessKillerModifiers">Can Guess Killer Modifiers</string>
-	<string name="TouOptionVigilanteCanGuessAlliances">Can Guess Alliance Modifiers</string>
-	<string name="TouOptionVigilanteSafeShotsAvailable">Safe Shots Available</string>
+	<string name="TouOptionVigilanteNumberOfGuesses">Количество угадываний</string>
+	<string name="TouOptionVigilanteCanGuessMoreThanOncePerMeeting">Может угадывать более одного раза за собрание</string>
+	<string name="TouOptionVigilanteCanGuessNeutralBenignRoles">Может угадывать нейтральных мирных</string>
+	<string name="TouOptionVigilanteCanGuessNeutralEvilRoles">Может угадывать нейтральных злодеев</string>
+	<string name="TouOptionVigilanteCanGuessNeutralKillingRoles">Может угадывать нейтральных убийц</string>
+	<string name="TouOptionVigilanteCanGuessNeutralOutlierRoles">Может угадывать нейтральных останцев</string>
+	<string name="TouOptionVigilanteGuessableNeutrals">Может угадывать нейтральных</string>
+	<string name="TouOptionVigilanteGuessableBenign">Мирных</string>
+	<string name="TouOptionVigilanteGuessableEvil">Злодеев</string>
+	<string name="TouOptionVigilanteGuessableKilling">Убийц</string>
+	<string name="TouOptionVigilanteGuessableOutlier">Останцев</string>
+	<string name="TouOptionVigilanteGuessableNone">Никого</string>
+	<string name="TouOptionVigilanteCanGuessKillerModifiers">Может угадывать модификаторов убийц</string>
+	<string name="TouOptionVigilanteCanGuessAlliances">Может угадывать модификаторов союзов</string>
+	<string name="TouOptionVigilanteSafeShotsAvailable">Доступны безопасные выстрелы</string>
 	<!-- Warden - Crewmate Protective -->
 	<!-- Warden Wiki / Abilities -->
-	<string name="TouRoleWarden">Warden</string>
-	<string name="TouRoleWardenIntroBlurb">Fortify Crewmates</string>
-	<string name="TouRoleWardenTabDescription">Fortify crewmates to prevent interactions with them</string>
-	<string name="TouRoleWardenTabProtecting">Fortifying: \%player\%</string>
-	<string name="TouRoleWardenWikiDescription">The Warden is a Crewmate Protective role that can fortify players to prevent them from being interacted with. </string>
-	<string name="TouRoleWardenFortify">Fortify</string>
-	<string name="TouRoleWardenFortifyWikiDescription">Fortify a player to prevent them from being interacted with. If anyone tries to interact with a fortified player, the ability will not work and both the Warden and fortified player will be alerted with a purple flash.</string>
+	<string name="TouRoleWarden">Хранитель</string>
+	<string name="TouRoleWardenIntroBlurb">Укрепляйте членов экипажа</string>
+	<string name="TouRoleWardenTabDescription">Укрепите членов экипажа, чтобы предотвратить взаимодействие с ними</string>
+	<string name="TouRoleWardenTabProtecting">Укреплён: \%player\%</string>
+	<string name="TouRoleWardenWikiDescription">Хранитель - это член экипажа защиты, который может укрепить игроков, мешая тем самым взаимодействовать с ними.</string>
+	<string name="TouRoleWardenFortify">Укрепить</string>
+	<string name="TouRoleWardenFortifyWikiDescription">Укрепите игрока, чтобы с ним никто не взаимодействовал. Если кто-либо попытается взаимодействовать с укрепленным игроком, способность не сработает, и как хранитель, так и укрепленный игрок будут предупреждены фиолетовой вспышкой.</string>
 	<!-- Warden Options -->
-	<string name="TouOptionWardenShowFortifyPlayer">Show Fortified Player</string>
-	<string name="TouOptionWardenFortEnumSelf">Fortified</string>
-	<string name="TouOptionWardenFortEnumWarden">Warden</string>
-	<string name="TouOptionWardenFortEnumSelfAndWarden">Fortified + Warden</string>
-	<string name="TouOptionWardenFortEnumEveryone">Everyone</string>
+	<string name="TouOptionWardenShowFortifyPlayer">Показывать укреплённого игрока</string>
+	<string name="TouOptionWardenFortEnumSelf">Укреплённый</string>
+	<string name="TouOptionWardenFortEnumWarden">Хранитель</string>
+	<string name="TouOptionWardenFortEnumSelfAndWarden">Укреплённый + Хранитель</string>
+	<string name="TouOptionWardenFortEnumEveryone">Все</string>
 </resources>
