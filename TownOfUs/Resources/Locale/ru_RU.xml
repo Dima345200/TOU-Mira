@@ -1464,7 +1464,7 @@
 	<string name="TouRoleAmbusherAmbush">Засада</string>
 	<string name="TouRoleAmbusherAmbushWikiDescription">Устройте засаду на преследуемого игрока, чтобы убить его.</string>
 	<!-- Ambusher Options -->
-	<string name="TouOptionAmbusherAmbushUsesPerGame">Максимальное количество засад</string>
+	<string name="TouOptionAmbusherAmbushUsesPerGame">Количество засад</string>
 	<string name="TouOptionAmbusherAmbushCooldown">Кулдаун засад</string>
 	<string name="TouOptionAmbusherPursueArrowUpdateInterval">Интервал обновления стрелки</string>
 	<string name="TouOptionAmbusherStopPursuingPlayerOnAmbush">Остановить преследование игрока в засаде</string>
@@ -1477,7 +1477,7 @@
 	<string name="TouRoleBlackmailerBlackmail">Шантаж</string>
 	<string name="TouRoleBlackmailerBlackmailWikiDescription">Заглушите игрока на следующем собрании. Он не сможет говорить. Он также не сможет голосовать, пока в живых не останется меньше или равное количество людей, чем разрешено настройками шантажиста. Шантаж будет виден другим игрокам, только если эта настройка включена</string>
 	<!-- Blackmailer Options -->
-	<string name="TouOptionBlackmailerNumberOfBlackmailUsesPerGame">Максимальное количество шантажей</string>
+	<string name="TouOptionBlackmailerNumberOfBlackmailUsesPerGame">Количество шантажей</string>
 	<string name="TouOptionBlackmailerBlackmailCooldown">Кулдаун шантажа</string>
 	<string name="TouOptionBlackmailerMaxPlayersAliveUntilVoting">Максимум игроков для голосования</string>
 	<string name="TouOptionBlackmailerBlackmailSamePersonTwiceInARow">Шантаж одному игроку два раза подряд</string>
@@ -1509,7 +1509,7 @@
 	<string name="TouRoleBomberDetonating">Детонация</string>
 	<string name="TouRoleBomberPlaceWikiDescription">Установите бомбу, посмотрев радиус, в котором она будет убивать, убивая до \%maxKills\% игроков</string>
 	<!-- Bomber Options -->
-	<string name="TouOptionBomberBombUsesPerGame">Максимальное количество бомб</string>
+	<string name="TouOptionBomberBombUsesPerGame">Количество бомб</string>
 	<string name="TouOptionBomberDetonateDelay">Время детонации</string>
 	<string name="TouOptionBomberDetonateRadius">Радус детонации</string>
 	<string name="TouOptionBomberMAxKillsInDetonation">Максимум убийств при детонации</string>
@@ -1538,7 +1538,7 @@
 	<string name="TouRoleEscapistRecall">Вернуться</string>
 	<string name="TouRoleEscapistRecallWikiDescription">Вернуться на отмеченное место.</string>
 	<!-- Escapist Options -->
-	<string name="TouOptionEscapistRecallUsesPerGame">Максимальное использования возвращения</string>
+	<string name="TouOptionEscapistRecallUsesPerGame">Количество возвращений</string>
 	<string name="TouOptionEscapistRecallCooldown">Кулдаун возвращения</string>
 	<string name="TouOptionEscapistEscapistCanVent">Беглец может использовать вентиляции</string>
 	<!-- Grenadier Wiki / Abilities -->
@@ -1550,7 +1550,7 @@
 	<string name="TouRoleGrenadierFlashWikiDescription">Бросьте гранату, от которой ослепятся все игроки в радиусе её действия.</string>
 	<string name="TouRoleGrenadierFlashNotif">Все игроки вокруг вас были поражены светошумовой гранатой!</string>
 	<!-- Grenadier Options -->
-	<string name="TouOptionGrenadierFlashUsesPerGame">Максимальное использование светошумовой</string>
+	<string name="TouOptionGrenadierFlashUsesPerGame">Количество светошумовых</string>
 	<string name="TouOptionGrenadierFlashGrenadeCooldown">Кулдаун светошумовой</string>
 	<string name="TouOptionGrenadierFlashGrenadeDuration">Время светошумовой</string>
 	<string name="TouOptionGrenadierFlashRadius">Радиус светошумовой</string>
@@ -1591,7 +1591,7 @@
 	<string name="TouRoleJanitorCleaning">Уборка</string>
 	<string name="TouRoleJanitorCleanWikiDescription">Убирите труп, заставив его исчезнуть и сделав недоступным для анализа.</string>
 	<!-- Janitor Options -->
-	<string name="TouOptionJanitorCleanUsesPerGame">Максимальное количество уборок</string>
+	<string name="TouOptionJanitorCleanUsesPerGame">Количество уборок</string>
 	<string name="TouOptionJanitorCleanCooldown">Кулдаун уборки</string>
 	<string name="TouOptionJanitorCleanDelay">Время уборки</string>
 	<string name="TouOptionJanitorResetKillAndCleanCooldownsTogether">Сбрасывайте убийства \%и\% чистите кулдаун вместе</string>
@@ -1604,7 +1604,7 @@
 	<string name="TouRoleMinerMine">Копать</string>
 	<string name="TouRoleMinerMineWikiDescription">Разместите вентиляцию под собой. Эти вентиляции будут соедены друг с другом.</string>
 	<!-- Miner Options -->
-	<string name="TouOptionMinerNumberOfVentsPerGame">Максимальное количество копания</string>
+	<string name="TouOptionMinerNumberOfVentsPerGame">Количество копания</string>
 	<string name="TouOptionMinerMineCooldown">Кулдаун копания</string>
 	<string name="TouOptionMinerMineVisibility">Видимость копания</string>
 	<string name="TouOptionMinerMineDelay">Время копания</string>
@@ -1624,8 +1624,8 @@
 	<string name="TouRoleMorphlingMorphWikiDescription">Превратитесь в игрока, образец которого у вас есть.</string>
 	<string name="TouRoleMorphlingSampleNotif">Вы получили образец \%player\%. Этот образец пропадёт в следующем раунде.</string>
 	<!-- Morphling Options -->
-	<string name="TouOptionMorphlingSamplesPerGame">Максимальное количество образцов</string>
-	<string name="TouOptionMorphlingMorphUsesPerRound">Максимальное количество превращений</string>
+	<string name="TouOptionMorphlingSamplesPerGame">Количество образцов</string>
+	<string name="TouOptionMorphlingMorphUsesPerRound">Количество превращений</string>
 	<string name="TouOptionMorphlingMorphCooldown">Кулдаун превращения</string>
 	<string name="TouOptionMorphlingMorphDuration">Время превращения</string>
 	<string name="TouOptionMorphlingCanVent">Морф может использовать вентиляции</string>
@@ -1662,122 +1662,122 @@
 	<string name="TouOptionScavengerScavengeKillCooldownOnCorrectKill">Кулдаун при правильном убийстве</string>
 	<string name="TouOptionScavengerKillCooldownMultiplierOnIncorrectKill">Множитель кулдауна при неправильном убийстве</string>
 	<!-- Puppeteer Wiki / Abilities -->
-	<string name="TouRolePuppeteer">Puppeteer</string>
-	<string name="TouRolePuppeteerIntroBlurb">Control the hands of others</string>
-	<string name="TouRolePuppeteerTabDescription">Control crewmates to do your bidding!</string>
-	<string name="TouRolePuppeteerWikiDescription">The Puppeteer is an Impostor Power role that controls other players to kill for them. When a player is controlled, they must watch as they are forced to kill their fellow crewmates.</string>
-	<string name="TouRolePuppeteerControl">Control</string>
-	<string name="TouRolePuppeteerKill">Control Kill</string>
-	<string name="TouRolePuppeteerControlWikiDescription">Use your menu to control whoever you wish. In this state, the controlled player will kill as if they were an impostor, and not as whatever role they actually are.</string>
-	<string name="TouRolePuppeteerControlNotifSelf">You are controlling \%player\%!</string>
-	<string name="TouRolePuppeteerControlNotifBasic">You are under the control of a \%role\%!</string>
-	<string name="TouRolePuppeteerControlNotif1">You've lost sensation of yourself. You're under the control of a \%role\%!</string>
-	<string name="TouRolePuppeteerControlNotif2">You feel a mystical power overtaking you. You're under the control of a \%role\%!</string>
-	<string name="TouRolePuppeteerControlNotif3">You seem to feel your skin crawl. You're under the control of a \%role\%!</string>
-	<string name="TouRolePuppeteerControlFinishNotif">You're free from the \%role\%'s control!</string>
+	<string name="TouRolePuppeteer">Кукловод</string>
+	<string name="TouRolePuppeteerIntroBlurb">Контролируйте других игроков</string>
+	<string name="TouRolePuppeteerTabDescription">Управляйте членами экипажа, чтобы они выполняли ваши приказы!</string>
+	<string name="TouRolePuppeteerWikiDescription">Кукловод - это предатель силы, который управляет другими игроками, чтобы убивать за них. Когда игрок находится под контролем он видит, как его заставляют убивать.</string>
+	<string name="TouRolePuppeteerControl">Контроль</string>
+	<string name="TouRolePuppeteerKill">Убить за жертву</string>
+	<string name="TouRolePuppeteerControlWikiDescription">Используйте свое меню, чтобы управлять тем, кем пожелаете. В этом состоянии управляемый игрок будет убивать, как если бы он был предателем, а не как тот, кем он является на самом деле.</string>
+	<string name="TouRolePuppeteerControlNotifSelf">Вы контролируете \%player\%!</string>
+	<string name="TouRolePuppeteerControlNotifBasic">Вы под контролем \%role\%!</string>
+	<string name="TouRolePuppeteerControlNotif1">Вы потеряли самообладание. Вы под контролем \%role\%!</string>
+	<string name="TouRolePuppeteerControlNotif2">Вы чувствуете, как вас охватывает мистическая сила. Вы под контролем \%role\%!</string>
+	<string name="TouRolePuppeteerControlNotif3">Кажется, вы чувствуете, как у вас мурашки бегут по коже. Вы под контролем \%role\%!</string>
+	<string name="TouRolePuppeteerControlFinishNotif">Вы освободились от контроля \%role\%!</string>
 	<!-- Puppeteer Options -->
-	<string name="TouOptionPuppeteerControlUses">Initial Control Uses</string>
-	<string name="TouOptionPuppeteerControlPerKill">Kills Required For Additional Control Use</string>
-	<string name="TouOptionPuppeteerVictimSeesControlDirection">Puppeteer Location Hint Duration (For Victim)</string>
-	<string name="TouOptionPuppeteerControlCooldown">Control Cooldown</string>
-	<string name="TouOptionPuppeteerControlDuration">Control Duration</string>
-	<string name="TouOptionPuppeteerCanVent">Puppeteer Can Vent</string>
+	<string name="TouOptionPuppeteerControlUses">Количество контролей</string>
+	<string name="TouOptionPuppeteerControlPerKill">Убийства для доп. контролей</string>
+	<string name="TouOptionPuppeteerVictimSeesControlDirection">Длительность показа местонахождения кукловода (для жертвы)</string>
+	<string name="TouOptionPuppeteerControlCooldown">Кулдаун контроля</string>
+	<string name="TouOptionPuppeteerControlDuration">Время контроля</string>
+	<string name="TouOptionPuppeteerCanVent">Кукловод может использовать вентиляции</string>
 	<!-- Spellslinger Wiki / Abilities -->
-	<string name="TouRoleSpellslinger">Spellslinger</string>
-	<string name="TouRoleSpellslingerIntroBlurb">Hex the crew to trigger a Hex Bomb</string>
-	<string name="TouRoleSpellslingerTabDescription">Hex all non-Impostors to set off a Hex Bomb</string>
-	<string name="TouRoleSpellslingerTabHexCounter">Players Left To Hex: \%count\%</string>
-	<string name="TouRoleSpellslingerTabHexFinished">All players are Hexed.</string>
-	<string name="TouRoleSpellslingerTabHexedInfo">Players Hexed:</string>
-	<string name="TouRoleSpellslingerWikiDescription">The Spellslinger is an Impostor Power role that can hex a player, priming them for detonation. Once all non-Impostors are hexed, they may set off a Hex Bomb after a set amount of time to win.</string>
-	<string name="TouRoleSpellslingerHex">Hex</string>
-	<string name="TouRoleSpellslingerHexWikiDescription">Hex a player, priming them for detonation.</string>
-	<string name="TouRoleSpellslingerHexBomb">Hex Bomb</string>
-	<string name="TouRoleSpellslingerHexBombWikiDescription">Begin the countdown for the hex bomb. If you are alive when the hex bomb triggers, impostors win!</string>
-	<string name="TouRoleSpellslingerMessageTitle">Spellslinger Warning</string>
-	<string name="TouRoleSpellslingerGlobalWarning">The \%role\% is unleashing a Hex Bomb! Find them before the timer ends! \%time\% seconds remain after this meeting.</string>
-	<string name="TouRoleSpellslingerWarningNotif">The \%role\% is unleashing a Hex Bomb in \%time\% seconds!</string>
+	<string name="TouRoleSpellslinger">Заклинатель</string>
+	<string name="TouRoleSpellslingerIntroBlurb">Заколдуйте членов экипажа</string>
+	<string name="TouRoleSpellslingerTabDescription">Заколдуйте всех не предателей, чтобы они взорвали колдовскую бомбу</string>
+	<string name="TouRoleSpellslingerTabHexCounter">Заколдованные игроки: \%count\%</string>
+	<string name="TouRoleSpellslingerTabHexFinished">Все игроки заколдованы.</string>
+	<string name="TouRoleSpellslingerTabHexedInfo">Заколдованные игроки:</string>
+	<string name="TouRoleSpellslingerWikiDescription">Заклинатель - это член экипажа силы, который может заколдовать игрока. Как только все не предатели будут заколдованы, они взорвут бомбу через время, чтобы выиграть.</string>
+	<string name="TouRoleSpellslingerHex">Заколдовать</string>
+	<string name="TouRoleSpellslingerHexWikiDescription">Заколдуйте игрока, подготавливая его к детонации.</string>
+	<string name="TouRoleSpellslingerHexBomb">Колдовская бомба</string>
+	<string name="TouRoleSpellslingerHexBombWikiDescription">Начинает обратный отсчет времени до взрыва колдовской бомбы. Если вы останетесь живы, когда сработает колдовская бомба, предатели победят!</string>
+	<string name="TouRoleSpellslingerMessageTitle">Предупреждение заклинателя</string>
+	<string name="TouRoleSpellslingerGlobalWarning">\%role\% запускает колдовскую бомбу! Найдите её до того, как закончится таймер! \%time\% секунд останется после этой встречи.</string>
+	<string name="TouRoleSpellslingerWarningNotif">\%role\% запускает колдовскую бомбу через \%time\% секунд!</string>
 	<!-- Spellslinger Options -->
-	<string name="TouOptionSpellslingerHexCooldown">Hex Cooldown</string>
-	<string name="TouOptionSpellslingerMaxHexes">Max Hexes</string>
-	<string name="TouOptionSpellslingerHexBombDuration">Hex Bomb Countdown Duration</string>
+	<string name="TouOptionSpellslingerHexCooldown">Кулдаун колдовства</string>
+	<string name="TouOptionSpellslingerMaxHexes">Максимум колдовства</string>
+	<string name="TouOptionSpellslingerHexBombDuration">Время взрыва колдовской бомбы</string>
 	<!-- Swooper Wiki / Abilities -->
-	<string name="TouRoleSwooper">Swooper</string>
-	<string name="TouRoleSwooperIntroBlurb">Turn invisible temporarily</string>
-	<string name="TouRoleSwooperTabDescription">Turn invisible and sneakily kill from the shadows</string>
-	<string name="TouRoleSwooperWikiDescription">The Swooper is an Impostor Concealing role that can temporarily turn invisible.</string>
-	<string name="TouRoleSwooperSwoop">Swoop</string>
-	<string name="TouRoleSwooperSwoopWikiDescription">Turn invisible to all players except Impostors.</string>
-	<string name="TouRoleSwooperUnswoop">Unswoop</string>
-	<string name="TouRoleSwooperUnswoopWikiDescription">Cancel your swoop early, or let it finish fully to make yourself visible once again.</string>
+	<string name="TouRoleSwooper">Налётчик</string>
+	<string name="TouRoleSwooperIntroBlurb">Становитесь невидимым</string>
+	<string name="TouRoleSwooperTabDescription">Становитесь невидимыми и незаметно убивайте из тени</string>
+	<string name="TouRoleSwooperWikiDescription">Налётчик - это предатель скрытности, который может временно стать невидимым.</string>
+	<string name="TouRoleSwooperSwoop">Невидимость</string>
+	<string name="TouRoleSwooperSwoopWikiDescription">Становится невидимым для всех, кроме предателей.</string>
+	<string name="TouRoleSwooperUnswoop">Отменить</string>
+	<string name="TouRoleSwooperUnswoopWikiDescription">Отмените свою невидимость раньше</string>
 	<!-- Swooper Options -->
-	<string name="TouOptionSwooperSwoopUsesPerRound">Swoop Uses Per Round</string>
-	<string name="TouOptionSwooperSwoopCooldown">Swoop Cooldown</string>
-	<string name="TouOptionSwooperSwoopDuration">Swoop Duration</string>
-	<string name="TouOptionSwooperCanVent">Swooper Can Vent</string>
+	<string name="TouOptionSwooperSwoopUsesPerRound">Количество невидимостей</string>
+	<string name="TouOptionSwooperSwoopCooldown">Кулдаун невидимости</string>
+	<string name="TouOptionSwooperSwoopDuration">Время невидимости</string>
+	<string name="TouOptionSwooperCanVent">Налётчик может использовать вентиляции</string>
 	<!-- Traitor Wiki / Abilities -->
-	<string name="TouRoleTraitor">Traitor</string>
-	<string name="TouRoleTraitorIntroBlurb">Betray the Crewmates!</string>
-	<string name="TouRoleTraitorTabDescription">Betray the crewmates with a new impostor role!</string>
-	<string name="TouRoleTraitorWikiDescription">The Traitor is an Impostor Power role that spawns after a meeting, in which the spawn conditions are suitable. The Traitor will always be a crewmate, and they may change to a few select roles.</string>
-	<string name="TouRoleTraitorChangeRole">Change Role</string>
-	<string name="TouRoleTraitorChangeRoleWikiDescription">The Traitor can change their role to one of the provided role cards, or gamble on the random. Once they select a role, they stay as that role until they die. However, they must still be guessed as Traitor.</string>
-	<string name="TouRoleTraitorRoleSelectTitle">Select a role.</string>
-	<string name="TouRoleTraitorRandomImpostorCard">Random\%nl\%Impostor</string>
+	<string name="TouRoleTraitor">Самозванец</string>
+	<string name="TouRoleTraitorIntroBlurb">Предайте членов экипажа!</string>
+	<string name="TouRoleTraitorTabDescription">Предайте членов экипажа, выбрав роль предателей!</string>
+	<string name="TouRoleTraitorWikiDescription">Самозванец - это предатель силы, который появляется после собрания, при наличии условий для появления. Самозванец будет членом команды, и он может менять роль.</string>
+	<string name="TouRoleTraitorChangeRole">Сменить роль</string>
+	<string name="TouRoleTraitorChangeRoleWikiDescription">Самозванец может сменить свою роль на одну из предоставленных или выбрать случайную. Выбрав роль, он остается с этой ролью до тех пор, пока не умрет. Однако его все равно нужно угадать как предателя.</string>
+	<string name="TouRoleTraitorRoleSelectTitle">Выберите роль.</string>
+	<string name="TouRoleTraitorRandomImpostorCard">Случайная\%nl\%Предатель</string>
 	<!-- Traitor Options -->
-	<string name="TouOptionTraitorMinimumPeopleAlive">Minimum People Alive When Traitor Can Spawn</string>
-	<string name="TouOptionTraitorTraitorWontSpawnIfNKIsAlive">Traitor Won't Spawn If NK Is Alive</string>
-	<string name="TouOptionTraitorDisableExistingImpostorRoles">Disable Existing Impostor Roles</string>
-	<string name="TouOptionTraitorGuessAs">Traitor Must Be Guessed As</string>
-	<string name="TouOptionTraitorGuessEnumCached">Traitor</string>
-	<string name="TouOptionTraitorGuessEnumActive">New Role</string>
-	<string name="TouOptionTraitorGuessEnumActiveOrCached">Traitor or New Role</string>
+	<string name="TouOptionTraitorMinimumPeopleAlive">Минимум живых людей для спавна самозванца</string>
+	<string name="TouOptionTraitorTraitorWontSpawnIfNKIsAlive">Самозванец не появляется, если NK жив</string>
+	<string name="TouOptionTraitorDisableExistingImpostorRoles">Отключены существующие роли предателей</string>
+	<string name="TouOptionTraitorGuessAs">Самозванец должен быть угадан как</string>
+	<string name="TouOptionTraitorGuessEnumCached">Самозванец</string>
+	<string name="TouOptionTraitorGuessEnumActive">Новая роль</string>
+	<string name="TouOptionTraitorGuessEnumActiveOrCached">Самозванец или новая роль</string>
 	<!-- Undertaker Wiki / Abilities -->
-	<string name="TouRoleUndertaker">Undertaker</string>
-	<string name="TouRoleUndertakerIntroBlurb">Drag bodies to hide them away</string>
-	<string name="TouRoleUndertakerTabDescription">Drag bodies around to hide them from being reported</string>
-	<string name="TouRoleUndertakerWikiDescription">The Undertaker is an Impostor Support role that can drag dead bodies around the map.</string>
-	<string name="TouRoleUndertakerDrag">Drag</string>
-	<string name="TouRoleUndertakerDragWikiDescription">Drag a dead body, if allowed through settings you can also take it into a vent.</string>
-	<string name="TouRoleUndertakerDrop">Drop</string>
-	<string name="TouRoleUndertakerDropWikiDescription">Drop the dragged dead body, stopping it from being dragged any further.</string>
+	<string name="TouRoleUndertaker">Гробовщик</string>
+	<string name="TouRoleUndertakerIntroBlurb">Перетаскивайте тела, чтобы спрятать их</string>
+	<string name="TouRoleUndertakerTabDescription">Перетаскивайте тела, чтобы их не нашли</string>
+	<string name="TouRoleUndertakerWikiDescription">Гробовщик - это предатель помощи, который может перетаскивать тела по карте.</string>
+	<string name="TouRoleUndertakerDrag">Перетащить</string>
+	<string name="TouRoleUndertakerDragWikiDescription">Перетащите тело, вы также можете затащить его в вентиляцию, если это разрешено настройками.</string>
+	<string name="TouRoleUndertakerDrop">Бросить</string>
+	<string name="TouRoleUndertakerDropWikiDescription">Бросить тело, останавливая его от дальнейшего перетаскивания.</string>
 	<!-- Undertaker Options -->
-	<string name="TouOptionUndertakerDragCooldown">Drag Cooldown</string>
-	<string name="TouOptionUndertakerDragSpeed">Drag Speed</string>
-	<string name="TouOptionUndertakerDraggingSpeedIsAffectedbyBodySize">Dragging Speed Is Affected by Body Size</string>
-	<string name="TouOptionUndertakerCanVent">Undertaker Can Vent</string>
-	<string name="TouOptionUndertakerCanVentWithBody">Can Vent With Body</string>
-	<string name="TouOptionUndertakerUndertakerCanKillWithTeammate">Undertaker Can Kill With Teammate</string>
+	<string name="TouOptionUndertakerDragCooldown">Кулдаун перетаскивания</string>
+	<string name="TouOptionUndertakerDragSpeed">Скорость перетаскивания</string>
+	<string name="TouOptionUndertakerDraggingSpeedIsAffectedbyBodySize">Скорость перетаскивания зависит от размера тела</string>
+	<string name="TouOptionUndertakerCanVent">Гробовщик может использовать вентиляцию</string>
+	<string name="TouOptionUndertakerCanVentWithBody">Тело можно перетащить в вентиляцию</string>
+	<string name="TouOptionUndertakerUndertakerCanKillWithTeammate">Гробовщик может убивать</string>
 	<!-- Venerer Wiki / Abilities -->
-	<string name="TouRoleVenerer">Venerer</string>
-	<string name="TouRoleVenererIntroBlurb">Enhance your abilities with every kill</string>
-	<string name="TouRoleVenererTabDescription">Kill players to unlock ability perks. Your perks allow you\%nl\%to camouflage, sprint, and slow others down in your path.</string>
-	<string name="TouRoleVenererWikiDescription">The Venerer is an Impostor Concealing role that can kill players to gain new abilities, preventing others from catching them! However, the ability will be used immediately as they receive it, which will stack up.</string>
-	<string name="TouRoleVenererCamouflage">Camouflage</string>
-	<string name="TouRoleVenererCamouflageWikiDescription">Stage 1 of the abilities.\%nl\%You will appear as a gray bean for all players, allowing you to sneak away from kills.</string>
-	<string name="TouRoleVenererSprint">Sprint</string>
-	<string name="TouRoleVenererSprintWikiDescription">Stage 2 of the abilities.\%nl\%You will gain the speed of the Flash while hidden from camo.</string>
-	<string name="TouRoleVenererFreeze">Freeze</string>
-	<string name="TouRoleVenererFreezeWikiDescription">The Final Stage of the abilities.\%nl\%You will slow down players around you in a radius, as well as being fast and hidden from camo.</string>
-	<string name="TouRoleVenererUncamouflage">Uncamouflage</string>
-	<string name="TouRoleVenererUnsprint">Unsprint</string>
-	<string name="TouRoleVenererUnfreeze">Unfreeze</string>
+	<string name="TouRoleVenerer">Почитатель</string>
+	<string name="TouRoleVenererIntroBlurb">Улучшайте свои способности с каждым убийством</string>
+	<string name="TouRoleVenererTabDescription">Убивайте игроков, чтобы открыть доп. способности. Ваши способности разрешают вам использовать\%nl\%камуфляж, ускорение, и замедление других на вашем пути.</string>
+	<string name="TouRoleVenererWikiDescription">Почитатель - это предатель скрытия, который может убивать игроков, чтобы получить новые способности. Однако способность будет использована сразу же после её получения, и её количество будет увеличиваться.</string>
+	<string name="TouRoleVenererCamouflage">Камуфляж</string>
+	<string name="TouRoleVenererCamouflageWikiDescription">Первая стадия способностей.\%nl\%Для всех игроков вы будете выглядеть как серый боб, что позволит вам скрываться после убийств.</string>
+	<string name="TouRoleVenererSprint">Ускорение</string>
+	<string name="TouRoleVenererSprintWikiDescription">Вторая стадия способностей.\%nl\%Вы увеличите скорость, оставаясь скрытым от камуфляжа.</string>
+	<string name="TouRoleVenererFreeze">Заморозка</string>
+	<string name="TouRoleVenererFreezeWikiDescription">Финальная стадия способностей.\%nl\%Вы будете замедлять игроков вокруг себя в радиусе действия, а также будете быстры и скрыты от камуфляжа.</string>
+	<string name="TouRoleVenererUncamouflage">Раскамуфляж</string>
+	<string name="TouRoleVenererUnsprint">Замедление</string>
+	<string name="TouRoleVenererUnfreeze">Разморозка</string>
 	<!-- Venerer Options -->
-	<string name="TouOptionVenererAbilityCooldown">Ability Cooldown</string>
-	<string name="TouOptionVenererAbilityDuration">Ability Duration</string>
-	<string name="TouOptionVenererSprintSpeed">Sprint Speed</string>
-	<string name="TouOptionVenererMinimumFreezeSpeed">Minimum Freeze Speed</string>
-	<string name="TouOptionVenererFreezeRadius">Freeze Radius</string>
+	<string name="TouOptionVenererAbilityCooldown">Кулдаун способности</string>
+	<string name="TouOptionVenererAbilityDuration">Время способности</string>
+	<string name="TouOptionVenererSprintSpeed">Скорость ускорения</string>
+	<string name="TouOptionVenererMinimumFreezeSpeed">Минимальная скорость заморозки</string>
+	<string name="TouOptionVenererFreezeRadius">Радиус заморозки</string>
 	<!-- Warlock Wiki / Abilities -->
-	<string name="TouRoleWarlock">Warlock</string>
-	<string name="TouRoleWarlockIntroBlurb">Charge up your kill button to multi-kill</string>
-	<string name="TouRoleWarlockTabDescription">Charge your attack to 100% to kill crewmates in small bursts</string>
-	<string name="TouRoleWarlockWikiDescription">The Warlock is an Impostor Killing role that can charge up attacks to wipe out the crew quickly.</string>
-	<string name="TouRoleWarlockBurstKill">Burst Kill</string>
-	<string name="TouRoleWarlockBurstActive">Burst Active</string>
-	<string name="TouRoleWarlockKillWikiDescription">Replaces your regular kill button with three stages: On Cooldown, Uncharged, and Charged. If you kill while charging, your burst will be fully reset. When it is charged, you can kill in a small burst to kill multiple players in a short time.</string>
+	<string name="TouRoleWarlock">Чародей</string>
+	<string name="TouRoleWarlockIntroBlurb">Убивайте массово</string>
+	<string name="TouRoleWarlockTabDescription">Увеличьте свою атаку на 100%, чтобы убивать членов экипажа небольшими очередями</string>
+	<string name="TouRoleWarlockWikiDescription">Чародей - это предатель убийца, который может убивать очередями, чтобы быстро уничтожить членов экипажа</string>
+	<string name="TouRoleWarlockBurstKill">Массовое убийство</string>
+	<string name="TouRoleWarlockBurstActive">Массовое убийство активно</string>
+	<string name="TouRoleWarlockKillWikiDescription">Заменяет обычную кнопку убийства на трехступенчатую: при зараядке, разряженную и заряженную. Если вы убиваете во время зарядки, ваша очередь будет полностью сброшена. Когда она будет заряжена, вы сможете убивать небольшими очередями, чтобы убить нескольких игроков за короткое время.</string>
 	<!-- Warlock Options -->
-	<string name="TouOptionWarlockTimeItTakesToFullyCharge">Time It Takes To Fully Charge</string>
-	<string name="TouOptionWarlockTimeMultiplierAddedPerKillForNextCharge">Time Multiplier Added Per Kill For Next Charge</string>
-	<string name="TouOptionWarlockTimeItTakesToUseFullCharge">Time It Takes To Use Full Charge</string>
+	<string name="TouOptionWarlockTimeItTakesToFullyCharge">Время для полной зарядки</string>
+	<string name="TouOptionWarlockTimeMultiplierAddedPerKillForNextCharge">Множитель времени следующего заряда за убийство</string>
+	<string name="TouOptionWarlockTimeItTakesToUseFullCharge">Время полной зарядки</string>
 </resources>
