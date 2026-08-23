@@ -1726,7 +1726,7 @@
 	<string name="TouRoleTraitorRandomImpostorCard">Случайная\%nl\%Предатель</string>
 	<!-- Traitor Options -->
 	<string name="TouOptionTraitorMinimumPeopleAlive">Минимум живых людей для спавна самозванца</string>
-	<string name="TouOptionTraitorTraitorWontSpawnIfNKIsAlive">Самозванец не появляется, если NK жив</string>
+	<string name="TouOptionTraitorTraitorWontSpawnIfNKIsAlive">Самозванец не появляется, если НУ жив</string>
 	<string name="TouOptionTraitorDisableExistingImpostorRoles">Отключены существующие роли предателей</string>
 	<string name="TouOptionTraitorGuessAs">Самозванец должен быть угадан как</string>
 	<string name="TouOptionTraitorGuessEnumCached">Самозванец</string>
@@ -1783,30 +1783,30 @@
 
 	<!-- Neutral Roles -->
 	<!--Anonymous Feedback-->
-	<string name="TouNeutAnonymousVictoryMessage">\%player\% has successfully won and left!</string>
-	<string name="TouOptionNeutAnonymousVictoryWin">Hide Role On Win Notification</string>
-	<string name="TouRoleAnonymousVictoryKillNotif">\%source\% has killed \%victim\% after their victory!</string>
+	<string name="TouNeutAnonymousVictoryMessage">\%player\% успешно выиграл и ушел!</string>
+	<string name="TouOptionNeutAnonymousVictoryWin">Скрыть роль при получении уведомления о выигрыше</string>
+	<string name="TouRoleAnonymousVictoryKillNotif">\%source\% убил \%victim\% после их победы!</string>
 	<!-- Amnesiac -->
 	<!-- Amnesiac Wiki / Abilities -->
-	<string name="TouRoleAmnesiac">Amnesiac</string>
-	<string name="TouRoleAmnesiacIntroBlurb">Remember the role of a deceased player</string>
-	<string name="TouRoleAmnesiacTabDescription">Find a dead body to remember and become their role.</string>
-	<string name="TouRoleAmnesiacWikiDescription">The Amnesiac is a Neutral Benign role that gains access to a new role from remembering a dead body’s role. Use the role you remember to win the game.</string>
-	<string name="TouRoleAmnesiacRemember">Remember</string>
-	<string name="TouRoleAmnesiacRememberWikiDescription">Remember the role of a dead body. If the dead body's role is a unique role, you will remember the base faction's role instead.</string>
-	<string name="TouRoleAmnesiacRememberNotif">You remembered that you were like \%player\%, turning into \%role\%</string>
-	<string name="TouRoleAmnesiacRememberFailNotif">\%player\% was \%role\%, so their role cannot be picked up.</string>
-	<string name="TouRoleAmnesiacRememberFailTargetNotif">\%player\% had a role with you as their target, so their role cannot be picked up.</string>
+	<string name="TouRoleAmnesiac">Непомнящий</string>
+	<string name="TouRoleAmnesiacIntroBlurb">Вспоминайте и получайте роль умершего</string>
+	<string name="TouRoleAmnesiacTabDescription">Ищите мёртвые тела и забирайте их роль</string>
+	<string name="TouRoleAmnesiacWikiDescription">Непомнящий - это нейтральный мирный, который может вспомнить, чтобы получить новую роль с тела умершего игрока. Используйте эту роль чтобы победить.</string>
+	<string name="TouRoleAmnesiacRemember">Вспомнить</string>
+	<string name="TouRoleAmnesiacRememberWikiDescription">Вспомните, чтобы получить роль мертвого игрока. Если роль мертвого игрока уникальна, вы будете помнить роль базовой команды.</string>
+	<string name="TouRoleAmnesiacRememberNotif">Вы вспомнили, кто был \%player\%, превращаясь в \%role\%</string>
+	<string name="TouRoleAmnesiacRememberFailNotif">\%player\% был \%role\%, таким образом, его роль не может быть восстановлена.</string>
+	<string name="TouRoleAmnesiacRememberFailTargetNotif">У \%player\% была роль, в которой вы были его целью, поэтому его роль не может быть изменена.</string>
 	<!-- Amnesiac Options -->
-	<string name="TouOptionAmnesiacInheritFactionModifier">Inherit Faction Modifiers</string>
-	<string name="TouOptionAmnesiacShowArrows">Show Arrows Pointing To Dead Bodies</string>
-	<string name="TouOptionAmnesiacArrowDelay">Time After Death Arrow Appears</string>
-	<string name="TouOptionAmnesiacAssassinImpostor">Can be Impostor Assassin</string>
-	<string name="TouOptionAmnesiacAssassinNeutral">Can be Neutral Killing Assassin</string>
-	<string name="TouOptionAmnesiacAssassinEnumNever">Never</string>
-	<string name="TouOptionAmnesiacAssassinEnumDependentNeut">If NK is Assassin</string>
-	<string name="TouOptionAmnesiacAssassinEnumDependentImp">If Imp is Assassin</string>
-	<string name="TouOptionAmnesiacAssassinEnumAlways">Always</string>
+	<string name="TouOptionAmnesiacInheritFactionModifier">Наследование модификаторов команд</string>
+	<string name="TouOptionAmnesiacShowArrows">Показывать указатели к трупам</string>
+	<string name="TouOptionAmnesiacArrowDelay">Время после смерти для появления указателя</string>
+	<string name="TouOptionAmnesiacAssassinImpostor">Может быть предателем</string>
+	<string name="TouOptionAmnesiacAssassinNeutral">Может быть нейтральным убийцей</string>
+	<string name="TouOptionAmnesiacAssassinEnumNever">Никогда</string>
+	<string name="TouOptionAmnesiacAssassinEnumDependentNeut">Если НУ</string>
+	<string name="TouOptionAmnesiacAssassinEnumDependentImp">Если предатель</string>
+	<string name="TouOptionAmnesiacAssassinEnumAlways">Всегда</string>
 	<!-- Arsonist -->
 	<!-- Arsonist Wiki / Abilities -->
 	<string name="TouRoleArsonist">Arsonist</string>
