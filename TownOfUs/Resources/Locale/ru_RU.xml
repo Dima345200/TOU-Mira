@@ -1421,11 +1421,11 @@
 	<!-- Ambassador Wiki / Abilities -->
 	<string name="TouRoleAmbassador">Амбассадор</string>
 	<string name="TouRoleAmbassadorIntroBlurb">Приведите \%color=#FF0000FF\%предателей\%/color\% к победе</string>
-	<string name="TouRoleAmbassadorTabDescription">Переобучите себя или других предателей на другую роль\%nl\%\%b\%предатель убийца не может быть ролью силы\%/b\%\%nl\%\%b\%предатель скрытия/помощи не может быть ролью убийц/силы\%/b\%</string>
+	<string name="TouRoleAmbassadorTabDescription">Переобучите себя или других предателей на другую роль\%nl\%\%b\%предатель убийца не может быть ролью силы\%/b\%\%nl\%\%b\%предатель скрытности/помощи не может быть ролью убийц/силы\%/b\%</string>
 	<string name="TouRoleAmbassadorWikiDescription">Амбассадор - это предатель силы, который может переучить предателей на другую роль предателей.</string>
 	<string name="TouRoleAmbassadorRetrain">Переобучить</string>
 	<string name="TouRoleAmbassadorRetrainWiki">Переобучить (Собрание)</string>
-	<string name="TouRoleAmbassadorRetrainWikiDescription">Переучите себя или других предателей на роль, соответствующую их типу. Роли предателей убийц могут быть заменены на любые роли силы, а роли скрытия/помощи могут стать ролями скрытия или помощи.</string>
+	<string name="TouRoleAmbassadorRetrainWikiDescription">Переучите себя или других предателей на роль, соответствующую их типу. Роли предателей убийц могут быть заменены на любые роли силы, а роли скрытности/помощи могут стать ролями скрытности или помощи.</string>
 	<string name="TouRoleAmbassadorRetrainsAvailable">\%retrainsLeft\% / \%retrainsTotal\% Осталось переобучений</string>
 	<string name="TouRoleAmbassadorRetrainWaiting">Переобучений за раунд \%roundToWait\%</string>
 	<string name="TouRoleAmbassadorRetrainCooldown">Кулдаун раунда: \%roundsLeft\% / \%roundsTotal\%</string>
@@ -1473,7 +1473,7 @@
 	<string name="TouRoleBlackmailer">Шантажист</string>
 	<string name="TouRoleBlackmailerIntroBlurb">Заглушайте членов экипажа во время собраний</string>
 	<string name="TouRoleBlackmailerTabDescription">Заглушите членов экипажа на следующем собрании</string>
-	<string name="TouRoleBlackmailerWikiDescription">Шантажист - это предатель помощи, который может помешать игроку говорить (обозначен символом \%symbol\%) на следующем собрании.</string>
+	<string name="TouRoleBlackmailerWikiDescription">Шантажист - это предатель помощи, который может помешать игроку говорить (отмеченные \%symbol\%) на следующем собрании.</string>
 	<string name="TouRoleBlackmailerBlackmail">Шантаж</string>
 	<string name="TouRoleBlackmailerBlackmailWikiDescription">Заглушите игрока на следующем собрании. Он не сможет говорить. Он также не сможет голосовать, пока в живых не останется меньше или равное количество людей, чем разрешено настройками шантажиста. Шантаж будет виден другим игрокам, только если эта настройка включена</string>
 	<!-- Blackmailer Options -->
@@ -1517,70 +1517,71 @@
 	<string name="TouOptionBomberAllowBombinginFirstRound">Разрешены бомбы в первом раунде</string>
 	<string name="TouOptionBomberCanVent">Бомбер может использовать вентиляции</string>
 	<!-- Eclipsal Wiki / Abilities -->
-	<string name="TouRoleEclipsal">Eclipsal</string>
-	<string name="TouRoleEclipsalIntroBlurb">Block out the light</string>
-	<string name="TouRoleEclipsalTabDescription">Blind players to prevent them from seeing others</string>
-	<string name="TouRoleEclipsalWikiDescription">The Eclipsal is an Impostor Concealing role that can hinder the vision of all crewmates and neutrals alike, given that they are near the Eclipsal.</string>
-	<string name="TouRoleEclipsalBlind">Blind</string>
-	<string name="TouRoleEclipsalUnblinding">Unblinding</string>
-	<string name="TouRoleEclipsalBlindWikiDescription">Blinding players causes their fog of war to overtake their screen, only letting them see the map and prevents reporting. After a while, they will regain their vision and have vision like normal.</string>
+	<string name="TouRoleEclipsal">Затмение</string>
+	<string name="TouRoleEclipsalIntroBlurb">Заслоните свет</string>
+	<string name="TouRoleEclipsalTabDescription">Ослепите игроков, чтобы они не могли видеть других</string>
+	<string name="TouRoleEclipsalWikiDescription">Затмение - это предатель скрытности, который может помешать обзору членов экипажа и нейтральных, если они находятся вблизи него.</string>
+	<string name="TouRoleEclipsalBlind">Ослепить</string>
+	<string name="TouRoleEclipsalUnblinding">Прозрение</string>
+	<string name="TouRoleEclipsalBlindWikiDescription">Ослепите игроков, чтобы они не видели других и не могли репортить трупы. Через некоторое время зрение игроков восстановится, и они будут видеть как обычно.</string>
 	<!-- Eclipsal Options -->
-	<string name="TouOptionEclipsalBlindCooldown">Blind Cooldown</string>
-	<string name="TouOptionEclipsalBlindDuration">Blind Duration</string>
-	<string name="TouOptionEclipsalBlindRadius">Blind Radius</string>
+	<string name="TouOptionEclipsalBlindCooldown">Кулдаун ослепления</string>
+	<string name="TouOptionEclipsalBlindDuration">Время ослепления</string>
+	<string name="TouOptionEclipsalBlindRadius">Радиус ослепления</string>
 	<!-- Escapist Wiki / Abilities -->
-	<string name="TouRoleEscapist">Escapist</string>
-	<string name="TouRoleEscapistIntroBlurb">Get away from kills with ease</string>
-	<string name="TouRoleEscapistTabDescription">Mark a location, then recall to the location at\%nl\%any time to flee the scene of the crime</string>
-	<string name="TouRoleEscapistWikiDescription">The Escapist is an Impostor Concealing role that can mark a location and then recall (teleport) to that location.</string>
-	<string name="TouRoleEscapistMark">Mark</string>
-	<string name="TouRoleEscapistMarkWikiDescription">Mark a location for later use.</string>
-	<string name="TouRoleEscapistRecall">Recall</string>
-	<string name="TouRoleEscapistRecallWikiDescription">Recall to the marked location.</string>
+	<string name="TouRoleEscapist">Беглец</string>
+	<string name="TouRoleEscapistIntroBlurb">С легкостью уходите от убийств</string>
+	<string name="TouRoleEscapistTabDescription">Выбирайте место, затем\%nl\%возвращайтесь в него, чтобы скрыться с места преступления</string>
+	<string name="TouRoleEscapistWikiDescription">Беглец - это предатель скрытности, который может отметить место, а затем вернуться (телепортироваться) в него.</string>
+	<string name="TouRoleEscapistMark">Метка</string>
+	<string name="TouRoleEscapistMarkWikiDescription">Отметьте место, чтобы использовать позже.</string>
+	<string name="TouRoleEscapistRecall">Вернуться</string>
+	<string name="TouRoleEscapistRecallWikiDescription">Вернуться на отмеченное место.</string>
 	<!-- Escapist Options -->
-	<string name="TouOptionEscapistRecallUsesPerGame">Recall Uses Per Game</string>
-	<string name="TouOptionEscapistRecallCooldown">Recall Cooldown</string>
-	<string name="TouOptionEscapistEscapistCanVent">Escapist Can Vent</string>
+	<string name="TouOptionEscapistRecallUsesPerGame">Максимальное использования возвращения</string>
+	<string name="TouOptionEscapistRecallCooldown">Кулдаун возвращения</string>
+	<string name="TouOptionEscapistEscapistCanVent">Беглец может использовать вентиляции</string>
 	<!-- Grenadier Wiki / Abilities -->
-	<string name="TouRoleGrenadier">Grenadier</string>
-	<string name="TouRoleGrenadierIntroBlurb">Hinder the Crewmates' vision</string>
-	<string name="TouRoleGrenadierTabDescription">Flashbang the crewmates to get sneaky kills</string>
-	<string name="TouRoleGrenadierWikiDescription">The Grenadier is an Impostor Concealing role that can throw down a grenade that will blind all other players</string>
-	<string name="TouRoleGrenadierFlash">Flash</string>
-	<string name="TouRoleGrenadierFlashWikiDescription">Throw down a grenade flashing all players in its radius.</string>
-	<string name="TouRoleGrenadierFlashNotif">All players around you have been flash banged!</string>
+	<string name="TouRoleGrenadier">Гранатчик</string>
+	<string name="TouRoleGrenadierIntroBlurb">Мешайте обзору членов экипажа</string>
+	<string name="TouRoleGrenadierTabDescription">Применяйте светошумовую гранату к членам экипажа, чтобы совершать скрытые убийства</string>
+	<string name="TouRoleGrenadierWikiDescription">Гранатчик - это предатель скрытности, который может бросить гранату, ослепляющую остальных игроков.</string>
+	<string name="TouRoleGrenadierFlash">Светошумовая</string>
+	<string name="TouRoleGrenadierFlashWikiDescription">Бросьте гранату, от которой ослепятся все игроки в радиусе её действия.</string>
+	<string name="TouRoleGrenadierFlashNotif">Все игроки вокруг вас были поражены светошумовой гранатой!</string>
 	<!-- Grenadier Options -->
-	<string name="TouOptionGrenadierFlashUsesPerGame">Flash Uses Per Game</string>
-	<string name="TouOptionGrenadierFlashGrenadeCooldown">Flash Grenade Cooldown</string>
-	<string name="TouOptionGrenadierFlashGrenadeDuration">Flash Grenade Duration</string>
-	<string name="TouOptionGrenadierFlashRadius">Flash Radius</string>
-	<string name="TouOptionGrenadierGrenadierCanVent">Grenadier Can Vent</string>
+	<string name="TouOptionGrenadierFlashUsesPerGame">Максимальное использование светошумовой</string>
+	<string name="TouOptionGrenadierFlashGrenadeCooldown">Кулдаун светошумовой</string>
+	<string name="TouOptionGrenadierFlashGrenadeDuration">Время светошумовой</string>
+	<string name="TouOptionGrenadierFlashRadius">Радиус светошумовой</string>
+	<string name="TouOptionGrenadierGrenadierCanVent">Гранатчик может использовать вентиляции</string>
 
-	<string name="TouRoleHerbalist">Herbalist</string>
-	<string name="TouRoleHerbalistIntroBlurb">Let your plants and herbs guide the way</string>
-	<string name="TouRoleHerbalistTabDescription">Use your deep knowledge of nature on others.\%nl\%Your kill cooldown is unlinked from other abilities.</string>
-	<string name="TouRoleHerbalistWikiDescription">The Herbalist is an Impostor Power role that has many abilities tied to one cooldown, either to help Impostors or to affect what others see.</string>
-	<string name="TouRoleHerbalistExpose">Expose</string>
-	<string name="TouRoleHerbalistExposeWikiDescription">Expose a player to all Impostors, revealing their role but preventing them from being guessed.</string>
-	<string name="TouRoleHerbalistConfuse">Confuse</string>
-	<string name="TouRoleHerbalistConfuseWikiDescription">Confuse a player with fungal spores to prevent them from identifying players.</string>
-	<string name="TouRoleHerbalistProtect">Protect</string>
-	<string name="TouRoleHerbalistProtectWikiDescription">Protect a player temporarily as if you were a Cleric, including other impostors.</string>
+	<!-- Herbalist -->
+	<string name="TouRoleHerbalist">Травник</string>
+	<string name="TouRoleHerbalistIntroBlurb">Ваши растения и травы укажут вам путь</string>
+	<string name="TouRoleHerbalistTabDescription">Используйте свои знания природы на других людях.\%nl\%Кулдаун после убийства не зависит от других способностей.</string>
+	<string name="TouRoleHerbalistWikiDescription">Травник - это предатель силы, у которого много способностей связанных с кулдауном, либо чтобы помогать предателям, либо чтобы влиять на то, что видят другие.</string>
+	<string name="TouRoleHerbalistExpose">Разоблачить</string>
+	<string name="TouRoleHerbalistExposeWikiDescription">Расскройте роль игрока перед всеми предателями, но не позволив угадать его.</string>
+	<string name="TouRoleHerbalistConfuse">Запутать</string>
+	<string name="TouRoleHerbalistConfuseWikiDescription">Запутайте игрока спорами грибов, чтобы они не смогли идентифицировать игрока.</string>
+	<string name="TouRoleHerbalistProtect">Защитить</string>
+	<string name="TouRoleHerbalistProtectWikiDescription">Защищайте игрока, как если бы вы были клириком, включая других предателей.</string>
 	<!-- Not in code yet -->
 
 	<!-- Hypnotist Wiki / Abilities -->
-	<string name="TouRoleHypnotist">Hypnotist</string>
-	<string name="TouRoleHypnotistIntroBlurb">Hypnotize Crewmates</string>
-	<string name="TouRoleHypnotistTabDescription">Hypnotize crewmates to prevent them from\%nl\%distinguishing players under a mass hysteria</string>
-	<string name="TouRoleHypnotistWikiDescription">The Hypnotist is an Impostor Support role that can hypnotize players. During a meeting they can release Mass Hysteria, which makes all hypnotized players (marked with \%symbol\%) have different visuals applied to players the following round.</string>
-	<string name="TouRoleHypnotistHypnotize">Hypnotize</string>
-	<string name="TouRoleHypnotistHypnotizeWikiDescription">Hypnotize a player, causing them to see the game differently than non-hypnotized players if mass hysteria is active.</string>
-	<string name="TouRoleHypnotistMassHysteria">Hysteria</string>
-	<string name="TouRoleHypnotistMassHysteriaWiki">Mass Hysteria (Meeting)</string>
-	<string name="TouRoleHypnotistMassHysteriaWikiDescription">Cause all hypnotized players to have different visuals applied to players on their screen the following round.</string>
+	<string name="TouRoleHypnotist">Гипнотизёр</string>
+	<string name="TouRoleHypnotistIntroBlurb">Гипнотизируйте членов экипажа</string>
+	<string name="TouRoleHypnotistTabDescription">Загипнотизируйте членов экипажа, чтобы они\%nl\%не смогли различать игроков в результате массовой истерии</string>
+	<string name="TouRoleHypnotistWikiDescription">Гипнотизёр - это предатель помощи, который может гипнотизировать игроков. Во время собрания может вызвать массовую истерию, в результате чего все загипнотизированные игроки (отмеченные \%symbol\%) в следующем раунде будут иметь разные визуальные эффекты.</string>
+	<string name="TouRoleHypnotistHypnotize">Гипноз</string>
+	<string name="TouRoleHypnotistHypnotizeWikiDescription">Загипнотизируйте игрока, заставляя его воспринимать игру иначе, если активна массовая истерия.</string>
+	<string name="TouRoleHypnotistMassHysteria">Истерия</string>
+	<string name="TouRoleHypnotistMassHysteriaWiki">Массовая истерия (Собрание)</string>
+	<string name="TouRoleHypnotistMassHysteriaWikiDescription">В следующем раунде ко всем загипнотизированным игрокам на экране будут применены разные визуальные эффекты.</string>
 	<!-- Hypnotist Options -->
-	<string name="TouOptionHypnotistHypnotizeCooldown">Hypnotize Cooldown</string>
-	<string name="TouOptionHypnotistHypnotistCanKillWithTeammate">Hypnotist Can Kill With Teammate</string>
+	<string name="TouOptionHypnotistHypnotizeCooldown">Кулдаун гипноза</string>
+	<string name="TouOptionHypnotistHypnotistCanKillWithTeammate">Гипнотизёр может убивать</string>
 	<!-- Janitor Wiki / Abilities -->
 	<string name="TouRoleJanitor">Janitor</string>
 	<string name="TouRoleJanitorIntroBlurb">Sanitize the ship</string>
