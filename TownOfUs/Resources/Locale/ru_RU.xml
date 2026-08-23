@@ -613,7 +613,7 @@
 	<string name="TouOptionBarkeeperRoleblockDelayMax">Максимальное время блокировки</string>
 	<string name="TouOptionBarkeeperRoleblockDelaySummarized">Время блокировки: \%min\%s - \%max\%s</string>
 	<string name="TouOptionBarkeeperSpillDelay">Время разливания</string>
-	<string name="TouOptionBarkeeperSpillEffectDuration">Количество времени, в течение которого игрок подвержен разливу</string>
+	<string name="TouOptionBarkeeperSpillEffectDuration">Кол-во времени, в течение которого игрок подвержен разливу</string>
 	<string name="TouOptionBarkeeperSpillBuffDuration">Время до замедления игроков разливом</string>
 	<string name="TouOptionBarkeeperSpillCleanUpDuration">Доп. время устранения разлива</string>
 	<string name="TouOptionBarkeeperSpillEffectBuffMultiplier">Множитель усиления скорости разлива</string>
@@ -674,7 +674,7 @@
 	<string name="TouOptionHunterKillCooldown">Кулдаун убийства</string>
 	<string name="TouOptionHunterStalkCooldown">Кулдаун преследования</string>
 	<string name="TouOptionHunterStalkDuration">Время преследования</string>
-	<string name="TouOptionHunterStalkUses">Макс. количество преследований</string>
+	<string name="TouOptionHunterStalkUses">Максимальное кол-во преследований</string>
 	<string name="TouOptionHunterStalksPerTasks">Заданий для дополнительного преследования</string>
 	<string name="TouOptionHunterSeesTypeOfInteraction">Охотник видит тип взаимодействия</string>
 	<string name="TouOptionHunterStalkTriggeredBy">Триггер преследования</string>
@@ -717,7 +717,7 @@
 	<string name="TouRoleJailorExecuteWikiDescription">Казнить заключённого. Если игрок является членом экипажа, тюремщик теряет возможность садить его в тюрьму.</string>
 	<!-- Jailor Options -->
 	<string name="TouOptionJailorJailCooldown">Кулдаун посадки</string>
-	<string name="TouOptionJailorMaxExecutes">Максимальное количество казней</string>
+	<string name="TouOptionJailorMaxExecutes">Максимальное кол-во казней</string>
 	<string name="TouOptionJailorJailInARow">Сажать в тюрьму одного человка два раза подряд</string>
 	<string name="TouOptionJailorJaileePublicChat">Заключённый может пользоваться публичным чатом</string>
 	<!-- Jailor Feedback -->
@@ -771,7 +771,7 @@
 	<string name="TouOptionMedicShowShieldedPlayer">Показать защищенного игрока</string>
 	<string name="TouOptionMedicWhoGetsMurderAttemptIndicator">Кто получает индикатор попытки убийства</string>
 	<string name="TouOptionMedicCanGiveShieldAwayNextRound">Может дать щит в следующем раунде</string>
-	<string name="TouOptionMedicMaxAmountOfShieldUses">Максимальное количество выдачи щита</string>
+	<string name="TouOptionMedicMaxAmountOfShieldUses">Максимальное кол-во выдачи щита</string>
 	<string name="TouOptionMedicShieldBreaksOnMurderAttempt">Щит ломается при попытке убийства</string>
 	<string name="TouOptionMedicShowReportsInChat">Показывать оповещение в чат</string>
 	<string name="TouOptionMedicTimeWhereMedicWillHaveName">Время, когда у медика появится имя</string>
@@ -847,7 +847,7 @@
 	<string name="TouOptionMirrorcasterInfoEnumFaction">Команда</string>
 	<string name="TouOptionMirrorcasterInfoEnumNothing">Никакой</string>
 	<string name="TouOptionMirrorcasterAccumulateMultipleUnleashes">Накапливание множества отражений</string>
-	<string name="TouOptionMirrorcasterMaxNumberOfMagicMirrors">Максимальное количество магических зеркал</string>
+	<string name="TouOptionMirrorcasterMaxNumberOfMagicMirrors">Максимальное кол-во магических зеркал</string>
 	<!-- Mirrorcaster Feedback -->
 	<string name="TouRoleMirrorcasterAttackedMessageWithType">\%player\% атакован \%attackerRole\%! Вы можете отразить атаку на другого игрока!</string>
 	<string name="TouRoleMirrorcasterAttackedMessageWithoutType">\%player\% атакован! Вы можете отразить атаку на другого игрока!</string>
@@ -1048,8 +1048,8 @@
 	<string name="TouOptionPlumberFlushCooldown">Кулдаун промывки</string>
 	<string name="TouOptionPlumberFlushDuration">Время промывки</string>
 	<string name="TouOptionPlumberBlockCooldown">Кулдаун баррикады</string>
-	<string name="TouOptionPlumberMaxNumberOfBarricades">Начальное количество баррикад</string>
-	<string name="TouOptionPlumberAmountOfRoundsBarricadesLast">Количество раундов исчезновения баррикады</string>
+	<string name="TouOptionPlumberMaxNumberOfBarricades">Начальное кол-во баррикад</string>
+	<string name="TouOptionPlumberAmountOfRoundsBarricadesLast">Кол-во раундов исчезновения баррикады</string>
 	<string name="TouOptionPlumberGetMoreFromTasks">Получить больше баррикад за задания</string>
 	<!-- Politician - Crewmate Power -->
 	<!-- Politician Wiki / Abilities -->
@@ -1146,10 +1146,10 @@
 	<string name="TouOptionSentryCamerasVisibleAfter">Камеры видимы после</string>
 	<string name="TouOptionSentryCanMoveWhilePlacingCameras">Может перемещаться при размещении камер</string>
 	<string name="TouOptionSentryPortableCamerasMode">Портативные камеры мгновенного действия (или после выполнения задач)</string>
-	<string name="TouOptionSentryInitialCameras">Количество камер</string>
-	<string name="TouOptionSentryCameraRoundsLast">Количество последних камер в раунде</string>
+	<string name="TouOptionSentryInitialCameras">Кол-во камер</string>
+	<string name="TouOptionSentryCameraRoundsLast">Кол-во последних камер в раунде</string>
 	<string name="TouOptionSentryTasksPerCamera">Требуется заданий для камеры</string>
-	<string name="TouOptionSentryMaxCamerasPlaced">Максимальное количество камер, размещенных одновременно</string>
+	<string name="TouOptionSentryMaxCamerasPlaced">Максимальное кол-во камер, размещенных одновременно</string>
 	<string name="TouOptionSentryPortableCamsBattery">Аккумулятор для портативных камер</string>
 	<string name="TouOptionSentryPortableCamsBatteryPerTask">Аккумулятор для портативных камер за задание</string>
 	<string name="TouOptionSentryBlindspots">Слепые зоны</string>
@@ -1316,7 +1316,7 @@
 	<string name="TouRoleSonarTrackWikiDescription">Отслеживайте игрока, чтобы видеть, куда он направляется. У вас будет стрелка, указывающая на его местоположение. Она исчезнет, если игрок умрет, или, в зависимости от настроек, слежка будет сброшена после собрания.</string>
 	<!-- Sonar Options -->
 	<string name="TouOptionSonarTrackCooldown">Кулдаун слежки</string>
-	<string name="TouOptionSonarMaxNumberOfTracks">Начальное количество слежек</string>
+	<string name="TouOptionSonarMaxNumberOfTracks">Начальное кол-во слежек</string>
 	<string name="TouOptionSonarArrowUpdateInterval">Интервал обновления стрелки</string>
 	<string name="TouOptionSonarArrowsMakeSoundOnDeath">Игроки со слежкой издают звук при смерти</string>
 	<string name="TouOptionSonarArrowsResetAfterEachRound">Слежка сбрасывается после собрания</string>
@@ -1332,7 +1332,7 @@
 	<string name="TouRoleTransporterTransportNotif">Вы перемещены!</string>
 	<!-- Transporter Options -->
 	<string name="TouOptionTransporterTransportCooldown">Кулдаун переноса</string>
-	<string name="TouOptionTransporterMaxUses">Начальное количество переносов</string>
+	<string name="TouOptionTransporterMaxUses">Начальное кол-во переносов</string>
 	<string name="TouOptionTransporterMoveWithMenu">Движение в меню переноса (ТОЛЬКО клавиатура)</string>
 	<string name="TouOptionTransporterCanUseVitals">Может использовать монитор жизн. показаний</string>
 	<string name="TouOptionTransporterGetUsesFromTasks">Заданий для доп. использований</string>
@@ -1348,12 +1348,12 @@
 	<string name="TouRoleTrapperTrapWikiDescription">Поставить ловушку. В зависимости от настроек они не исчезают или пропадают после собраний.</string>
 	<!-- Trapper Options -->
 	<string name="TouOptionTrapperTrapCooldown">Кулдаун ловушки</string>
-	<string name="TouOptionTrapperMinAmountOfTimeInTrap">Минимальное количество времени для активации ловушки</string>
-	<string name="TouOptionTrapperMaxNumberOfTraps">Начальное количество ловушек</string>
+	<string name="TouOptionTrapperMinAmountOfTimeInTrap">Минимальное кол-во времени для активации ловушки</string>
+	<string name="TouOptionTrapperMaxNumberOfTraps">Начальное кол-во ловушек</string>
 	<string name="TouOptionTrapperTrapSize">Размер ловушки</string>
 	<string name="TouOptionTrapperTrapsRemovedAfterRound">Ловушки пропадают после собрания</string>
 	<string name="TouOptionTrapperGetUsesFromTasks">Задания для доп. использований</string>
-	<string name="TouOptionTrapperMinimumNumberOfRoles">Минимальное количество ролей для активации ловушки</string>
+	<string name="TouOptionTrapperMinimumNumberOfRoles">Минимальное кол-во ролей для активации ловушки</string>
 	<!-- Trapper Feedback -->
 	<string name="TouRoleTrapperMessageTitle">Trapper Report</string>
 	<string name="TouRoleTrapperNoPlayers">Никто из игроков не наступил на ловушки</string>
@@ -1373,7 +1373,7 @@
 	<!-- Veteran Options -->
 	<string name="TouOptionVeteranAlertCooldown">Кулдаун тревоги</string>
 	<string name="TouOptionVeteranAlertDuration">Время тревоги</string>
-	<string name="TouOptionVeteranMaxNumberofAlerts">Начальное количество тревог</string>
+	<string name="TouOptionVeteranMaxNumberofAlerts">Начальное кол-во тревог</string>
 	<string name="TouOptionVeteranCanBeKilledOnAlert">Может быть убит во время тревоги</string>
 	<string name="TouOptionVeteranGetMoreUsesFromCompletingTasks">Задания для доп. тревог</string>
 	<string name="TouOptionVeteranKnowWhenAttackedInMeeting">Знает, когда на него нападают на собрании</string>
@@ -1389,7 +1389,7 @@
 	<string name="TouRoleVigilanteMultiShotFeedback">Ваш многократный выстрел помешал вам умереть на этой встрече! У вас осталось \%count\% безопасных выстрелов!</string>
 	<string name="TouRoleVigilanteWikiDescription">Линчеватель - это член экипажа убийца, который может угадывать роли игроков на собрании. Если он угадает правильно, то игрок умирает. Если нет, умрёт он сам.</string>
 	<!-- Vigilante Options -->
-	<string name="TouOptionVigilanteNumberOfGuesses">Количество угадываний</string>
+	<string name="TouOptionVigilanteNumberOfGuesses">Кол-во угадываний</string>
 	<string name="TouOptionVigilanteCanGuessMoreThanOncePerMeeting">Может угадывать более одного раза за собрание</string>
 	<string name="TouOptionVigilanteCanGuessNeutralBenignRoles">Может угадывать нейтральных мирных</string>
 	<string name="TouOptionVigilanteCanGuessNeutralEvilRoles">Может угадывать нейтральных злодеев</string>
@@ -1440,7 +1440,7 @@
 	<string name="TouRoleAmbassadorConfirmPromptAccept">Подтверждение</string>
 	<string name="TouRoleAmbassadorRetrainedPlayerTag">Переобучен</string>
 	<!-- Ambassador Options -->
-	<string name="TouOptionAmbassadorMaxRetrainsAvailable">Максимальное количество переобучений</string>
+	<string name="TouOptionAmbassadorMaxRetrainsAvailable">Максимальное кол-во переобучений</string>
 	<string name="TouOptionAmbassadorRetrainRequiresConfirmation">Для переобучения требуется подтверждение</string>
 	<string name="TouOptionAmbassadorKillsNeededByAmbassadorOrTeammateToRetrain">Убийства для переобучения</string>
 	<string name="TouOptionAmbassadorRoundInWhichRetrainingIsPossible">Раундов для переобучения</string>
@@ -1467,7 +1467,7 @@
 	<string name="TouRoleAmbusherAmbush">Засада</string>
 	<string name="TouRoleAmbusherAmbushWikiDescription">Устройте засаду на преследуемого игрока, чтобы убить его.</string>
 	<!-- Ambusher Options -->
-	<string name="TouOptionAmbusherAmbushUsesPerGame">Количество засад</string>
+	<string name="TouOptionAmbusherAmbushUsesPerGame">Кол-во засад</string>
 	<string name="TouOptionAmbusherAmbushCooldown">Кулдаун засад</string>
 	<string name="TouOptionAmbusherPursueArrowUpdateInterval">Интервал обновления стрелки</string>
 	<string name="TouOptionAmbusherStopPursuingPlayerOnAmbush">Остановить преследование игрока в засаде</string>
@@ -1478,9 +1478,9 @@
 	<string name="TouRoleBlackmailerTabDescription">Заглушите членов экипажа на следующем собрании</string>
 	<string name="TouRoleBlackmailerWikiDescription">Шантажист - это предатель помощи, который может помешать игроку говорить (отмеченные \%symbol\%) на следующем собрании.</string>
 	<string name="TouRoleBlackmailerBlackmail">Шантаж</string>
-	<string name="TouRoleBlackmailerBlackmailWikiDescription">Заглушите игрока на следующем собрании. Он не сможет говорить. Он также не сможет голосовать, пока в живых не останется меньше или равное количество людей, чем разрешено настройками шантажиста. Шантаж будет виден другим игрокам, только если эта настройка включена</string>
+	<string name="TouRoleBlackmailerBlackmailWikiDescription">Заглушите игрока на следующем собрании. Он не сможет говорить. Он также не сможет голосовать, пока в живых не останется меньше или равное кол-во людей, чем разрешено настройками шантажиста. Шантаж будет виден другим игрокам, только если эта настройка включена</string>
 	<!-- Blackmailer Options -->
-	<string name="TouOptionBlackmailerNumberOfBlackmailUsesPerGame">Количество шантажей</string>
+	<string name="TouOptionBlackmailerNumberOfBlackmailUsesPerGame">Кол-во шантажей</string>
 	<string name="TouOptionBlackmailerBlackmailCooldown">Кулдаун шантажа</string>
 	<string name="TouOptionBlackmailerMaxPlayersAliveUntilVoting">Максимум игроков для голосования</string>
 	<string name="TouOptionBlackmailerBlackmailSamePersonTwiceInARow">Шантаж одному игроку два раза подряд</string>
@@ -1512,7 +1512,7 @@
 	<string name="TouRoleBomberDetonating">Детонация</string>
 	<string name="TouRoleBomberPlaceWikiDescription">Установите бомбу, посмотрев радиус, в котором она будет убивать, убивая до \%maxKills\% игроков</string>
 	<!-- Bomber Options -->
-	<string name="TouOptionBomberBombUsesPerGame">Количество бомб</string>
+	<string name="TouOptionBomberBombUsesPerGame">Кол-во бомб</string>
 	<string name="TouOptionBomberDetonateDelay">Время детонации</string>
 	<string name="TouOptionBomberDetonateRadius">Радус детонации</string>
 	<string name="TouOptionBomberMAxKillsInDetonation">Максимум убийств при детонации</string>
@@ -1541,7 +1541,7 @@
 	<string name="TouRoleEscapistRecall">Вернуться</string>
 	<string name="TouRoleEscapistRecallWikiDescription">Вернуться на отмеченное место.</string>
 	<!-- Escapist Options -->
-	<string name="TouOptionEscapistRecallUsesPerGame">Количество возвращений</string>
+	<string name="TouOptionEscapistRecallUsesPerGame">Кол-во возвращений</string>
 	<string name="TouOptionEscapistRecallCooldown">Кулдаун возвращения</string>
 	<string name="TouOptionEscapistEscapistCanVent">Беглец может использовать вентиляции</string>
 	<!-- Grenadier Wiki / Abilities -->
@@ -1553,7 +1553,7 @@
 	<string name="TouRoleGrenadierFlashWikiDescription">Бросьте гранату, от которой ослепятся все игроки в радиусе её действия.</string>
 	<string name="TouRoleGrenadierFlashNotif">Все игроки вокруг вас были поражены светошумовой гранатой!</string>
 	<!-- Grenadier Options -->
-	<string name="TouOptionGrenadierFlashUsesPerGame">Количество светошумовых</string>
+	<string name="TouOptionGrenadierFlashUsesPerGame">Кол-во светошумовых</string>
 	<string name="TouOptionGrenadierFlashGrenadeCooldown">Кулдаун светошумовой</string>
 	<string name="TouOptionGrenadierFlashGrenadeDuration">Время светошумовой</string>
 	<string name="TouOptionGrenadierFlashRadius">Радиус светошумовой</string>
@@ -1594,7 +1594,7 @@
 	<string name="TouRoleJanitorCleaning">Уборка</string>
 	<string name="TouRoleJanitorCleanWikiDescription">Убирите труп, заставив его исчезнуть и сделав недоступным для анализа.</string>
 	<!-- Janitor Options -->
-	<string name="TouOptionJanitorCleanUsesPerGame">Количество уборок</string>
+	<string name="TouOptionJanitorCleanUsesPerGame">Кол-во уборок</string>
 	<string name="TouOptionJanitorCleanCooldown">Кулдаун уборки</string>
 	<string name="TouOptionJanitorCleanDelay">Время уборки</string>
 	<string name="TouOptionJanitorResetKillAndCleanCooldownsTogether">Сбрасывайте убийства \%и\% чистите кулдаун вместе</string>
@@ -1607,7 +1607,7 @@
 	<string name="TouRoleMinerMine">Копать</string>
 	<string name="TouRoleMinerMineWikiDescription">Разместите вентиляцию под собой. Эти вентиляции будут соедены друг с другом.</string>
 	<!-- Miner Options -->
-	<string name="TouOptionMinerNumberOfVentsPerGame">Количество копания</string>
+	<string name="TouOptionMinerNumberOfVentsPerGame">Кол-во копания</string>
 	<string name="TouOptionMinerMineCooldown">Кулдаун копания</string>
 	<string name="TouOptionMinerMineVisibility">Видимость копания</string>
 	<string name="TouOptionMinerMineDelay">Время копания</string>
@@ -1627,8 +1627,8 @@
 	<string name="TouRoleMorphlingMorphWikiDescription">Превратитесь в игрока, образец которого у вас есть.</string>
 	<string name="TouRoleMorphlingSampleNotif">Вы получили образец \%player\%. Этот образец пропадёт в следующем раунде.</string>
 	<!-- Morphling Options -->
-	<string name="TouOptionMorphlingSamplesPerGame">Количество образцов</string>
-	<string name="TouOptionMorphlingMorphUsesPerRound">Количество превращений</string>
+	<string name="TouOptionMorphlingSamplesPerGame">Кол-во образцов</string>
+	<string name="TouOptionMorphlingMorphUsesPerRound">Кол-во превращений</string>
 	<string name="TouOptionMorphlingMorphCooldown">Кулдаун превращения</string>
 	<string name="TouOptionMorphlingMorphDuration">Время превращения</string>
 	<string name="TouOptionMorphlingCanVent">Морф может использовать вентиляции</string>
@@ -1679,7 +1679,7 @@
 	<string name="TouRolePuppeteerControlNotif3">Кажется, вы чувствуете, как у вас мурашки бегут по коже. Вы под контролем \%role\%!</string>
 	<string name="TouRolePuppeteerControlFinishNotif">Вы освободились от контроля \%role\%!</string>
 	<!-- Puppeteer Options -->
-	<string name="TouOptionPuppeteerControlUses">Количество контролей</string>
+	<string name="TouOptionPuppeteerControlUses">Кол-во контролей</string>
 	<string name="TouOptionPuppeteerControlPerKill">Убийства для доп. контролей</string>
 	<string name="TouOptionPuppeteerVictimSeesControlDirection">Длительность показа местонахождения кукловода (для жертвы)</string>
 	<string name="TouOptionPuppeteerControlCooldown">Кулдаун контроля</string>
@@ -1714,7 +1714,7 @@
 	<string name="TouRoleSwooperUnswoop">Отменить</string>
 	<string name="TouRoleSwooperUnswoopWikiDescription">Отмените свою невидимость раньше</string>
 	<!-- Swooper Options -->
-	<string name="TouOptionSwooperSwoopUsesPerRound">Количество невидимостей</string>
+	<string name="TouOptionSwooperSwoopUsesPerRound">Кол-во невидимостей</string>
 	<string name="TouOptionSwooperSwoopCooldown">Кулдаун невидимости</string>
 	<string name="TouOptionSwooperSwoopDuration">Время невидимости</string>
 	<string name="TouOptionSwooperCanVent">Налётчик может использовать вентиляции</string>
@@ -1755,7 +1755,7 @@
 	<string name="TouRoleVenerer">Почитатель</string>
 	<string name="TouRoleVenererIntroBlurb">Улучшайте свои способности с каждым убийством</string>
 	<string name="TouRoleVenererTabDescription">Убивайте игроков, чтобы открыть доп. способности. Ваши способности разрешают вам использовать\%nl\%камуфляж, ускорение, и замедление других на вашем пути.</string>
-	<string name="TouRoleVenererWikiDescription">Почитатель - это предатель скрытности, который может убивать игроков, чтобы получить новые способности. Однако способность будет использована сразу же после её получения, и её количество будет увеличиваться.</string>
+	<string name="TouRoleVenererWikiDescription">Почитатель - это предатель скрытности, который может убивать игроков, чтобы получить новые способности. Однако способность будет использована сразу же после её получения, и её кол-во будет увеличиваться.</string>
 	<string name="TouRoleVenererCamouflage">Камуфляж</string>
 	<string name="TouRoleVenererCamouflageWikiDescription">Первая стадия способностей.\%nl\%Для всех игроков вы будете выглядеть как серый боб, что позволит вам скрываться после убийств.</string>
 	<string name="TouRoleVenererSprint">Ускорение</string>
@@ -1843,8 +1843,8 @@
 	<string name="TouRoleDoomsayerObserve">Наблюдать</string>
 	<string name="TouRoleDoomsayerObserveWikiDescription">Наблюдайте за игроком, чтобы на следующем собрании получить подсказку о его роли.</string>
 	<string name="TouRoleDoomsayerObserveNotif">Вы получите отчет о \%player\% на следующем собрании. Это поможет вам выявить его роль.</string>
-	<string name="TouRoleDoomsayerWonSelf">Вы выиграли в роли \%role\%, вы угадали достаточное количество ролей!</string>
-	<string name="TouRoleDoomsayerWonOther">\%role\%, \%player\%, выиграл, угадав достаточное количество ролей!</string>
+	<string name="TouRoleDoomsayerWonSelf">Вы выиграли в роли \%role\%, вы угадали достаточное кол-во ролей!</string>
+	<string name="TouRoleDoomsayerWonOther">\%role\%, \%player\%, выиграл, угадав достаточное кол-во ролей!</string>
 	<!-- Doomsayer Options -->
 	<string name="TouOptionDoomsayerCooldown">Кулдаун наблюдения</string>
 	<string name="TouOptionDoomsayerNecessaryGuessed">Угадываний для победы</string>
@@ -1921,7 +1921,7 @@
 	<!-- Fairy Options -->
 	<string name="TouOptionFairyCooldown">Кулдаун защиты</string>
 	<string name="TouOptionFairyDuration">Время защиты</string>
-	<string name="TouOptionFairyMaxProtects">Максимальное количество защит</string>
+	<string name="TouOptionFairyMaxProtects">Максимальное кол-во защит</string>
 	<string name="TouOptionFairyShowProtected">Показывать защищённого игрока</string>
 	<string name="TouOptionFairyProtectionEnumFairy">Фее</string>
 	<string name="TouOptionFairyProtectionEnumFairyAndTarget">Фее + Цели</string>
@@ -1954,7 +1954,7 @@
 	<string name="TouOptionInquisitorContinuesGame">Инквизитор продолжает игру при 3 игроках</string>
 	<string name="TouOptionInquisitorCantInquire">Инквизитор не может допрашивать</string>
 	<string name="TouOptionInquisitorInquireCooldown">Кулдаун допроса</string>
-	<string name="TouOptionInquisitorMaxInquiries">Максимальное количество допросов</string>
+	<string name="TouOptionInquisitorMaxInquiries">Максимальное кол-во допросов</string>
 	<string name="TouOptionInquisitorHereticAmount">Еретиков</string>
 	<!-- Chef -->
 	<!-- Chef Wiki / Abilities -->
@@ -1962,7 +1962,7 @@
 	<string name="TouRoleChefIntroBlurb">Свежие и готовые к подаче</string>
 	<string name="TouRoleChefTabDescription">Кормите членов экипажа приготовленными трупами.\%nl\%Как только ваша квота будет выполнена, уходите с победой!</string>
 	<string name="TouRoleChefTabCounter">Трупов скормлено: \%bodiesFed\% / \%bodiesTotal\%</string>
-	<string name="TouRoleChefWikiDescription">Шеф - это нейтральный останец, которая побеждает, скормив достаточное количество трупов.</string>
+	<string name="TouRoleChefWikiDescription">Шеф - это нейтральный останец, которая побеждает, скормив достаточное кол-во трупов.</string>
 	<!-- Chef Feedback -->
 	<string name="TouRoleChefMessageTitle">Feedback шефа</string>
 	<string name="TouRoleChefCustomerMessage">Шеф подал вам труп!</string>
@@ -2036,7 +2036,7 @@
 	<string name="TouRoleMercenaryGuardNotif">Как только кто-то взаимодействует с \%player\% вы получите золото.</string>
 	<!-- Mercenary Options -->
 	<string name="TouOptionMercenaryCooldown">Кулдаун защиты</string>
-	<string name="TouOptionMercenaryMaxGuards">Максимальное количество защиты</string>
+	<string name="TouOptionMercenaryMaxGuards">Максимальное кол-во защиты</string>
 	<string name="TouOptionMercenaryBribeCost">Цена подкупа</string>
 	<string name="TouOptionMercenaryProtectiveGuard">Защита отражает атаки</string>
 	<string name="TouOptionMercenaryProtectiveGuardGold">Золото даётся после атаки</string>
@@ -2065,92 +2065,92 @@
 	<string name="TouOptionSpectreWinEnumNothing">Ничего</string>
 	<!-- Plaguebearer -->
 	<!-- Plaguebearer Wiki / Abilities -->
-	<string name="TouRolePlaguebearer">Plaguebearer</string>
-	<string name="TouRolePlaguebearerIntroBlurb">Spread plague to become \%color=#4D4D4DFF\%Pestilence\%/color\%</string>
-	<string name="TouRolePlaguebearerTabDescription">Infect everyone to become \%color=#4D4D4DFF\%Pestilence\%/color\%</string>
-	<string name="TouRolePlaguebearerTabInfectCounter">Players Left To Infect: \%count\%</string>
-	<string name="TouRolePlaguebearerTabInfectedInfo">Players Infected:</string>
-	<string name="TouRolePlaguebearerWikiDescription">The Plaguebearer is a Neutral Killing role that needs to infect all other players to turn into the Pestilence.</string>
-	<string name="TouRolePlaguebearerInfect">Infect</string>
-	<string name="TouRolePlaguebearerInfectWikiDescription">Infect a player, causing them to be infected. When an infected player or dead body interacts or gets interacted with, the infection will spread to the interacted/interacting player.</string>
+	<string name="TouRolePlaguebearer">Чумоносец </string>
+	<string name="TouRolePlaguebearerIntroBlurb">Распространяйте чуму, чтобы превратиться в \%color=#4D4D4DFF\%мора\%/color\%</string>
+	<string name="TouRolePlaguebearerTabDescription">Зарази всех, чтобы стать \%color=#4D4D4DFF\%мором\%/color\%</string>
+	<string name="TouRolePlaguebearerTabInfectCounter">Здоровых игроков: \%count\%</string>
+	<string name="TouRolePlaguebearerTabInfectedInfo">Заражённые игроки:</string>
+	<string name="TouRolePlaguebearerWikiDescription">Чумоносец - это нейтральный убийца, который должен заразить всех игроков, чтобы стать мором.</string>
+	<string name="TouRolePlaguebearerInfect">Заразить</string>
+	<string name="TouRolePlaguebearerInfectWikiDescription">Заразить игрока. Когда зараженный игрок или труп вступают во взаимодействие, инфекция распространяется на взаимодействующего игрока.</string>
 	<!-- Rewritten for clarity and grammar issues -->
 
 	<!-- Plaguebearer options -->
-	<string name="TouOptionPlaguebearerInstantPesti">Instant Pestilence Chance</string>
-	<string name="TouOptionPlaguebearerInfectCooldown">Infect Cooldown</string>
-	<string name="TouOptionPlaguebearerAnnounceTransformation">Announce Pestilence Transformation</string>
-	<string name="TouOptionPlaguebearerPestilenceKillCooldown">Pestilence Kill Cooldown</string>
-	<string name="TouOptionPlaguebearerPestilenceCanVent">Pestilence Can Vent</string>
+	<string name="TouOptionPlaguebearerInstantPesti">Мгновенный шанс заражения</string>
+	<string name="TouOptionPlaguebearerInfectCooldown">Кулдаун заражения</string>
+	<string name="TouOptionPlaguebearerAnnounceTransformation">Объявить о превращении в мора</string>
+	<string name="TouOptionPlaguebearerPestilenceKillCooldown">Кулдаун убийства</string>
+	<string name="TouOptionPlaguebearerPestilenceCanVent">Чумоносец может использовать вентиляции</string>
 	<!-- Medusa -->
 	<!-- Medusa Wiki / Abilities -->
-	<string name="TouRoleSoulCollector">Soul Collector</string>
-	<string name="TouRoleMedusa">Medusa</string>
-	<string name="TouRoleMedusaIntroBlurb">Petrify the Crewmates into stone.</string>
-	<string name="TouRoleMedusaTabDescription">Stone players into permanent statues.</string>
-	<string name="TouRoleMedusaWikiDescription">The Medusa is a Neutral Killing role that forces its victims to stand still and slowly turn into stone. Stoned players that haven't shattered will remain throughout rounds.</string>
-	<string name="TouRoleMedusaPetrify">Petrify</string>
-	<string name="TouRoleMedusaPetrifyWikiDescription">Petrify a player to turn them into stone, killing them and leaving a statue.</string>
-	<string name="TouRoleMedusaPetrifyNotif">\%player\% will slowly turn to stone!</string>
-	<string name="TouRoleMedusaStoneGaze">Stone Gaze</string>
-	<string name="TouRoleMedusaStoneGazing">Stone Gazing</string>
-	<string name="TouRoleMedusaStoneGazeWikiDescription">Petrify anyone who tries to interact with you while gazing, unless they attempt to kill you. You will also not lunge towards others.</string>
+	<string name="TouRoleSoulCollector">Собиратель душ</string>
+	<string name="TouRoleMedusa">Медуза</string>
+	<string name="TouRoleMedusaIntroBlurb">Превратите членов экипажа в камень.</string>
+	<string name="TouRoleMedusaTabDescription">Превращайте игроков в вечные статуи.</string>
+	<string name="TouRoleMedusaWikiDescription">Медуза - это нейтральный убийца, который заставляет своих жертв стоять на месте и медленно превращаться в камень.</string>
+	<string name="TouRoleMedusaPetrify">Окаменеть</string>
+	<string name="TouRoleMedusaPetrifyWikiDescription">Превращайте игрока в камень, убивая его и оставляя статую.</string>
+	<string name="TouRoleMedusaPetrifyNotif">\%player\% будет медленно превращаться в камень!</string>
+	<string name="TouRoleMedusaStoneGaze">Каменный взгляд</string>
+	<string name="TouRoleMedusaStoneGazing">Каменный взгляд</string>
+	<string name="TouRoleMedusaStoneGazeWikiDescription">Превращайте в камень любого, кто попытается встретиться с вами взглядом, если только он не попытается убить вас. Вы также не будете бросаться на других.</string>
 	<!-- Medusa Options -->
-	<string name="TouOptionMedusaPetrifyCooldown">Petrify Cooldown</string>
-	<string name="TouOptionMedusaPetrifyFirstRound">Allow Petrify in First Round</string>
-	<string name="TouOptionMedusaCanVent">Medusa Can Vent</string>
+	<string name="TouOptionMedusaPetrifyCooldown">Кулдаун окаменения</string>
+	<string name="TouOptionMedusaPetrifyFirstRound">Окаменение в первом раунде</string>
+	<string name="TouOptionMedusaCanVent">Медуза может использовать вентиляции</string>
 	<!-- Survivor -->
 	<!-- Survivor Wiki / Abilities -->
-	<string name="TouRoleSurvivor">Survivor</string>
-	<string name="TouRoleSurvivorIntroBlurb">Do whatever it takes to live.</string>
-	<string name="TouRoleSurvivorTabDescription">Stay alive to win with any faction remaining</string>
-	<string name="TouRoleSurvivorWikiDescription">The Survivor is a Neutral Benign role that just needs to survive until the end of the game.</string>
+	<string name="TouRoleSurvivor">Выживальщик</string>
+	<string name="TouRoleSurvivorIntroBlurb">Делайте всё возможное, чтобы выжить.</string>
+	<string name="TouRoleSurvivorTabDescription">Оставайтесь в живых, чтобы победить с любой оставшейся командой</string>
+	<string name="TouRoleSurvivorWikiDescription">Выживальщик - это нейтральный мирный, которому нужно просто дожить до конца игры.</string>
 	<!-- till to until for clarity -->
 
-	<string name="TouRoleSurvivorSafeguard">Safeguard</string>
-	<string name="TouRoleSurvivorSafeguardWikiDescription">Put on a Vest protecting you from attacks.</string>
+	<string name="TouRoleSurvivorSafeguard">Жилет</string>
+	<string name="TouRoleSurvivorSafeguardWikiDescription">Наденьте жилет, защищающий вас от атак.</string>
 	<!-- Survivor Options -->
-	<string name="TouOptionSurvivorVestCooldown">Vest Cooldown</string>
-	<string name="TouOptionSurvivorVestDuration">Vest Duration</string>
-	<string name="TouOptionSurvivorMaxVests">Max Number Of Vests</string>
-	<string name="TouOptionSurvivorScatterEnabled">Survivor Scatter Mechanic Enabled</string>
-	<string name="TouOptionSurvivorScatterTimer">Survivor Scatter Timer</string>
+	<string name="TouOptionSurvivorVestCooldown">Кулдаун жилета</string>
+	<string name="TouOptionSurvivorVestDuration">Время жилета</string>
+	<string name="TouOptionSurvivorMaxVests">Максимальное кол-во жилетов</string>
+	<string name="TouOptionSurvivorScatterEnabled">Механизм разброса</string>
+	<string name="TouOptionSurvivorScatterTimer">Время разброса</string>
 	<!-- Vampire -->
 	<!-- Vampire Wiki / Abilities -->
-	<string name="TouRoleVampire">Vampire</string>
-	<string name="TouRoleVampireIntroBlurb">Convert Crewmates and kill the rest</string>
-	<string name="TouRoleVampireTabDescription">Bite other players to convert them or kill them</string>
-	<string name="TouRoleVampireWikiDescription">The Vampire is a Neutral Killing role that wins by being the last killer(s) alive. They can bite, changing others into Vampires, or kill players.</string>
-	<string name="TouRoleVampireBite">Bite</string>
-	<string name="TouRoleVampireBiteWikiDescription">Bite a player. If the bitten player is convertible, and you have not exceeded the maximum number of vampires in a game yet, you convert them into a vampire. Otherwise, they will just die.</string>
+	<string name="TouRoleVampire">Вампир</string>
+	<string name="TouRoleVampireIntroBlurb">Обращайте членов экипажа и убивайте остальных</string>
+	<string name="TouRoleVampireTabDescription">Кусайте других игроков, чтобы обратить их или убить</string>
+	<string name="TouRoleVampireWikiDescription">Вампир - нейтральный убийца, который побеждает, оставшись последним убийцей в живых. Он может кусать игроков, превращая в вампиров, или убивая их.</string>
+	<string name="TouRoleVampireBite">Укус</string>
+	<string name="TouRoleVampireBiteWikiDescription">Укусите игрока. Если укушенный игрок трансформируется, а вы еще не превысили максимальное количество вампиров в игре, вы превращаете его в вампира. В противном случае он просто умрет.</string>
 	<!-- Vampire Options -->
-	<string name="TouOptionVampireBiteCooldown">Bite Cooldown</string>
-	<string name="TouOptionVampireMaxVamps">Max Number Of Vampires Per Game</string>
-	<string name="TouOptionVampireImpostorVision">Vampires Have Impostor Vision</string>
-	<string name="TouOptionVampireNewVampsAssassinate">New Vampires Can Assassinate</string>
-	<string name="TouOptionVampireValidNeutralConversions">Valid Neutral Conversions</string>
-	<string name="TouOptionVampireNeutConvertBenign">Benign</string>
-	<string name="TouOptionVampireNeutConvertEvil">Evils</string>
-	<string name="TouOptionVampireNeutConvertOutlier">Outliers</string>
-	<string name="TouOptionVampireNeutConvertNone">None</string>
-	<string name="TouOptionVampireConvertNeutralBenign">Can Convert Neutral Benign Roles</string>
-	<string name="TouOptionVampireConvertNeutralEvil">Can Convert Neutral Evil Roles</string>
-	<string name="TouOptionVampireConvertNeutralOutlier">Can Convert Neutral Outlier Roles</string>
-	<string name="TouOptionVampireConvertLovers">Can Convert Lovers</string>
-	<string name="TouOptionVampireNewVampiresConvert">New Vampires Can Convert</string>
-	<string name="TouOptionVampireCanVent">Vampires Can Vent</string>
+	<string name="TouOptionVampireBiteCooldown">Кулдаун укуса</string>
+	<string name="TouOptionVampireMaxVamps">Максимальное кол-во вампиров</string>
+	<string name="TouOptionVampireImpostorVision">Вампиры видять предателей</string>
+	<string name="TouOptionVampireNewVampsAssassinate">Новые вампиры могут убивать</string>
+	<string name="TouOptionVampireValidNeutralConversions">Возможна трансформация нейтральных</string>
+	<string name="TouOptionVampireNeutConvertBenign">Мирных</string>
+	<string name="TouOptionVampireNeutConvertEvil">Злодеев</string>
+	<string name="TouOptionVampireNeutConvertOutlier">Останцев</string>
+	<string name="TouOptionVampireNeutConvertNone">Никого</string>
+	<string name="TouOptionVampireConvertNeutralBenign">Возможна трансформация нейтральных мирных</string>
+	<string name="TouOptionVampireConvertNeutralEvil">Возможна трансформация нейтральных злодеев</string>
+	<string name="TouOptionVampireConvertNeutralOutlier">Возможна трансформация нейтральных останцев</string>
+	<string name="TouOptionVampireConvertLovers">Возможна трансформация любовников</string>
+	<string name="TouOptionVampireNewVampiresConvert">Новые вампиры могут трансформировать</string>
+	<string name="TouOptionVampireCanVent">Вампир может использовать вентиляции</string>
 	<!-- Werewolf -->
 	<!-- Werewolf Wiki / Abilities -->
-	<string name="TouRoleWerewolf">Werewolf</string>
-	<string name="TouRoleWerewolfIntroBlurb">Rampage to kill everyone</string>
-	<string name="TouRoleWerewolfTabDescription">Rampage to kill quickly, increase your\%nl\%vision, and vent away temporarily</string>
-	<string name="TouRoleWerewolfWikiDescription">The Werewolf is a Neutral Killing role that wins by being the last killer alive. They can go on a rampage to gain the ability to kill.</string>
-	<string name="TouRoleWerewolfRampage">Rampage</string>
-	<string name="TouRoleWerewolfRampageWikiDescription">Go on a Rampage, gaining the ability to kill and gain Impostor vision. During the Rampage your kill cooldown is significantly lower.</string>
+	<string name="TouRoleWerewolf">Оборотень</string>
+	<string name="TouRoleWerewolfIntroBlurb">Неиствовайте, чтобы убить всех</string>
+	<string name="TouRoleWerewolfTabDescription">Неистовствуйте, чтобы быстро убивать, увеличивая своё\%nl\%зрение, и временно используйте вентиляции</string>
+	<string name="TouRoleWerewolfWikiDescription">Оборотень - это нейтральный убийца, который побеждает, оставшись последним убийцей в живых. Может впадать в неистовство, чтобы получить возможность убивать.</string>
+	<string name="TouRoleWerewolfRampage">Неиствовство</string>
+	<string name="TouRoleWerewolfRampageWikiDescription">Впадайте в неистовство, получая возможность убивать и зрение предателей. Во время неистовства время восстановления после убийства значительно уменьшается.</string>
 	<!-- Werewolf Options -->
-	<string name="TouOptionWerewolfRampageCooldown">Rampage Cooldown</string>
-	<string name="TouOptionWerewolfRampageDuration">Rampage Duration</string>
-	<string name="TouOptionWerewolfKillCooldown">Rampage Kill Cooldown</string>
-	<string name="TouOptionWerewolfCanVent">Werewolf Can Vent When Rampaged</string>
+	<string name="TouOptionWerewolfRampageCooldown">Кулдаун неиствовавства</string>
+	<string name="TouOptionWerewolfRampageDuration">Время неиствовавства</string>
+	<string name="TouOptionWerewolfKillCooldown">Кулдаун убийств в неистовавстве</string>
+	<string name="TouOptionWerewolfCanVent">Оборотень может использовать люки во время неистовавства</string>
 
 	<!-- Modifiers -->
 	
