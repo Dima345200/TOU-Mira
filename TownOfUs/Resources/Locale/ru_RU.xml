@@ -64,7 +64,7 @@
   <string name="CrewmateKeyword">Член экипажа</string>
   <string name="CrewKeyword">Экипаж</string>
   <string name="NeutralKeyword">Нейтрал</string>
-  <string name="ImpostorKeyword">Бурмалда</string>
+  <string name="ImpostorKeyword">Предатель</string>
   <string name="ImpKeyword">Пред</string>
   <string name="Alliance">Альянс</string>
   <string name="CrewmateVisibility">Экипаж-Видимость</string>
@@ -588,6 +588,9 @@
   <string name="TermsCommonSlangTitle">Обычный сленг</string>
   <string name="PlayerCommandDescription">/players - Показывает информацию о участниках в лобби.</string>
   <string name="InfoCommandDescription">/info - Воспроизведите самое последнее полученное вами сообщение с информацией о роли.</string>
+
+	<!-- Roles -->
+	
 	<!-- Crewmate roles -->
 	<!-- Barkeeper - Crewmate Support -->
 	<!-- Barkeeper Wiki / Abilities -->
@@ -1873,10 +1876,10 @@
 	<string name="TouRoleExecutioner">Палач</string>
 	<string name="TouRoleExecutionerTabDescription">Проголосуйте за \%цель\% чтобы победить.</string>
 	<string name="TouRoleExecutionerMissingTargetDescription">Проголосуйте за свою цель чтобы победить.</string>
-	<string name="TouRoleExecutionerWikiDescription">Палач - это нейтральный злодей, который побеждает, выкидывая свою цель (отмеченную \%symbol\%) на собрании.</string>
+	<string name="TouRoleExecutionerWikiDescription">Палач - это нейтральный злодей, который побеждает, изгнав свою цель (отмеченную \%symbol\%) на собрании.</string>
 	<string name="TouRoleExecutionerTorment">Мучение</string>
-	<string name="TouRoleExecutionerWonSelf">Вы выиграли в роли \%role\%, ваша цель была выкинута на собрании!</string>
-	<string name="TouRoleExecutionerWonOther">\%role\%, \%player\%, победил, поскольку его цель была выкинута!</string>
+	<string name="TouRoleExecutionerWonSelf">Вы выиграли в роли \%role\%, ваша цель была изгнана на собрании!</string>
+	<string name="TouRoleExecutionerWonOther">\%role\%, \%player\%, победил, поскольку его цель была изгнана!</string>
 	<string name="TouRoleExecutionerTormentFeedback">У вас есть один раунд, чтобы замучить игрока до смерти, выбирайте с умом.</string>
 	<string name="TouRoleExecutionerTormentNotif">Палач замучил \%жертву\% до смерти!</string>
 	<!-- Executioner Options -->
@@ -1955,111 +1958,111 @@
 	<string name="TouOptionInquisitorHereticAmount">Еретиков</string>
 	<!-- Chef -->
 	<!-- Chef Wiki / Abilities -->
-	<string name="TouRoleChef">Chef</string>
-	<string name="TouRoleChefIntroBlurb">Fresh and ready to serve</string>
-	<string name="TouRoleChefTabDescription">Feed the crewmates with cooked corpses.\%nl\%Once your quota is fed, leave in victory!</string>
-	<string name="TouRoleChefTabCounter">Bodies Fed: \%bodiesFed\% / \%bodiesTotal\%</string>
-	<string name="TouRoleChefWikiDescription">The Chef is a Neutral Outlier role that wins with any other faction as long as they have served enough dead bodies to the crew.</string>
+	<string name="TouRoleChef">Шеф</string>
+	<string name="TouRoleChefIntroBlurb">Свежие и готовые к подаче</string>
+	<string name="TouRoleChefTabDescription">Кормите членов экипажа приготовленными трупами.\%nl\%Как только ваша квота будет выполнена, уходите с победой!</string>
+	<string name="TouRoleChefTabCounter">Трупов скормлено: \%bodiesFed\% / \%bodiesTotal\%</string>
+	<string name="TouRoleChefWikiDescription">Шеф - это нейтральный останец, которая побеждает, скормив достаточное количество трупов.</string>
 	<!-- Chef Feedback -->
-	<string name="TouRoleChefMessageTitle">Chef Feedback</string>
-	<string name="TouRoleChefCustomerMessage">You have been served a dead body by the Chef!</string>
-	<string name="TouRoleChefVictoryMessage">The \%role\%, \%player\%, has successfully won, as they've fed enough players!</string>
-	<string name="TouRoleChefVictoryMessageSelf">You have successfully won as the \%role\%, as you've fed enough players!</string>
-	<string name="TouRoleChefCook">Cook</string>
-	<string name="TouRoleChefCookWikiDescription">Cook a dead body and save it for later use.</string>
-	<string name="TouRoleChefServe">Serve</string>
-	<string name="TouRoleChefServeWikiDescription">Serve the oldest meal you have on hand to another empty stomach.</string>
+	<string name="TouRoleChefMessageTitle">Feedback шефа</string>
+	<string name="TouRoleChefCustomerMessage">Шеф подал вам труп!</string>
+	<string name="TouRoleChefVictoryMessage">\%role\%, \%player\%, победил, накормив достаточно игроков!</string>
+	<string name="TouRoleChefVictoryMessageSelf">Вы победили в роли \%role\%, так как накормили достаточно игроков!</string>
+	<string name="TouRoleChefCook">Приготовить</string>
+	<string name="TouRoleChefCookWikiDescription">Приготовьте труп и сохраните его для последующей подачи.</string>
+	<string name="TouRoleChefServe">Подача</string>
+	<string name="TouRoleChefServeWikiDescription">Подайте самое старое блюдо, которое у вас есть под рукой.</string>
 	<!-- Chef Options -->
-	<string name="TouOptionChefServeCooldown">Serve Cooldown</string>
-	<string name="TouOptionChefCookCooldown">Cook Cooldown</string>
-	<string name="TouOptionChefLinkedCooldowns">Reset Cook \%and\% Serve Cooldowns Together</string>
-	<string name="TouOptionChefServingAmount">Amount Of Servings Needed</string>
-	<string name="TouOptionChefServingSideEffects">Duration of Side Effects</string>
-	<string name="TouOptionChefArrowsToBodies">Show Arrows Pointing To Dead Bodies</string>
-	<string name="TouOptionChefArrowDelay">Dead Body Arrow Delay</string>
-	<string name="TouOptionChefArrowDuration">Dead Body Arrow Duration</string>
+	<string name="TouOptionChefServeCooldown">Кулдаун подачи</string>
+	<string name="TouOptionChefCookCooldown">Кулдаун готовки</string>
+	<string name="TouOptionChefLinkedCooldowns">Сброс кулдауна готовки \%и\% подачи</string>
+	<string name="TouOptionChefServingAmount">Подач нужно</string>
+	<string name="TouOptionChefServingSideEffects">Время побочных эффектов</string>
+	<string name="TouOptionChefArrowsToBodies">Показывать указатели на трупы</string>
+	<string name="TouOptionChefArrowDelay">Задержка указателя на труп</string>
+	<string name="TouOptionChefArrowDuration">Время указателя на труп</string>
 	<!-- Jester -->
 	<!-- Jester Wiki / Description -->
-	<string name="TouRoleJester">Jester</string>
-	<string name="TouRoleJesterIntroBlurb">Get yourself voted out!</string>
-	<string name="TouRoleJesterTabDescription">Be as suspicious as possible, and get voted out!</string>
-	<string name="TouRoleJesterWikiDescription">The Jester is a Neutral Evil role that wins by getting themselves ejected.</string>
-	<string name="TouRoleJesterHaunt">Haunt</string>
-	<string name="TouRoleJesterPoke">Poke</string>
+	<string name="TouRoleJester">Шут</string>
+	<string name="TouRoleJesterIntroBlurb">Дайте проголосовать за себя!</string>
+	<string name="TouRoleJesterTabDescription">Будьте настолько подозрительны, что вас исключат!</string>
+	<string name="TouRoleJesterWikiDescription">Шут - это нейтральный злодей, который побеждает, когда его изгоняют.</string>
+	<string name="TouRoleJesterHaunt">Мучить</string>
+	<string name="TouRoleJesterPoke">Подшутить</string>
 	<!-- Jester Messages -->
-	<string name="TouNotifJesterWinOwner">You have successfully won as the Jester, by getting voted out!</string>
-	<string name="TouNotifJesterHauntOwner">You have one round to haunt a player of your choice to death, choose wisely!</string>
-	<string name="TouNotifJesterWinGlobal">The Jester, \%player\%, has successfully won, as they were voted out!</string>
-	<string name="TouNotifJesterPoke">You have poked \%player\%!</string>
-	<string name="TouRoleJesterHauntNotif">The Jester has decided to haunt \%victim\% beyond the grave!</string>
+	<string name="TouNotifJesterWinOwner">Вы победили в роли шута, ведь вас изгнали!</string>
+	<string name="TouNotifJesterHauntOwner">У вас есть один раунд, чтобы замучить игрока до смерти, выбирайте с умом!</string>
+	<string name="TouNotifJesterWinGlobal">Шут, \%player\%, победил, когда его изгнали!</string>
+	<string name="TouNotifJesterPoke">Вы подшутили над \%player\%!</string>
+	<string name="TouRoleJesterHauntNotif">Шут довёл \%жертву\% до смерти!</string>
 	<!-- Jester Options -->
-	<string name="TouOptionJesterCanButton">Can Use Button</string>
-	<string name="TouOptionJesterCanVent">Can Hide In Vents</string>
-	<string name="TouOptionJesterVentCooldown">Vent Cooldown</string>
-	<string name="TouOptionJesterVentDuration">Vent Duration</string>
-	<string name="TouOptionJesterCanPoke">Can Poke Others</string>
-	<string name="TouOptionJesterPokeCooldown">Poke Cooldown</string>
-	<string name="TouOptionJesterImpVision">Has Impostor Vision</string>
-	<string name="TouOptionJesterScatterEnabled">Scatter Mechanic Enabled</string>
-	<string name="TouOptionJesterScatterTimer">Scatter Timer</string>
-	<string name="TouOptionJesterAfterWin">After Win Type</string>
-	<string name="TouOptionJesterWinEnumEndsGame">Ends Game</string>
-	<string name="TouOptionJesterWinEnumHaunts">Haunts</string>
-	<string name="TouOptionJesterWinEnumNothing">Nothing</string>
-	<string name="TouOptionJesterNotifyWin">Notify Others On Win</string>
+	<string name="TouOptionJesterCanButton">Может созывать собрания</string>
+	<string name="TouOptionJesterCanVent">Может использовать вентиляции</string>
+	<string name="TouOptionJesterVentCooldown">Кулдаун вентиляции</string>
+	<string name="TouOptionJesterVentDuration">Время в вентиляции</string>
+	<string name="TouOptionJesterCanPoke">Может подшучивать над другими</string>
+	<string name="TouOptionJesterPokeCooldown">Кулдаун подшучивания</string>
+	<string name="TouOptionJesterImpVision">Видит предателей</string>
+	<string name="TouOptionJesterScatterEnabled">Включена механика разброса</string>
+	<string name="TouOptionJesterScatterTimer">Таймер разброса</string>
+	<string name="TouOptionJesterAfterWin">После победы</string>
+	<string name="TouOptionJesterWinEnumEndsGame">Игра заканчивается</string>
+	<string name="TouOptionJesterWinEnumHaunts">Мучает</string>
+	<string name="TouOptionJesterWinEnumNothing">Ничего</string>
+	<string name="TouOptionJesterNotifyWin">Уведомить других о победе</string>
 	<!-- Juggernaut -->
 	<!-- Juggernaut Wiki / Description -->
-	<string name="TouRoleJuggernaut">Juggernaut</string>
-	<string name="TouRoleJuggernautIntroBlurb">Lower your cooldown with every kill.</string>
-	<string name="TouRoleJuggernautTabDescription">With each kill your kill cooldown decreases.</string>
-	<string name="TouRoleJuggernautTabKillCounter">Kill Count: \%count\%</string>
-	<string name="TouRoleJuggernautWikiDescription">The Juggernaut is a Neutral Killing role that wins by being the last killer alive. For each kill they get, their kill cooldown gets reduced.</string>
+	<string name="TouRoleJuggernaut">Джаггернаут</string>
+	<string name="TouRoleJuggernautIntroBlurb">С каждым убийством время кулдауна уменьшается.</string>
+	<string name="TouRoleJuggernautTabDescription">С каждым убийством время кулдауна вашего оружия уменьшается.</string>
+	<string name="TouRoleJuggernautTabKillCounter">Число убийств: \%count\%</string>
+	<string name="TouRoleJuggernautWikiDescription">Джаггернаут - это нейтральный убийца, который побеждает, оставшись последним убийцей в живых. За каждое убийство его кулдаун уменьшается.</string>
 	<!-- Juggernaut Options -->
-	<string name="TouOptionJuggernautInitialCooldown">Initial Kill Cooldown</string>
-	<string name="TouOptionJuggernautCooldownReduction">Kill Cooldown Reduction</string>
-	<string name="TouOptionJuggernautCanVent">Juggernaut Can Vent</string>
+	<string name="TouOptionJuggernautInitialCooldown">Начальный кулдаун убийств</string>
+	<string name="TouOptionJuggernautCooldownReduction">Уменьшение кулдауна</string>
+	<string name="TouOptionJuggernautCanVent">Джаггернаут может использовать вентиляции</string>
 	<!-- Mercenary -->
 	<!-- Mercenary Wiki / Abilities -->
-	<string name="TouRoleMercenary">Mercenary</string>
-	<string name="TouRoleMercenaryIntroBlurb">Commit bribery to win with others</string>
-	<string name="TouRoleMercenaryTabDescription">Guard players to get gold upon interaction,\%nl\%then bribe the winners!</string>
-	<string name="TouRoleMercenaryTabGoldCounter">Gold: \%count\%</string>
-	<string name="TouRoleMercenaryTabBribedInfo">Bribed:</string>
-	<string name="TouRoleMercenaryWikiDescription">The Mercenary is a Neutral Benign role that can only win by bribing players, allowing them to gain multiple win conditions.</string>
-	<string name="TouRoleMercenaryGuard">Guard</string>
-	<string name="TouRoleMercenaryGuardWikiDescription">Guarding a player allows the Mercenary to absorb an ability used on the target. This will grant them gold, for Bribing. If any bribed targets win, the Mercenary will win with them.</string>
-	<string name="TouRoleMercenaryBribe">Bribe</string>
-	<string name="TouRoleMercenaryBribeWikiDescription">Bribing a player allows the Mercenary to gain their win condition, given that they have gold to spare.</string>
-	<string name="TouRoleMercenaryGuardNotif">Once \%player\% is interacted with, you will get gold in return.</string>
+	<string name="TouRoleMercenary">Наёмник</string>
+	<string name="TouRoleMercenaryIntroBlurb">Давайте взятки, чтобы победить</string>
+	<string name="TouRoleMercenaryTabDescription">Охраняйте игроков, чтобы получать золото за взаимодействие,\%nl\%затем подкупите игроков!</string>
+	<string name="TouRoleMercenaryTabGoldCounter">Золота: \%count\%</string>
+	<string name="TouRoleMercenaryTabBribedInfo">Подкупленные:</string>
+	<string name="TouRoleMercenaryWikiDescription">Наёмник - это нейтральный мирный, который побеждает подкупом игроков, что позволяет получить им несколько условий победы.</string>
+	<string name="TouRoleMercenaryGuard">Защита</string>
+	<string name="TouRoleMercenaryGuardWikiDescription">Защита игрока позволяет наёмнику заблокировать способность, используемую на цели. Это даст ему золото. Если какая-либо из подкупленных целей победит, Наёмник выиграет вместе с ними.</string>
+	<string name="TouRoleMercenaryBribe">Взятка</string>
+	<string name="TouRoleMercenaryBribeWikiDescription">Подкуп игрока позволяет наёмнику получить условие победы, если у него есть лишнее золото.</string>
+	<string name="TouRoleMercenaryGuardNotif">Как только кто-то взаимодействует с \%player\% вы получите золото.</string>
 	<!-- Mercenary Options -->
-	<string name="TouOptionMercenaryCooldown">Guard Cooldown</string>
-	<string name="TouOptionMercenaryMaxGuards">Max Number Of Guards</string>
-	<string name="TouOptionMercenaryBribeCost">Bribe Cost</string>
-	<string name="TouOptionMercenaryProtectiveGuard">Guarding Stops Attacks</string>
-	<string name="TouOptionMercenaryProtectiveGuardGold">Gold Given From An Attack</string>
+	<string name="TouOptionMercenaryCooldown">Кулдаун защиты</string>
+	<string name="TouOptionMercenaryMaxGuards">Максимальное количество защиты</string>
+	<string name="TouOptionMercenaryBribeCost">Цена подкупа</string>
+	<string name="TouOptionMercenaryProtectiveGuard">Защита отражает атаки</string>
+	<string name="TouOptionMercenaryProtectiveGuardGold">Золото даётся после атаки</string>
 	<!-- Pestilence -->
 	<!-- Pestilence Wiki / Description -->
-	<string name="TouRolePestilence">Pestilence</string>
-	<string name="TouRolePestilenceIntroBlurb">Horseman of the Apocalypse!</string>
-	<string name="TouRolePestilenceTabDescription">Kill everyone in your path that interacts with you!</string>
-	<string name="TouRolePestilenceYouAreText">You Are</string>
-	<string name="TouRolePestilenceWikiDescription">The Pestilence is a Neutral Killing role that can kill and is invincible to everything but being exiled or guessing incorrectly. They win by being the last killer alive.</string>
-	<string name="TouRolePestilenceMessageTitle">Pestilence Warning</string>
-	<string name="TouRolePestilenceAnnounceMessage">A deadly plague has consumed the Crew.\%nl\%\%role\%, Horseman of the Apocalypse, has emerged!</string>
+	<string name="TouRolePestilence">Мор</string>
+	<string name="TouRolePestilenceIntroBlurb">Всадник апокалипсиса!</string>
+	<string name="TouRolePestilenceTabDescription">Убивайте на своем пути всех, кто с вами взаимодействует!</string>
+	<string name="TouRolePestilenceYouAreText">Вы</string>
+	<string name="TouRolePestilenceWikiDescription">Мор - это нейтральный убийца, который побеждает, оставшись последним убийцей в живых. Может убивать и неуязвим ко всему, кроме изгнания и неверного угадывания.</string>
+	<string name="TouRolePestilenceMessageTitle">Предупреждение о море</string>
+	<string name="TouRolePestilenceAnnounceMessage">Смертельный мор поглотил экипаж.\%nl\%\%role\%, Всадник Апокалипсиса появился!</string>
 	<!-- Spectre -->
 	<!-- Spectre Wiki / Description -->
-	<string name="TouRoleSpectre">Spectre</string>
-	<string name="TouRoleSpectreIntroBlurb">Use your second chance to win</string>
-	<string name="TouRoleSpectreTabDescription">Complete all your tasks without being caught!</string>
-	<string name="TouRoleSpectreWikiDescription">The Spectre is a Neutral Ghost role that wins the game by finishing their tasks before a living player has clicked on them.</string>
-	<string name="TouRoleSpectreSpook">Spook</string>
-	<string name="TouRoleSpectreSpookNotif">The Spectre has spooked \%victim\% to their end!</string>
+	<string name="TouRoleSpectre">Спектр</string>
+	<string name="TouRoleSpectreIntroBlurb">Используйте свой второй шанс на победу</string>
+	<string name="TouRoleSpectreTabDescription">Выполняйте все свои задания так, чтобы вас не поймали!</string>
+	<string name="TouRoleSpectreWikiDescription">Спектр - это нейтральный призрак, который выигрывает игру, выполняя свои задания до того, как на него нажмет живой игрок.</string>
+	<string name="TouRoleSpectreSpook">Пугать</string>
+	<string name="TouRoleSpectreSpookNotif">Призрак напугал \%жертву\% до смерти!</string>
 	<!-- Spectre Options -->
-	<string name="TouOptionSpectreTasksLeftClickable">Tasks Left Before Clickable</string>
-	<string name="TouOptionSpectreWin">Spectre Win</string>
-	<string name="TouOptionSpectreWinEnumEndsGame">Ends Game</string>
-	<string name="TouOptionSpectreWinEnumSpooks">Spooks</string>
-	<string name="TouOptionSpectreWinEnumNothing">Nothing</string>
+	<string name="TouOptionSpectreTasksLeftClickable">Задания до кликабельности</string>
+	<string name="TouOptionSpectreWin">Спектр побеждает</string>
+	<string name="TouOptionSpectreWinEnumEndsGame">Игра заканчивается</string>
+	<string name="TouOptionSpectreWinEnumSpooks">Испуг</string>
+	<string name="TouOptionSpectreWinEnumNothing">Ничего</string>
 	<!-- Plaguebearer -->
 	<!-- Plaguebearer Wiki / Abilities -->
 	<string name="TouRolePlaguebearer">Plaguebearer</string>
@@ -2148,8 +2151,10 @@
 	<string name="TouOptionWerewolfRampageDuration">Rampage Duration</string>
 	<string name="TouOptionWerewolfKillCooldown">Rampage Kill Cooldown</string>
 	<string name="TouOptionWerewolfCanVent">Werewolf Can Vent When Rampaged</string>
-	<!-- Alliance Modifiers -->
 
+	<!-- Modifiers -->
+	
+	<!-- Alliance Modifiers -->
 	<!-- Crewpostor - Crewmate Alliance -->
 	<!-- Crewpostor Wiki / Description -->
 	<string name="TouModifierCrewpostor">Crewpostor</string>
