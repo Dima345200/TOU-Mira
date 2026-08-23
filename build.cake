@@ -22,10 +22,10 @@ Task("Build")
         };
         settings.MSBuildSettings.Version = tag;
     }
-    //else if (buildId != 0)
-    //{
-        //settings.MSBuildSettings.VersionSuffix = "ci." + buildId;
-    //}
+    else if (buildId != 0)
+    {
+        settings.MSBuildSettings.VersionSuffix = "ci." + buildId;
+    }
 
     DotNetBuild(".", settings);
 });
