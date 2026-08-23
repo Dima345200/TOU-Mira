@@ -1416,4 +1416,367 @@
 	<string name="TouOptionWardenFortEnumWarden">Хранитель</string>
 	<string name="TouOptionWardenFortEnumSelfAndWarden">Укреплённый + Хранитель</string>
 	<string name="TouOptionWardenFortEnumEveryone">Все</string>
+
+	<!-- Impostor Roles -->
+	<!-- Ambassador Wiki / Abilities -->
+	<string name="TouRoleAmbassador">Амбассадор</string>
+	<string name="TouRoleAmbassadorIntroBlurb">Приведите \%color=#FF0000FF\%предателей\%/color\% к победе</string>
+	<string name="TouRoleAmbassadorTabDescription">Переобучите себя или других предателей на другую роль\%nl\%\%b\%предатель убийца не может быть ролью силы\%/b\%\%nl\%\%b\%предатель скрытия/помощи не может быть ролью убийц/силы\%/b\%</string>
+	<string name="TouRoleAmbassadorWikiDescription">Амбассадор - это предатель силы, который может переучить предателей на другую роль предателей.</string>
+	<string name="TouRoleAmbassadorRetrain">Переобучить</string>
+	<string name="TouRoleAmbassadorRetrainWiki">Переобучить (Собрание)</string>
+	<string name="TouRoleAmbassadorRetrainWikiDescription">Переучите себя или других предателей на роль, соответствующую их типу. Роли предателей убийц могут быть заменены на любые роли силы, а роли скрытия/помощи могут стать ролями скрытия или помощи.</string>
+	<string name="TouRoleAmbassadorRetrainsAvailable">\%retrainsLeft\% / \%retrainsTotal\% Осталось переобучений</string>
+	<string name="TouRoleAmbassadorRetrainWaiting">Переобучений за раунд \%roundToWait\%</string>
+	<string name="TouRoleAmbassadorRetrainCooldown">Кулдаун раунда: \%roundsLeft\% / \%roundsTotal\%</string>
+	<string name="TouRoleAmbassadorChooseRole">Выберите роль для переобучения.</string>
+	<string name="TouRoleAmbassadorRandomImpostorOption">Случайный предатель</string>
+	<string name="TouRoleAmbassadorConfirmPromptTitle">Переобучение посла</string>
+	<string name="TouRoleAmbassadorConfirmPromptText">Вы уверены, что хотите переобучить в \%newRole\%?\%nl\%Это изменение навсегда.</string>
+	<string name="TouRoleAmbassadorConfirmPromptDeny">Отмена</string>
+	<string name="TouRoleAmbassadorConfirmPromptAccept">Подтверждение</string>
+	<string name="TouRoleAmbassadorRetrainedPlayerTag">Переобучен</string>
+	<!-- Ambassador Options -->
+	<string name="TouOptionAmbassadorMaxRetrainsAvailable">Максимальное количество переобучений</string>
+	<string name="TouOptionAmbassadorRetrainRequiresConfirmation">Для переобучения требуется подтверждение</string>
+	<string name="TouOptionAmbassadorKillsNeededByAmbassadorOrTeammateToRetrain">Убийства для переобучения</string>
+	<string name="TouOptionAmbassadorRoundInWhichRetrainingIsPossible">Раундов для переобучения</string>
+	<string name="TouOptionAmbassadorRoundsNeededToRetrainAgain">Раундов для повторного переобучения</string>
+	<!-- Ambassador Feedback -->
+	<string name="TouRoleAmbassadorDecidedToRetrainYou">Амбассадор переобучает вас в \%newRole\%</string>
+	<string name="TouRoleAmbassadorDecidedToRetrainSelf">Амбассадор переобучился в \%newRole\%</string>
+	<string name="TouRoleAmbassadorDecidedToRetrainYourself">Вы переобучились в \%newRole\%</string>
+	<string name="TouRoleAmbassadorDecidedToRetrain">Амбассадор переобучил \%player\% в \%newRole\%</string>
+	<string name="TouRoleAmbassadorRetrainCancelled">Переобучение для \%player\% было отменено</string>
+	<string name="TouRoleAmbassadorYouDeniedRetrain">Вы отказались от переобучения в \%newRole\%!</string>
+	<string name="TouRoleAmbassadorPlayerHasDenied">\%player\% отказался от переобучения в \%newRole\%!</string>
+	<string name="TouRoleAmbassadorYouHaveAccepted">Вы согласились на переобучение в \%newRole\%!</string>
+	<string name="TouRoleAmbassadorPlayerHasBeenRetrained">\%player\% переобучился в \%newRole\%!</string>
+	<string name="TouRoleAmbassadorNeedKills">Вы или предатель, которого вы пытаетесь переобучить, должен иметь по крайней мере \%requiredKills\% убийств.</string>
+	<!-- Ambusher Wiki / Abilities -->
+	<string name="TouRoleAmbusher">Ambusher</string>
+	<string name="TouRoleAmbusherIntroBlurb">Kidnap Crewmates into the shadows</string>
+	<string name="TouRoleAmbusherTabDescription">Pursue a player, then ambush the closest player to them.\%nl\%If the player you ambush dies, then take their body with you.</string>
+	<string name="TouRoleAmbusherTabPursuingPlayer">Pursuing: \%player\%</string>
+	<string name="TouRoleAmbusherWikiDescription">The Ambusher is an Impostor Killing role that can pursue a player, getting an arrow to them. They may ambush the closest player next to them. If they manage to kill the player, they will drag their body into the shadows, teleporting back with the Ambusher.</string>
+	<string name="TouRoleAmbusherPursue">Pursue</string>
+	<string name="TouRoleAmbusherPursueWikiDescription">Pursue a player to be able to ambush another player next to them at a later time.</string>
+	<string name="TouRoleAmbusherAmbush">Ambush</string>
+	<string name="TouRoleAmbusherAmbushWikiDescription">Ambush the closest player to the pursued target to kill them.</string>
+	<!-- Ambusher Options -->
+	<string name="TouOptionAmbusherAmbushUsesPerGame">Ambush Uses Per Game</string>
+	<string name="TouOptionAmbusherAmbushCooldown">Ambush Cooldown</string>
+	<string name="TouOptionAmbusherPursueArrowUpdateInterval">Pursue Arrow Update Interval</string>
+	<string name="TouOptionAmbusherStopPursuingPlayerOnAmbush">Stop Pursuing Player On Ambush</string>
+	<string name="TouOptionAmbusherCanVent">Ambusher Can Vent</string>
+	<!-- Blackmailer Wiki / Abilities -->
+	<string name="TouRoleBlackmailer">Blackmailer</string>
+	<string name="TouRoleBlackmailerIntroBlurb">Silence Crewmates during meetings</string>
+	<string name="TouRoleBlackmailerTabDescription">Silence a crewmate for the next meeting</string>
+	<string name="TouRoleBlackmailerWikiDescription">The Blackmailer is an Impostor Support role that can stop a player from speaking (marked with \%symbol\%) in the next meeting</string>
+	<string name="TouRoleBlackmailerBlackmail">Blackmail</string>
+	<string name="TouRoleBlackmailerBlackmailWikiDescription">Silence a player for the next meeting. They will be unable to speak. They also will not be able to vote until less or equal number of people are alive than the blackmailer settings allow. The blackmail will be visible to other players only if the setting is toggled</string>
+	<!-- Blackmailer Options -->
+	<string name="TouOptionBlackmailerNumberOfBlackmailUsesPerGame">Number Of Blackmail Uses Per Game</string>
+	<string name="TouOptionBlackmailerBlackmailCooldown">Blackmail Cooldown</string>
+	<string name="TouOptionBlackmailerMaxPlayersAliveUntilVoting">Max Players Alive To Allow Voting</string>
+	<string name="TouOptionBlackmailerBlackmailSamePersonTwiceInARow">Blackmail Same Person Twice In A Row</string>
+	<string name="TouOptionBlackmailerOnlyTargetSeesBlackmail">Only Target Sees Blackmail</string>
+	<string name="TouOptionBlackmailerCanKillWithTeammate">Blackmailer Can Kill With Teammate</string>
+	<!-- Bootlegger - Impostor Support -->
+	<!-- Bootlegger Wiki / Abilities -->
+	<string name="TouRoleBootlegger">Bootlegger</string>
+	<string name="TouRoleBootleggerIntroBlurb">Roleblock Crewmates to stop them.</string>
+	<string name="TouRoleBootleggerTabDescription">Roleblock the crew to disable their abilities for \%blockTime\%s.\%nl\%Roleblock someone multiple times to poison them.</string>
+	<string name="TouRoleBootleggerWikiDescription">The Bootlegger is an Impostor Support role that can drink with others to roleblock them. Once a player is roleblocked three times, they will die of poison.</string>
+	<string name="TouRoleBootleggerSicken">Sicken</string>
+	<string name="TouRoleBootleggerSickening">Sickening</string>
+	<string name="TouRoleBootleggerPoison">Poison</string>
+	<string name="TouRoleBootleggerPoisoning">Poisoning</string>
+	<string name="TouRoleBootleggerMessageTitle">Bootlegger Feedback</string>
+	<string name="TouRoleBootleggerSickenFeedbackAffected">You have a sudden feeling that a drink is making you feel sick! Next time the Bootlegger gives you a drink, you will die of poison!</string>
+	<string name="TouRoleBootleggerSickenFeedbackBootlegger">Your victim, \%player\%, has noticed the effects of your drink! Next time you roleblock them, they will die of poison.</string>
+	<!-- Bootlegger Options -->
+	<string name="TouOptionBootleggerRoleblockCooldown">Roleblock Cooldown</string>
+	<string name="TouOptionBootleggerRoleblockDelayMin">Minimum Roleblock Delay</string>
+	<string name="TouOptionBootleggerRoleblockDelayMax">Maximum Roleblock Delay</string>
+	<!-- Bomber Wiki / Abilities -->
+	<string name="TouRoleBomber">Bomber</string>
+	<string name="TouRoleBomberIntroBlurb">Drop bombs to multi-kill Crewmates.</string>
+	<string name="TouRoleBomberTabDescription">Place bombs to kill several crewmates upon detonation at once</string>
+	<string name="TouRoleBomberWikiDescription">The Bomber is an Impostor Killing role that can drop a bomb on the map, which detonates after \%detonateDelay\% second(s).</string>
+	<string name="TouRoleBomberPlace">Place</string>
+	<string name="TouRoleBomberDetonating">Detonating</string>
+	<string name="TouRoleBomberPlaceWikiDescription">Place a bomb, showing the radius in which it'll kill, killing up to \%maxKills\% player(s)</string>
+	<!-- Bomber Options -->
+	<string name="TouOptionBomberBombUsesPerGame">Bomb Uses Per Game</string>
+	<string name="TouOptionBomberDetonateDelay">Detonate Delay</string>
+	<string name="TouOptionBomberDetonateRadius">Detonate Radius</string>
+	<string name="TouOptionBomberMAxKillsInDetonation">Max Kills In Detonation</string>
+	<string name="TouOptionBomberAllImpostorsSeeBomb">All Impostors See Bomb</string>
+	<string name="TouOptionBomberAllowBombinginFirstRound">Allow Bombing in First Round</string>
+	<string name="TouOptionBomberCanVent">Bomber Can Vent</string>
+	<!-- Eclipsal Wiki / Abilities -->
+	<string name="TouRoleEclipsal">Eclipsal</string>
+	<string name="TouRoleEclipsalIntroBlurb">Block out the light</string>
+	<string name="TouRoleEclipsalTabDescription">Blind players to prevent them from seeing others</string>
+	<string name="TouRoleEclipsalWikiDescription">The Eclipsal is an Impostor Concealing role that can hinder the vision of all crewmates and neutrals alike, given that they are near the Eclipsal.</string>
+	<string name="TouRoleEclipsalBlind">Blind</string>
+	<string name="TouRoleEclipsalUnblinding">Unblinding</string>
+	<string name="TouRoleEclipsalBlindWikiDescription">Blinding players causes their fog of war to overtake their screen, only letting them see the map and prevents reporting. After a while, they will regain their vision and have vision like normal.</string>
+	<!-- Eclipsal Options -->
+	<string name="TouOptionEclipsalBlindCooldown">Blind Cooldown</string>
+	<string name="TouOptionEclipsalBlindDuration">Blind Duration</string>
+	<string name="TouOptionEclipsalBlindRadius">Blind Radius</string>
+	<!-- Escapist Wiki / Abilities -->
+	<string name="TouRoleEscapist">Escapist</string>
+	<string name="TouRoleEscapistIntroBlurb">Get away from kills with ease</string>
+	<string name="TouRoleEscapistTabDescription">Mark a location, then recall to the location at\%nl\%any time to flee the scene of the crime</string>
+	<string name="TouRoleEscapistWikiDescription">The Escapist is an Impostor Concealing role that can mark a location and then recall (teleport) to that location.</string>
+	<string name="TouRoleEscapistMark">Mark</string>
+	<string name="TouRoleEscapistMarkWikiDescription">Mark a location for later use.</string>
+	<string name="TouRoleEscapistRecall">Recall</string>
+	<string name="TouRoleEscapistRecallWikiDescription">Recall to the marked location.</string>
+	<!-- Escapist Options -->
+	<string name="TouOptionEscapistRecallUsesPerGame">Recall Uses Per Game</string>
+	<string name="TouOptionEscapistRecallCooldown">Recall Cooldown</string>
+	<string name="TouOptionEscapistEscapistCanVent">Escapist Can Vent</string>
+	<!-- Grenadier Wiki / Abilities -->
+	<string name="TouRoleGrenadier">Grenadier</string>
+	<string name="TouRoleGrenadierIntroBlurb">Hinder the Crewmates' vision</string>
+	<string name="TouRoleGrenadierTabDescription">Flashbang the crewmates to get sneaky kills</string>
+	<string name="TouRoleGrenadierWikiDescription">The Grenadier is an Impostor Concealing role that can throw down a grenade that will blind all other players</string>
+	<string name="TouRoleGrenadierFlash">Flash</string>
+	<string name="TouRoleGrenadierFlashWikiDescription">Throw down a grenade flashing all players in its radius.</string>
+	<string name="TouRoleGrenadierFlashNotif">All players around you have been flash banged!</string>
+	<!-- Grenadier Options -->
+	<string name="TouOptionGrenadierFlashUsesPerGame">Flash Uses Per Game</string>
+	<string name="TouOptionGrenadierFlashGrenadeCooldown">Flash Grenade Cooldown</string>
+	<string name="TouOptionGrenadierFlashGrenadeDuration">Flash Grenade Duration</string>
+	<string name="TouOptionGrenadierFlashRadius">Flash Radius</string>
+	<string name="TouOptionGrenadierGrenadierCanVent">Grenadier Can Vent</string>
+
+	<string name="TouRoleHerbalist">Herbalist</string>
+	<string name="TouRoleHerbalistIntroBlurb">Let your plants and herbs guide the way</string>
+	<string name="TouRoleHerbalistTabDescription">Use your deep knowledge of nature on others.\%nl\%Your kill cooldown is unlinked from other abilities.</string>
+	<string name="TouRoleHerbalistWikiDescription">The Herbalist is an Impostor Power role that has many abilities tied to one cooldown, either to help Impostors or to affect what others see.</string>
+	<string name="TouRoleHerbalistExpose">Expose</string>
+	<string name="TouRoleHerbalistExposeWikiDescription">Expose a player to all Impostors, revealing their role but preventing them from being guessed.</string>
+	<string name="TouRoleHerbalistConfuse">Confuse</string>
+	<string name="TouRoleHerbalistConfuseWikiDescription">Confuse a player with fungal spores to prevent them from identifying players.</string>
+	<string name="TouRoleHerbalistProtect">Protect</string>
+	<string name="TouRoleHerbalistProtectWikiDescription">Protect a player temporarily as if you were a Cleric, including other impostors.</string>
+	<!-- Not in code yet -->
+
+	<!-- Hypnotist Wiki / Abilities -->
+	<string name="TouRoleHypnotist">Hypnotist</string>
+	<string name="TouRoleHypnotistIntroBlurb">Hypnotize Crewmates</string>
+	<string name="TouRoleHypnotistTabDescription">Hypnotize crewmates to prevent them from\%nl\%distinguishing players under a mass hysteria</string>
+	<string name="TouRoleHypnotistWikiDescription">The Hypnotist is an Impostor Support role that can hypnotize players. During a meeting they can release Mass Hysteria, which makes all hypnotized players (marked with \%symbol\%) have different visuals applied to players the following round.</string>
+	<string name="TouRoleHypnotistHypnotize">Hypnotize</string>
+	<string name="TouRoleHypnotistHypnotizeWikiDescription">Hypnotize a player, causing them to see the game differently than non-hypnotized players if mass hysteria is active.</string>
+	<string name="TouRoleHypnotistMassHysteria">Hysteria</string>
+	<string name="TouRoleHypnotistMassHysteriaWiki">Mass Hysteria (Meeting)</string>
+	<string name="TouRoleHypnotistMassHysteriaWikiDescription">Cause all hypnotized players to have different visuals applied to players on their screen the following round.</string>
+	<!-- Hypnotist Options -->
+	<string name="TouOptionHypnotistHypnotizeCooldown">Hypnotize Cooldown</string>
+	<string name="TouOptionHypnotistHypnotistCanKillWithTeammate">Hypnotist Can Kill With Teammate</string>
+	<!-- Janitor Wiki / Abilities -->
+	<string name="TouRoleJanitor">Janitor</string>
+	<string name="TouRoleJanitorIntroBlurb">Sanitize the ship</string>
+	<string name="TouRoleJanitorTabDescription">Clean bodies to hide kills and crime scenes</string>
+	<string name="TouRoleJanitorWikiDescription">The Janitor is an Impostor Support role that can clean dead bodies.</string>
+	<string name="TouRoleJanitorClean">Clean</string>
+	<string name="TouRoleJanitorCleaning">Cleaning</string>
+	<string name="TouRoleJanitorCleanWikiDescription">Clean a dead body, making it disappear, and making it unreportable.</string>
+	<!-- Janitor Options -->
+	<string name="TouOptionJanitorCleanUsesPerGame">Clean Uses Per Game</string>
+	<string name="TouOptionJanitorCleanCooldown">Clean Cooldown</string>
+	<string name="TouOptionJanitorCleanDelay">Clean Delay</string>
+	<string name="TouOptionJanitorResetKillAndCleanCooldownsTogether">Reset Kill \%and\% Clean Cooldowns Together</string>
+	<string name="TouOptionJanitorJanitorCanKillWithTeammate">Janitor Can Kill With Teammate</string>
+	<!-- Miner Wiki / Abilities -->
+	<string name="TouRoleMiner">Miner</string>
+	<string name="TouRoleMinerIntroBlurb">From the top, Make it drop, That's a vent</string>
+	<string name="TouRoleMinerTabDescription">Place interconnected vents around the map</string>
+	<string name="TouRoleMinerWikiDescription">The Miner is an Impostor Support role that can create vents.</string>
+	<string name="TouRoleMinerMine">Mine</string>
+	<string name="TouRoleMinerMineWikiDescription">Place a vent where you are standing. These vents won't connect to already existing vents on the map but with each other.</string>
+	<!-- Miner Options -->
+	<string name="TouOptionMinerNumberOfVentsPerGame">Number Of Miner Vents Per Game</string>
+	<string name="TouOptionMinerMineCooldown">Mine Cooldown</string>
+	<string name="TouOptionMinerMineVisibility">Mine Visibility</string>
+	<string name="TouOptionMinerMineDelay">Mine Delay</string>
+	<string name="TouOptionMinerDelayEnumImmediate">Immediate</string>
+	<string name="TouOptionMinerDelayEnumAfterUse">AfterUse</string>
+	<string name="TouOptionMinerCanKillWithTeammate">Miner Can Kill With Teammate</string>
+	<!-- Morphling Wiki / Abilities -->
+	<string name="TouRoleMorphling">Morphling</string>
+	<string name="TouRoleMorphlingIntroBlurb">Transform into Crewmates</string>
+	<string name="TouRoleMorphlingTabDescription">Sample players and morph into them to disguise yourself.\%nl\%Your sample clears at the beginning of every round.</string>
+	<string name="TouRoleMorphlingTabMorphed">Morphed As: \%player\%</string>
+	<string name="TouRoleMorphlingWikiDescription">The Morphling is an Impostor Concealing role that can Sample a player and Morph into it's appearance.</string>
+	<string name="TouRoleMorphlingSample">Sample</string>
+	<string name="TouRoleMorphlingSampleWikiDescription">Take a DNA sample of a player to morph into them later.</string>
+	<string name="TouRoleMorphlingMorph">Morph</string>
+	<string name="TouRoleMorphlingUnmorph">Unmorph</string>
+	<string name="TouRoleMorphlingMorphWikiDescription">Morph into the appearance of the sampled player, which can be canceled early.</string>
+	<string name="TouRoleMorphlingSampleNotif">You have sampled \%player\%. The sample will be reset after this round.</string>
+	<!-- Morphling Options -->
+	<string name="TouOptionMorphlingSamplesPerGame">Samples Per Game</string>
+	<string name="TouOptionMorphlingMorphUsesPerRound">Morph Uses Per Round</string>
+	<string name="TouOptionMorphlingMorphCooldown">Morph Cooldown</string>
+	<string name="TouOptionMorphlingMorphDuration">Morph Duration</string>
+	<string name="TouOptionMorphlingCanVent">Morphling Can Vent</string>
+	<!-- Parasite Wiki / Abilities -->
+	<string name="TouRoleParasite">Parasite</string>
+	<string name="TouRoleParasiteIntroBlurb">Overtake and control players</string>
+	<string name="TouRoleParasiteTabDescription">Overtake a victim to control their movement.\%nl\%Press the same button again to kill them, or wait for the timer.</string>
+	<string name="TouRoleParasiteWikiDescription">The Parasite can Overtake nearby non-impostors to take control of their movement. By default, while overtaken, the victim looks like the Parasite and cannot use abilities. You can watch them with a PiP camera and kill them at any time, or wait for the control timer to kill them.</string>
+	<string name="TouRoleParasiteOvertake">Overtake</string>
+	<string name="TouRoleParasiteOvertakeWikiDescription">Overtake a nearby non-impostor to take control of their movement. By default, you move with WASD and control them with Arrow Keys. If "Parasite Can Move Independently" is disabled, you cannot move and control them with WASD instead.</string>
+	<string name="TouRoleParasiteDecay">Kill</string>
+	<string name="TouRoleParasiteDecayWikiDescription">Kill your currently overtaken victim immediately.</string>
+	<string name="TouRoleParasiteOvertakeNotifSelf">You have overtaken \%player\%!</string>
+	<!-- Parasite Options -->
+	<string name="TouOptionParasiteOvertakeCooldown">Overtake Cooldown</string>
+	<string name="TouOptionParasiteOvertakeKillCooldown">Kill Cooldown</string>
+	<string name="TouOptionParasiteControlDuration">Control Duration</string>
+	<string name="TouOptionParasiteSaveVictimIfParasiteDies">Save Victim If Parasite Dies</string>
+	<string name="TouOptionParasiteSaveVictimIfMeetingCalled">Save Victim If Meeting Called</string>
+	<string name="TouOptionParasiteCanVent">Parasite Can Vent</string>
+	<string name="TouOptionParasiteCanMoveIndependently">Parasite Can Move Independently</string>
+	<string name="TouOptionParasiteOvertakenLooksLikeParasite">Overtaken Looks Like Parasite</string>
+	<!-- Scavenger Wiki / Description -->
+	<string name="TouRoleScavenger">Scavenger</string>
+	<string name="TouRoleScavengerIntroBlurb">Hunt down your prey</string>
+	<string name="TouRoleScavengerTabDescription">Kill your given targets for a reduced cooldown.\%nl\%If you fail to kill them, you will get penalized.</string>
+	<string name="TouRoleScavengerWikiDescription">The Scavenger is an Impostor Killing role that gets new targets after every kill and when the round starts. If they kill their target, they get a reduced kill cooldown, but if they don't, their cooldown is increased significantly.</string>
+	<string name="TouRoleScavengerYourNextTarget">Is Your Next Target.</string>
+	<string name="TouRoleScavengerTabTimer">Scavenge Time: \%timeLeft\%</string>
+	<string name="TouRoleScavengerTabTarget">Current Target: \%player\%</string>
+	<!-- Scavenger Options -->
+	<string name="TouOptionScavengerScavengeDuration">Scavenge Duration</string>
+	<string name="TouOptionScavengerScavengeDurationIncreasePerKill">Scavenge Duration Increase Per Kill</string>
+	<string name="TouOptionScavengerScavengeKillCooldownOnCorrectKill">Scavenge Kill Cooldown On Correct Kill</string>
+	<string name="TouOptionScavengerKillCooldownMultiplierOnIncorrectKill">Kill Cooldown Multiplier On Incorrect Kill</string>
+	<!-- Puppeteer Wiki / Abilities -->
+	<string name="TouRolePuppeteer">Puppeteer</string>
+	<string name="TouRolePuppeteerIntroBlurb">Control the hands of others</string>
+	<string name="TouRolePuppeteerTabDescription">Control crewmates to do your bidding!</string>
+	<string name="TouRolePuppeteerWikiDescription">The Puppeteer is an Impostor Power role that controls other players to kill for them. When a player is controlled, they must watch as they are forced to kill their fellow crewmates.</string>
+	<string name="TouRolePuppeteerControl">Control</string>
+	<string name="TouRolePuppeteerKill">Control Kill</string>
+	<string name="TouRolePuppeteerControlWikiDescription">Use your menu to control whoever you wish. In this state, the controlled player will kill as if they were an impostor, and not as whatever role they actually are.</string>
+	<string name="TouRolePuppeteerControlNotifSelf">You are controlling \%player\%!</string>
+	<string name="TouRolePuppeteerControlNotifBasic">You are under the control of a \%role\%!</string>
+	<string name="TouRolePuppeteerControlNotif1">You've lost sensation of yourself. You're under the control of a \%role\%!</string>
+	<string name="TouRolePuppeteerControlNotif2">You feel a mystical power overtaking you. You're under the control of a \%role\%!</string>
+	<string name="TouRolePuppeteerControlNotif3">You seem to feel your skin crawl. You're under the control of a \%role\%!</string>
+	<string name="TouRolePuppeteerControlFinishNotif">You're free from the \%role\%'s control!</string>
+	<!-- Puppeteer Options -->
+	<string name="TouOptionPuppeteerControlUses">Initial Control Uses</string>
+	<string name="TouOptionPuppeteerControlPerKill">Kills Required For Additional Control Use</string>
+	<string name="TouOptionPuppeteerVictimSeesControlDirection">Puppeteer Location Hint Duration (For Victim)</string>
+	<string name="TouOptionPuppeteerControlCooldown">Control Cooldown</string>
+	<string name="TouOptionPuppeteerControlDuration">Control Duration</string>
+	<string name="TouOptionPuppeteerCanVent">Puppeteer Can Vent</string>
+	<!-- Spellslinger Wiki / Abilities -->
+	<string name="TouRoleSpellslinger">Spellslinger</string>
+	<string name="TouRoleSpellslingerIntroBlurb">Hex the crew to trigger a Hex Bomb</string>
+	<string name="TouRoleSpellslingerTabDescription">Hex all non-Impostors to set off a Hex Bomb</string>
+	<string name="TouRoleSpellslingerTabHexCounter">Players Left To Hex: \%count\%</string>
+	<string name="TouRoleSpellslingerTabHexFinished">All players are Hexed.</string>
+	<string name="TouRoleSpellslingerTabHexedInfo">Players Hexed:</string>
+	<string name="TouRoleSpellslingerWikiDescription">The Spellslinger is an Impostor Power role that can hex a player, priming them for detonation. Once all non-Impostors are hexed, they may set off a Hex Bomb after a set amount of time to win.</string>
+	<string name="TouRoleSpellslingerHex">Hex</string>
+	<string name="TouRoleSpellslingerHexWikiDescription">Hex a player, priming them for detonation.</string>
+	<string name="TouRoleSpellslingerHexBomb">Hex Bomb</string>
+	<string name="TouRoleSpellslingerHexBombWikiDescription">Begin the countdown for the hex bomb. If you are alive when the hex bomb triggers, impostors win!</string>
+	<string name="TouRoleSpellslingerMessageTitle">Spellslinger Warning</string>
+	<string name="TouRoleSpellslingerGlobalWarning">The \%role\% is unleashing a Hex Bomb! Find them before the timer ends! \%time\% seconds remain after this meeting.</string>
+	<string name="TouRoleSpellslingerWarningNotif">The \%role\% is unleashing a Hex Bomb in \%time\% seconds!</string>
+	<!-- Spellslinger Options -->
+	<string name="TouOptionSpellslingerHexCooldown">Hex Cooldown</string>
+	<string name="TouOptionSpellslingerMaxHexes">Max Hexes</string>
+	<string name="TouOptionSpellslingerHexBombDuration">Hex Bomb Countdown Duration</string>
+	<!-- Swooper Wiki / Abilities -->
+	<string name="TouRoleSwooper">Swooper</string>
+	<string name="TouRoleSwooperIntroBlurb">Turn invisible temporarily</string>
+	<string name="TouRoleSwooperTabDescription">Turn invisible and sneakily kill from the shadows</string>
+	<string name="TouRoleSwooperWikiDescription">The Swooper is an Impostor Concealing role that can temporarily turn invisible.</string>
+	<string name="TouRoleSwooperSwoop">Swoop</string>
+	<string name="TouRoleSwooperSwoopWikiDescription">Turn invisible to all players except Impostors.</string>
+	<string name="TouRoleSwooperUnswoop">Unswoop</string>
+	<string name="TouRoleSwooperUnswoopWikiDescription">Cancel your swoop early, or let it finish fully to make yourself visible once again.</string>
+	<!-- Swooper Options -->
+	<string name="TouOptionSwooperSwoopUsesPerRound">Swoop Uses Per Round</string>
+	<string name="TouOptionSwooperSwoopCooldown">Swoop Cooldown</string>
+	<string name="TouOptionSwooperSwoopDuration">Swoop Duration</string>
+	<string name="TouOptionSwooperCanVent">Swooper Can Vent</string>
+	<!-- Traitor Wiki / Abilities -->
+	<string name="TouRoleTraitor">Traitor</string>
+	<string name="TouRoleTraitorIntroBlurb">Betray the Crewmates!</string>
+	<string name="TouRoleTraitorTabDescription">Betray the crewmates with a new impostor role!</string>
+	<string name="TouRoleTraitorWikiDescription">The Traitor is an Impostor Power role that spawns after a meeting, in which the spawn conditions are suitable. The Traitor will always be a crewmate, and they may change to a few select roles.</string>
+	<string name="TouRoleTraitorChangeRole">Change Role</string>
+	<string name="TouRoleTraitorChangeRoleWikiDescription">The Traitor can change their role to one of the provided role cards, or gamble on the random. Once they select a role, they stay as that role until they die. However, they must still be guessed as Traitor.</string>
+	<string name="TouRoleTraitorRoleSelectTitle">Select a role.</string>
+	<string name="TouRoleTraitorRandomImpostorCard">Random\%nl\%Impostor</string>
+	<!-- Traitor Options -->
+	<string name="TouOptionTraitorMinimumPeopleAlive">Minimum People Alive When Traitor Can Spawn</string>
+	<string name="TouOptionTraitorTraitorWontSpawnIfNKIsAlive">Traitor Won't Spawn If NK Is Alive</string>
+	<string name="TouOptionTraitorDisableExistingImpostorRoles">Disable Existing Impostor Roles</string>
+	<string name="TouOptionTraitorGuessAs">Traitor Must Be Guessed As</string>
+	<string name="TouOptionTraitorGuessEnumCached">Traitor</string>
+	<string name="TouOptionTraitorGuessEnumActive">New Role</string>
+	<string name="TouOptionTraitorGuessEnumActiveOrCached">Traitor or New Role</string>
+	<!-- Undertaker Wiki / Abilities -->
+	<string name="TouRoleUndertaker">Undertaker</string>
+	<string name="TouRoleUndertakerIntroBlurb">Drag bodies to hide them away</string>
+	<string name="TouRoleUndertakerTabDescription">Drag bodies around to hide them from being reported</string>
+	<string name="TouRoleUndertakerWikiDescription">The Undertaker is an Impostor Support role that can drag dead bodies around the map.</string>
+	<string name="TouRoleUndertakerDrag">Drag</string>
+	<string name="TouRoleUndertakerDragWikiDescription">Drag a dead body, if allowed through settings you can also take it into a vent.</string>
+	<string name="TouRoleUndertakerDrop">Drop</string>
+	<string name="TouRoleUndertakerDropWikiDescription">Drop the dragged dead body, stopping it from being dragged any further.</string>
+	<!-- Undertaker Options -->
+	<string name="TouOptionUndertakerDragCooldown">Drag Cooldown</string>
+	<string name="TouOptionUndertakerDragSpeed">Drag Speed</string>
+	<string name="TouOptionUndertakerDraggingSpeedIsAffectedbyBodySize">Dragging Speed Is Affected by Body Size</string>
+	<string name="TouOptionUndertakerCanVent">Undertaker Can Vent</string>
+	<string name="TouOptionUndertakerCanVentWithBody">Can Vent With Body</string>
+	<string name="TouOptionUndertakerUndertakerCanKillWithTeammate">Undertaker Can Kill With Teammate</string>
+	<!-- Venerer Wiki / Abilities -->
+	<string name="TouRoleVenerer">Venerer</string>
+	<string name="TouRoleVenererIntroBlurb">Enhance your abilities with every kill</string>
+	<string name="TouRoleVenererTabDescription">Kill players to unlock ability perks. Your perks allow you\%nl\%to camouflage, sprint, and slow others down in your path.</string>
+	<string name="TouRoleVenererWikiDescription">The Venerer is an Impostor Concealing role that can kill players to gain new abilities, preventing others from catching them! However, the ability will be used immediately as they receive it, which will stack up.</string>
+	<string name="TouRoleVenererCamouflage">Camouflage</string>
+	<string name="TouRoleVenererCamouflageWikiDescription">Stage 1 of the abilities.\%nl\%You will appear as a gray bean for all players, allowing you to sneak away from kills.</string>
+	<string name="TouRoleVenererSprint">Sprint</string>
+	<string name="TouRoleVenererSprintWikiDescription">Stage 2 of the abilities.\%nl\%You will gain the speed of the Flash while hidden from camo.</string>
+	<string name="TouRoleVenererFreeze">Freeze</string>
+	<string name="TouRoleVenererFreezeWikiDescription">The Final Stage of the abilities.\%nl\%You will slow down players around you in a radius, as well as being fast and hidden from camo.</string>
+	<string name="TouRoleVenererUncamouflage">Uncamouflage</string>
+	<string name="TouRoleVenererUnsprint">Unsprint</string>
+	<string name="TouRoleVenererUnfreeze">Unfreeze</string>
+	<!-- Venerer Options -->
+	<string name="TouOptionVenererAbilityCooldown">Ability Cooldown</string>
+	<string name="TouOptionVenererAbilityDuration">Ability Duration</string>
+	<string name="TouOptionVenererSprintSpeed">Sprint Speed</string>
+	<string name="TouOptionVenererMinimumFreezeSpeed">Minimum Freeze Speed</string>
+	<string name="TouOptionVenererFreezeRadius">Freeze Radius</string>
+	<!-- Warlock Wiki / Abilities -->
+	<string name="TouRoleWarlock">Warlock</string>
+	<string name="TouRoleWarlockIntroBlurb">Charge up your kill button to multi-kill</string>
+	<string name="TouRoleWarlockTabDescription">Charge your attack to 100% to kill crewmates in small bursts</string>
+	<string name="TouRoleWarlockWikiDescription">The Warlock is an Impostor Killing role that can charge up attacks to wipe out the crew quickly.</string>
+	<string name="TouRoleWarlockBurstKill">Burst Kill</string>
+	<string name="TouRoleWarlockBurstActive">Burst Active</string>
+	<string name="TouRoleWarlockKillWikiDescription">Replaces your regular kill button with three stages: On Cooldown, Uncharged, and Charged. If you kill while charging, your burst will be fully reset. When it is charged, you can kill in a small burst to kill multiple players in a short time.</string>
+	<!-- Warlock Options -->
+	<string name="TouOptionWarlockTimeItTakesToFullyCharge">Time It Takes To Fully Charge</string>
+	<string name="TouOptionWarlockTimeMultiplierAddedPerKillForNextCharge">Time Multiplier Added Per Kill For Next Charge</string>
+	<string name="TouOptionWarlockTimeItTakesToUseFullCharge">Time It Takes To Use Full Charge</string>
 </resources>
